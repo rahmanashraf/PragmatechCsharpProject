@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\bin\Debug\terminal.exe.config
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\bin\Debug\terminal.exe
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\bin\Debug\terminal.pdb
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\obj\Debug\terminal.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\obj\Debug\terminal.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\obj\Debug\terminal.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\obj\Debug\terminal.exe
+C:\Users\HP\Desktop\New folder\Csharp\terminal\terminal\obj\Debug\terminal.pdb
