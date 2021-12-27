@@ -10,6 +10,7 @@ namespace ClassApp
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

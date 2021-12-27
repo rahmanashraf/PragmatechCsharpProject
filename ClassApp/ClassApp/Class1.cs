@@ -8,5 +8,6 @@ namespace ClassApp
 {
     internal class Class1
     {
+        
     }
 }
