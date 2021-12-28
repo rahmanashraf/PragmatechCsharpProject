@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\bin\Debug\refoutcalc.exe.config
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\bin\Debug\refoutcalc.exe
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\bin\Debug\refoutcalc.pdb
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\obj\Debug\refoutcalc.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\obj\Debug\refoutcalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\obj\Debug\refoutcalc.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\obj\Debug\refoutcalc.exe
+C:\Users\HP\Desktop\New folder\Csharp\refoutcalc\refoutcalc\obj\Debug\refoutcalc.pdb
