@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\bin\Debug\StringMethods.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\bin\Debug\StringMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\bin\Debug\StringMethods.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\obj\Debug\StringMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\StringMethods\StringMethods\obj\Debug\StringMethods.pdb
