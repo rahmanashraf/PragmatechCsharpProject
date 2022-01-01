@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\bin\Debug\Tasks.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\bin\Debug\Tasks.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\bin\Debug\Tasks.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\obj\Debug\Tasks.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\obj\Debug\Tasks.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\obj\Debug\Tasks.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson3\Tasks\Tasks\obj\Debug\Tasks.pdb
