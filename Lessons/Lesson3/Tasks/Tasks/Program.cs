@@ -23,9 +23,14 @@ namespace Tasks
             //9)0 la verilmiş ədəd arasındaki ədədlərin hasili ilə cəminin fərqini hesablayan algoritmi qurun;
             //Quize hazirlasin
             string soz = "kartowka";
+            string soz2 = "ana";
+            string soz3 = "csharpcorner";
+
 
             Console.WriteLine(SUBstringo(soz,1,5));
             Console.WriteLine(Reverse(soz));
+            Console.WriteLine(Polindrome(soz2));
+            Console.WriteLine(Dublicate(soz3));
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -42,12 +47,53 @@ namespace Tasks
         {
             char[] sozyigini=ters.ToCharArray();    
             string soz = "";
-            for (int i = sozyigini.Length - 1; i > sozyigini[0]; i--)
+            for (int i = sozyigini.Length - 1; i > -1; i--)
             {
-                soz += ters[i];
+                soz += sozyigini[i];
             }
-            return ters;
+            return soz;
         }
-        
+        public static bool Polindrome(string para)
+        {
+            char[] sozyigini = para.ToCharArray();
+            char[] sozyigini2 = para.ToCharArray();
+            string soz = "";
+            string soz2 = "";
+            bool result = true;
+            for (int i = sozyigini.Length - 1; i > -1; i--)
+            {
+                soz += sozyigini[i];
+            }
+            for (int i = 0; i < sozyigini2.Length; i++)
+            {
+                soz2 += sozyigini2[i];
+            }
+            if (soz2 == soz)
+            {
+                return result;
+            }   
+            return false;
+        }
+        public static string Dublicate(string soz)
+        {
+            char[] sozyigini = soz.ToCharArray();
+            string soz2 = "";
+            for (int i = 0; i < sozyigini.Length; i++)
+            {
+                soz2 += sozyigini[i];
+                if (sozyigini[i] == sozyigini[i])
+                {
+                    break;
+                }
+                else
+                {
+                    continue;
+                }
+                
+            }
+            return soz2;
+
+
+        }
     }
 }
