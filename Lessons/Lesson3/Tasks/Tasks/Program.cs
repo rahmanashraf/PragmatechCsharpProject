@@ -31,6 +31,9 @@ namespace Tasks
             Console.WriteLine(Reverse(soz));
             Console.WriteLine(Polindrome(soz2));
             Console.WriteLine(Dublicate(soz3));
+            Console.WriteLine(OrtaQiymet(3,4,5,10,8));
+            Console.WriteLine(DuzbucaqliSAhe(5,6));
+            Console.WriteLine(DuzbucaqliPerimetr(5, 6));
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -77,23 +80,39 @@ namespace Tasks
         public static string Dublicate(string soz)
         {
             char[] sozyigini = soz.ToCharArray();
-            string soz2 = "";
+            string tezesoz = "";
             for (int i = 0; i < sozyigini.Length; i++)
             {
-                soz2 += sozyigini[i];
-                if (sozyigini[i] == sozyigini[i])
+
+                if (sozyigini[i] != sozyigini[i])
                 {
-                    break;
-                }
-                else
-                {
-                    continue;
+                    tezesoz += sozyigini[i];
                 }
                 
             }
-            return soz2;
+            return tezesoz;
 
 
         }
+        public static int OrtaQiymet(int reqem1, int reqem2, int reqem3, int reqem4, int reqem5)
+        {
+            int result = reqem1 + reqem2 + reqem3 + reqem4 + reqem5;
+            return result / 5;
+        }
+        public static int DuzbucaqliSAhe(int en,int uzun)
+        {
+            
+            int sahesi = en * uzun;
+            return sahesi;
+            
+        }
+        public static int DuzbucaqliPerimetr(int en, int uzun)
+        {
+
+            int perimetr =2*( en + uzun);
+            return perimetr;
+
+        }
+
     }
 }
