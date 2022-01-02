@@ -34,6 +34,7 @@ namespace Tasks
             Console.WriteLine(OrtaQiymet(3,4,5,10,8));
             Console.WriteLine(DuzbucaqliSAhe(5,6));
             Console.WriteLine(DuzbucaqliPerimetr(5, 6));
+            VurmaCedveli(4);
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -111,6 +112,17 @@ namespace Tasks
 
             int perimetr =2*( en + uzun);
             return perimetr;
+
+        }
+        public static void VurmaCedveli(int eded)
+        {
+            int reqem = 1;
+            
+            for (int i = reqem; i < 10; i++)
+            {
+                Console.WriteLine(eded+"*"+i);
+            }
+            
 
         }
 

@@ -13,11 +13,11 @@ namespace refoutcalc
 
             Console.ReadLine();
         }
-        public static void vurmacedveli(ref int i)
+        public static int vurmacedveli(ref int i)
         {
             for (ref int ; i <9; i++)
             {
-                Console.WriteLine(i);
+               return i;
             }
         }
     }
