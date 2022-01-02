@@ -27,16 +27,16 @@ namespace Tasks
             string soz3 = "csharpcorner";
 
 
-            Console.WriteLine(SUBstringo(soz,1,5));
-            Console.WriteLine(Reverse(soz));
-            Console.WriteLine(Polindrome(soz2));
-            Console.WriteLine(Dublicate(soz3));
-            Console.WriteLine(OrtaQiymet(3,4,5,10,8));
-            Console.WriteLine(DuzbucaqliSAhe(5,6));
-            Console.WriteLine(DuzbucaqliPerimetr(5, 6));
-            VurmaCedveli(4);
-            birile(5);
-            sifirile(4);
+            //Console.WriteLine(SUBstringo(soz,1,5));
+            //Console.WriteLine(Reverse(soz));
+            //Console.WriteLine(Polindrome(soz2));
+            //Console.WriteLine(Dublicate(soz3));
+            //Console.WriteLine(OrtaQiymet(3,4,5,10,8));
+            //Console.WriteLine(DuzbucaqliSAhe(5,6));
+            //Console.WriteLine(DuzbucaqliPerimetr(5, 6));
+            //VurmaCedveli(4);
+            //birile(5);
+            //sifirile(4);
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -87,11 +87,11 @@ namespace Tasks
             for (int i = 0; i < sozyigini.Length; i++)
             {
 
-                if (sozyigini[i] != sozyigini[i])
+                if (!tezesoz.Contains(sozyigini[i]))
                 {
                     tezesoz += sozyigini[i];
                 }
-                
+
             }
             return tezesoz;
 
