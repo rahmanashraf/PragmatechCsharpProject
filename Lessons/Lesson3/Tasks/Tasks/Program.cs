@@ -35,6 +35,8 @@ namespace Tasks
             Console.WriteLine(DuzbucaqliSAhe(5,6));
             Console.WriteLine(DuzbucaqliPerimetr(5, 6));
             VurmaCedveli(4);
+            birile(5);
+            sifirile(4);
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -124,6 +126,15 @@ namespace Tasks
             }
             
 
+        }
+        public static void birile(int kvadrat)
+        {
+            int a = 1;
+            Console.WriteLine((kvadrat*kvadrat)+(a*a));
+        }
+        public static void sifirile(int eded)
+        {
+            Console.WriteLine((0 * eded) - (0 + eded));
         }
 
     }
