@@ -21,6 +21,7 @@ namespace Tasks
             //7)Daxil edilən ədədin vurma cədvəlini yazdiran algoritmi qurun;
             //8)1 le verilmis eded arasinda kvadratlari cemi algoritmini qurun;
             //9)0 la verilmiş ədəd arasındaki ədədlərin hasili ilə cəminin fərqini hesablayan algoritmi qurun;
+            //10) Optional Sozler arasindaki bosluqlari silen bir method yazmaq. Meselen: "salam menim adim Minadir"
             //Quize hazirlasin
             string soz = "kartowka";
             string soz2 = "ana";
@@ -37,6 +38,7 @@ namespace Tasks
             //VurmaCedveli(4);
             //birile(5);
             //sifirile(4);
+            //Optional("netersen brat ne var ne yox");
         }
         public static string SUBstringo(string soz,int index,int finish)
         {
@@ -135,6 +137,11 @@ namespace Tasks
         public static void sifirile(int eded)
         {
             Console.WriteLine((0 * eded) - (0 + eded));
+        }
+
+        public static void Optional(string soz)
+        {
+            Console.WriteLine(soz.Replace(" ", ""));
         }
 
     }
