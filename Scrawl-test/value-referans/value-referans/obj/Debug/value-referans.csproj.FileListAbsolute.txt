@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\bin\Debug\value-referans.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\bin\Debug\value-referans.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\bin\Debug\value-referans.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\obj\Debug\value-referans.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\obj\Debug\value-referans.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\obj\Debug\value-referans.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\obj\Debug\value-referans.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\value-referans\value-referans\obj\Debug\value-referans.pdb

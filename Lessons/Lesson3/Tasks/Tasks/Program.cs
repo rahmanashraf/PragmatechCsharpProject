@@ -39,21 +39,23 @@ namespace Tasks
             //birile(5);
             //sifirile(4);
             //Optional("netersen brat ne var ne yox");
+            string salam = "ejdaha";
+            Console.WriteLine(salam.Replace("ejdaha", "bratan"));
         }
-        public static string SUBstringo(string soz,int index,int finish)
+        public static string SUBstringo(string soz, int index, int finish)
         {
             string yenisoz = "";
 
-            for (int i = index; i < finish ; i++)
+            for (int i = index; i < finish; i++)
             {
-                yenisoz+=soz[i];
+                yenisoz += soz[i];
             }
             return yenisoz;
-            
+
         }
         public static string Reverse(string ters)
         {
-            char[] sozyigini=ters.ToCharArray();    
+            char[] sozyigini = ters.ToCharArray();
             string soz = "";
             for (int i = sozyigini.Length - 1; i > -1; i--)
             {
@@ -79,7 +81,7 @@ namespace Tasks
             if (soz2 == soz)
             {
                 return result;
-            }   
+            }
             return false;
         }
         public static string Dublicate(string soz)
@@ -104,35 +106,35 @@ namespace Tasks
             int result = reqem1 + reqem2 + reqem3 + reqem4 + reqem5;
             return result / 5;
         }
-        public static int DuzbucaqliSAhe(int en,int uzun)
+        public static int DuzbucaqliSAhe(int en, int uzun)
         {
-            
+
             int sahesi = en * uzun;
             return sahesi;
-            
+
         }
         public static int DuzbucaqliPerimetr(int en, int uzun)
         {
 
-            int perimetr =2*( en + uzun);
+            int perimetr = 2 * (en + uzun);
             return perimetr;
 
         }
         public static void VurmaCedveli(int eded)
         {
             int reqem = 1;
-            
+
             for (int i = reqem; i < 10; i++)
             {
-                Console.WriteLine(eded+"*"+i);
+                Console.WriteLine(eded + "*" + i);
             }
-            
+
 
         }
         public static void birile(int kvadrat)
         {
             int a = 1;
-            Console.WriteLine((kvadrat*kvadrat)+(a*a));
+            Console.WriteLine((kvadrat * kvadrat) + (a * a));
         }
         public static void sifirile(int eded)
         {
@@ -142,6 +144,20 @@ namespace Tasks
         public static void Optional(string soz)
         {
             Console.WriteLine(soz.Replace(" ", ""));
+        }
+
+        public static string Replaced(string data1, string data2)
+        {
+            string bos = data1;
+            for (int i = bos.Length; i < bos.Length; i++)
+            {
+                if (data1==data2)
+                {
+                    bos += data2;
+                }
+            }
+            return bos;
+
         }
 
     }
