@@ -23,9 +23,9 @@ namespace Tasks
             //9)0 la verilmiş ədəd arasındaki ədədlərin hasili ilə cəminin fərqini hesablayan algoritmi qurun;
             //10) Optional Sozler arasindaki bosluqlari silen bir method yazmaq. Meselen: "salam menim adim Minadir"
             //Quize hazirlasin
-            string soz = "kartowka";
-            string soz2 = "ana";
-            string soz3 = "csharpcorner";
+            //string soz = "kartowka";
+            //string soz2 = "ana";
+            //string soz3 = "csharpcorner";
 
 
             //Console.WriteLine(SUBstringo(soz,1,5));
@@ -36,11 +36,12 @@ namespace Tasks
             //Console.WriteLine(DuzbucaqliSAhe(5,6));
             //Console.WriteLine(DuzbucaqliPerimetr(5, 6));
             //VurmaCedveli(4);
-            //birile(5);
-            //sifirile(4);
+            birile(5);
+            //sifirile(5);
             //Optional("netersen brat ne var ne yox");
-            string salam = "ejdaha";
-            Console.WriteLine(salam.Replace("ejdaha", "bratan"));
+            //string salam = "ejdaha";
+            //Console.WriteLine(salam.Replace("ejdaha", "bratan"));
+
         }
         public static string SUBstringo(string soz, int index, int finish)
         {
@@ -133,12 +134,30 @@ namespace Tasks
         }
         public static void birile(int kvadrat)
         {
-            int a = 1;
-            Console.WriteLine((kvadrat * kvadrat) + (a * a));
+            int a = 0;
+            int cem = 0;
+            for (int i = 1; i <= kvadrat; i++)
+            {
+                a= (i*i);
+                cem+=a;
+                
+            }
+            Console.WriteLine(cem);
         }
         public static void sifirile(int eded)
         {
-            Console.WriteLine((0 * eded) - (0 + eded));
+            int top = 0;
+            int has = 1;
+            int toplama = 0;
+            for (int i = 1; i <= eded; i++)
+            {
+                top+= i;
+                has *= i;
+                toplama = has-top;
+                
+                
+            }
+            Console.WriteLine(toplama);
         }
 
         public static void Optional(string soz)
