@@ -15,17 +15,17 @@ namespace Task2
                 #region
                 //Task
                 //1.bool a = (3 + 4 * 2 == 2 * 3) && (true + false / 2) ifadəsinin nəticəsi nədir və səbəbini qeyd edin..
-                //2.Verilən 4 rəqəmli ədədin rəqəmlərinin cəmini tapan proqram yazın(Nümunə: int a = 1298 Nəticə: 1 + 2 + 9 + 8 = 20)
+                //2.Verilən 4 rəqəmli ədədin rəqəmlərinin cə30i tapan proqram yazın(Nümunə: int a = 1298 Nəticə: 1 + 2 + 9 + 8 = 20)
                 //3.Verilən ədədin rəqəmləri arasında olan tək rəqəmləri ekranda göstərən proqram yazın(Nümunə : int a = 1298 Nəticə: 1,9)
                 //4.Console.Readline vasitesile ilə istifadəçinin yaşını daxil etməsini istəyin.
                 //İstifadəçinin yaşı 30 - dan kiçikdirsə istifadəçinin yaşının kvadratını ekrana çap edin
-                //Yaş 30 - 40 aralığındadırsa daxil edilən ədədin son rəqəmini ekrana çap edin
+                //Yaş 30 - 40 aralığındadırsa daxil edilən ədədin son rəqə30i ekrana çap edin
                 //Yaş 0 - dan kiçik vəya 100 - dən böyükdürsə ekrana "Düzgün məlumat daxil etməmisiniz" yazdırın
                 //5.ay dəyəri daxil edildiyi zaman onun necə gun və hansi fesil olduğunu edən method yazın
                 //6.Arrayin en boyuk elementini tapan methiod
                 //7.Arrayin en kicik elementini tapan methiod
                 //8.Verilən nums =[1, 2, 3, 6, 7, 8, 23, 78, 34, 12]
-                //8.1 Tək ədədlərin cəmini tapan metod yazın
+                //8.1 Tək ədədlərin cə30i tapan metod yazın
                 //8.2 Daxilində 3 rəqəmi olan neçə ədəd olduğunu ekrana çap edən metod yazın
                 //8.3 Tək ədədləri ayıraraq ayrıca bir massivə yığan metod yazın
                 //8.4 Ədədlərin böyükdən kiçiyə doğru sıralayın
@@ -37,10 +37,14 @@ namespace Task2
                 //Task1-&& operatorunun bir terefi false olanda ikinci terefi yoxlamaga ehtiac olmur
                 //task2
                 //Console.WriteLine(ReqemTopla(1298));
-                
+                //task3
+                //TekTap(1298164512);
+                //task4
+                Yastap();
 
             }
-        } 
+
+        }
         public static int ReqemTopla(int a)
         {
             int[] result = a.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
@@ -50,6 +54,47 @@ namespace Task2
                 b += reqem;
             }
             return b;
+        }
+        public static void TekTap(int a)
+        {
+            int[] result = a.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
+            foreach (var reqem in result)
+            {
+                if (reqem % 2 != 0)
+                {
+                    Console.WriteLine(reqem);
+                }
+
+            }
+
+        }
+        public static void Yastap()
+        {
+            Console.Write("Yasinizi daxil edin: ");
+            int yas = Convert.ToInt32(Console.ReadLine());
+
+            if (yas <= 30 && yas > 0)
+            {
+                Console.WriteLine(yas * yas);
+
+            }
+            else if (30 < yas && yas < 40)
+            {
+                if (yas > 30 && yas < 40)
+                {
+                    char[] array = yas.ToString().ToArray();
+                    Console.WriteLine(array[1]);
+                }
+
+            }
+            else if (yas >= 40)
+            {
+                Console.WriteLine("Duzgun melumat daxil etmemisiniz");
+            }
+            else if (yas <= 0)
+            {
+                Console.WriteLine("Duzgun melumat daxil etmemisiniz");
+            }
         }
     }
 }
