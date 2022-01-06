@@ -24,7 +24,7 @@ namespace Tasks
             //10) Optional Sozler arasindaki bosluqlari silen bir method yazmaq. Meselen: "salam menim adim Minadir"
             //Quize hazirlasin
             //string soz = "kartowka";
-            //string soz2 = "ana";
+            //string soz2 = "tarat";
             //string soz3 = "csharpcorner";
 
 
@@ -36,11 +36,11 @@ namespace Tasks
             //Console.WriteLine(DuzbucaqliSAhe(5,6));
             //Console.WriteLine(DuzbucaqliPerimetr(5, 6));
             //VurmaCedveli(4);
-            birile(5);
+            //birile(5);
             //sifirile(5);
             //Optional("netersen brat ne var ne yox");
             //string salam = "ejdaha";
-            //Console.WriteLine(salam.Replace("ejdaha", "bratan"));
+            //Console.WriteLine(salam.Replace("ejdaha", "bratan")); 
 
         }
         public static string SUBstringo(string soz, int index, int finish)
