@@ -40,7 +40,14 @@ namespace Task2
                 //task3
                 //TekTap(1298164512);
                 //task4
-                Yastap();
+                //Yastap();
+                //task6
+                //Console.WriteLine(Biggest(15,12,16,25,55,13,26));
+                //task7
+                //Console.WriteLine(Lowest(15, 12, 16, 25, 55, 13, 26));
+
+
+
 
             }
 
@@ -95,6 +102,36 @@ namespace Task2
             {
                 Console.WriteLine("Duzgun melumat daxil etmemisiniz");
             }
+        }
+        public static int Biggest(params int[] reqemler)
+        {
+            int biggest = 0;
+            foreach (var big in reqemler)
+            {
+                if (big > biggest)
+                {
+                    biggest = big;
+                }
+            }
+            return biggest;
+        }
+        public static int Lowest(params int[] reqemler)
+        {
+            int temp;
+            int size = reqemler.Length;
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = i + 1; j < size; j++)
+                {
+                    if (reqemler[i] > reqemler[j])
+                    {
+                        temp = reqemler[i];
+                        reqemler[i] = reqemler[j];
+                        reqemler[j] = temp;
+                    }
+                }
+            }
+            return reqemler[0];
         }
     }
 }
