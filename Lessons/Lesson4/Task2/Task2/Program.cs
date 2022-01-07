@@ -41,97 +41,25 @@ namespace Task2
                 //TekTap(1298164512);
                 //task4
                 //Yastap();
+                //task5
+                //AyiTap();
                 //task6
                 //Console.WriteLine(Biggest(15,12,16,25,55,13,26));
                 //task7
                 //Console.WriteLine(Lowest(15, 12, 16, 25, 55, 13, 26));
-
-
-
-
+                //task8
+                //8.1//Console.WriteLine(TekededTopla(1, 2, 3, 6, 7, 8, 23, 78, 34, 12));
+                //8.2//Console.WriteLine(UcuTap(1, 2, 3, 6, 7, 8, 23, 78, 34, 12));
+                //8.3//Tekayir(1, 2, 3, 6, 7, 8, 23, 78, 34, 12);
+                //8.4//SortReverse(1, 2, 3, 6, 7, 8, 23, 78, 34, 12);
+                //task9
+                //TwoArray(4, 5, 6, 8);
+                //task 10
+                //Console.WriteLine(LastChar("baki"));
+                //task 11
+                //Console.WriteLine(LengthTap("Azerbaycan"));
+                //LengthTap2("kitab","defter","qelem");
             }
-
-        }
-        public static int ReqemTopla(int a)
-        {
-            int[] result = a.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
-            int b = 0;
-            foreach (var reqem in result)
-            {
-                b += reqem;
-            }
-            return b;
-        }
-        public static void TekTap(int a)
-        {
-            int[] result = a.ToString().Select(o => Convert.ToInt32(o) - 48).ToArray();
-            foreach (var reqem in result)
-            {
-                if (reqem % 2 != 0)
-                {
-                    Console.WriteLine(reqem);
-                }
-
-            }
-
-        }
-        public static void Yastap()
-        {
-            Console.Write("Yasinizi daxil edin: ");
-            int yas = Convert.ToInt32(Console.ReadLine());
-
-            if (yas <= 30 && yas > 0)
-            {
-                Console.WriteLine(yas * yas);
-
-            }
-            else if (30 < yas && yas < 40)
-            {
-                if (yas > 30 && yas < 40)
-                {
-                    char[] array = yas.ToString().ToArray();
-                    Console.WriteLine(array[1]);
-                }
-
-            }
-            else if (yas >= 40)
-            {
-                Console.WriteLine("Duzgun melumat daxil etmemisiniz");
-            }
-            else if (yas <= 0)
-            {
-                Console.WriteLine("Duzgun melumat daxil etmemisiniz");
-            }
-        }
-        public static int Biggest(params int[] reqemler)
-        {
-            int biggest = 0;
-            foreach (var big in reqemler)
-            {
-                if (big > biggest)
-                {
-                    biggest = big;
-                }
-            }
-            return biggest;
-        }
-        public static int Lowest(params int[] reqemler)
-        {
-            int temp;
-            int size = reqemler.Length;
-            for (int i = 0; i < size; i++)
-            {
-                for (int j = i + 1; j < size; j++)
-                {
-                    if (reqemler[i] > reqemler[j])
-                    {
-                        temp = reqemler[i];
-                        reqemler[i] = reqemler[j];
-                        reqemler[j] = temp;
-                    }
-                }
-            }
-            return reqemler[0];
         }
     }
 }
