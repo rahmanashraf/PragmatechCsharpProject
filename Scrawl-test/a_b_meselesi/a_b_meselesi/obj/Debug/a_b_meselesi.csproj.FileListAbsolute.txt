@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\bin\Debug\a_b_meselesi.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\bin\Debug\a_b_meselesi.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\bin\Debug\a_b_meselesi.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\obj\Debug\a_b_meselesi.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\obj\Debug\a_b_meselesi.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\obj\Debug\a_b_meselesi.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\obj\Debug\a_b_meselesi.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\a_b_meselesi\a_b_meselesi\obj\Debug\a_b_meselesi.pdb

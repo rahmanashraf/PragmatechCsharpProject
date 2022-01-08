@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\bin\Debug\ClassTestStudent.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\bin\Debug\ClassTestStudent.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\bin\Debug\ClassTestStudent.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\obj\Debug\ClassTestStudent.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\obj\Debug\ClassTestStudent.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\obj\Debug\ClassTestStudent.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\obj\Debug\ClassTestStudent.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\ClassTestStudent\ClassTestStudent\obj\Debug\ClassTestStudent.pdb
