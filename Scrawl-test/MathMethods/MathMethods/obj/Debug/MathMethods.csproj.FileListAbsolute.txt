@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\bin\Debug\MathMethods.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\bin\Debug\MathMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\bin\Debug\MathMethods.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\obj\Debug\MathMethods.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\obj\Debug\MathMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\obj\Debug\MathMethods.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\obj\Debug\MathMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\MathMethods\MathMethods\obj\Debug\MathMethods.pdb
