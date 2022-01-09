@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\bin\Debug\DateTImeMethods.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\bin\Debug\DateTImeMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\bin\Debug\DateTImeMethods.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\obj\Debug\DateTImeMethods.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\obj\Debug\DateTImeMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\obj\Debug\DateTImeMethods.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\obj\Debug\DateTImeMethods.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\DateTImeMethods\DateTImeMethods\obj\Debug\DateTImeMethods.pdb
