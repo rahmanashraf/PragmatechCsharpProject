@@ -30,27 +30,29 @@ namespace Task3
                 int dogumtarixi = Convert.ToInt32(Console.ReadLine());
                 
                 Student std = new Student(ad, qrup, dogumtarixi);
-                std.GroupName = qrup;
                 std.GetBirthYear(std);
                
 
                 students[i] = std;
 
-                foreach (var item in students)
+            }
+            Console.WriteLine("qrupnomresini daxil et tapagki burda nece telebe var: ");
+            string qrupnomr = Console.ReadLine();
+            Qrupagoretap(qrupnomr, students);
+        }
+        public static void Qrupagoretap(string qrupnom, Student[] list)
+        {
+           
+            int x = 0;
+            for (int i = 0; i < list.Length; i++)
+            {
+                if (list[i].GroupName==qrupnom)
                 {
-                    Console.WriteLine(item.Name+" "+item.GroupName+" "+item.GetBirthYear(std));
+                    x++;
                 }
                 
-
-
-
-                
-                
-
-               
-
-
-        }
+            }
+            Console.WriteLine(x);
         }
     }
 }

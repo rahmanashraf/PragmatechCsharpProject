@@ -19,10 +19,10 @@ namespace Task3
             Age = age;
         }
 
-        public int GetBirthYear(Student student)
+        public void GetBirthYear(Student student)
         {
             int year = DateTime.Now.Year - student.Age;
-            return year;
+            Console.WriteLine(year);
         }
 
     }
