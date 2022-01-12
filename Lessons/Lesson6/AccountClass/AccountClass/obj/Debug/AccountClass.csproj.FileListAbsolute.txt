@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\bin\Debug\AccountClass.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\bin\Debug\AccountClass.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\bin\Debug\AccountClass.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\obj\Debug\AccountClass.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\obj\Debug\AccountClass.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\obj\Debug\AccountClass.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\obj\Debug\AccountClass.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson6\AccountClass\AccountClass\obj\Debug\AccountClass.pdb

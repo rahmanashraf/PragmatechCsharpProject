@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6B91A76-06E0-42E9-BD18-BCA8870E5A27}</ProjectGuid>
+    <ProjectGuid>{C8C2D507-FC79-4C95-B88A-53AF74763368}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lesson6</RootNamespace>
-    <AssemblyName>lesson6</AssemblyName>
+    <RootNamespace>AccountClass</RootNamespace>
+    <AssemblyName>AccountClass</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
