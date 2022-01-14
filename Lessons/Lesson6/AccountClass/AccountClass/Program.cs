@@ -18,9 +18,12 @@ namespace AccountClass
                 Console.WriteLine("Passwordu daxil edin: ");
                 string password = Console.ReadLine();
 
+                
                 Account acc = new Account(username, password);
+                acc.No = i;
 
                 acc.IsnameValid(username);
+                acc.IspasswordValid(password);
                 accarray[i] = acc;
             }
 
