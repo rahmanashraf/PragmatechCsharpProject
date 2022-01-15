@@ -22,30 +22,39 @@ namespace AccountClass
 
         public bool IsnameValid(string userka)
         {
-
+            bool result=false;
             char[] userinadi = userka.ToCharArray();
             foreach (var herfler in userinadi)
             {
-                if (!char.IsLetterOrDigit(herfler))
+                if (!String.IsNullOrWhiteSpace(userka))
                 {
-                    return false;
+                    result=false;
                 }
-
-            }
-            return true;
-
+                if (!result)
+                {
+                    if (char.IsLetterOrDigit(herfler))
+                    {
+                        result = true;
+                    }
+                }
+                if (result)
+                {
+                    if (char.IsWhiteSpace(herfler))
+                    {
+                        result = false;
+                    }
+                }
+                
+             }
+            return result;
         }
         public bool IspasswordValid(string pass)
         {
             bool symb = false;
             bool letdig = false;
-            int min = 8;
-            int max = 25;
             char currentchar;
             char currentchar2;
-
-
-            if (!(pass.Length >= min && pass.Length <= max))
+            if (!(pass.Length >= 8 && pass.Length <= 25))
             {
                 return true;
             }
