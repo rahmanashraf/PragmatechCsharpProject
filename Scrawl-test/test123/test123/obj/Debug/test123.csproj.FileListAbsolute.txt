@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\bin\Debug\test123.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\bin\Debug\test123.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\bin\Debug\test123.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\obj\Debug\test123.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\obj\Debug\test123.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\obj\Debug\test123.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\obj\Debug\test123.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\test123\test123\obj\Debug\test123.pdb

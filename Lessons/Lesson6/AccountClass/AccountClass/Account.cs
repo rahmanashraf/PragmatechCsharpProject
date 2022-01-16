@@ -29,7 +29,9 @@ namespace AccountClass
                 if (!String.IsNullOrWhiteSpace(userka))
                 {
                     result=false;
+                   
                 }
+                
                 if (!result)
                 {
                     if (char.IsLetterOrDigit(herfler))
@@ -41,7 +43,9 @@ namespace AccountClass
                 {
                     if (char.IsWhiteSpace(herfler))
                     {
-                        result = false;
+                        return false;
+                        
+
                     }
                 }
                 
