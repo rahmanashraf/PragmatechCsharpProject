@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\bin\Debug\insertion.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\bin\Debug\insertion.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\bin\Debug\insertion.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\obj\Debug\insertion.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\obj\Debug\insertion.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\obj\Debug\insertion.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\obj\Debug\insertion.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\insertion\insertion\obj\Debug\insertion.pdb
