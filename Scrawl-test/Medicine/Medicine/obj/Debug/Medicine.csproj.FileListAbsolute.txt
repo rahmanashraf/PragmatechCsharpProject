@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\bin\Debug\Medicine.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\bin\Debug\Medicine.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\bin\Debug\Medicine.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\obj\Debug\Medicine.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\obj\Debug\Medicine.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\obj\Debug\Medicine.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\obj\Debug\Medicine.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Medicine\Medicine\obj\Debug\Medicine.pdb

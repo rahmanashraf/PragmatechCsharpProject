@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "442b172b-7c50-4858-8901-a767feacd8bc": {
+      "ProjectGuid": "442b172b-7c50-4858-8901-a767feacd8bc",
+      "DisplayName": "Medicine",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
