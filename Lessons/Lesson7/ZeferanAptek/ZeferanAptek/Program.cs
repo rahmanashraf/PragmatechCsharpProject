@@ -85,20 +85,23 @@ namespace ZeferanAptek
                 string namederman = Console.ReadLine();
                 Console.WriteLine("Yeni darman sayini daxil et: ");
                 int saylari = Convert.ToInt32(Console.ReadLine());
-                if (list[i].Name != namederman)
+                if (list[i].Name == namederman)
+                {
+                    list[i].Count = list[i].Count + saylari;
+                    Console.WriteLine("movcud dermanin sayi artdi");
+                    
+                }
+                else
                 {
                     Array.Resize(ref list, list.Length +1);
                     list[i].Name = namederman;
                     list[i].Count = saylari;
                     Console.WriteLine("yeni derman elave olundu");
-                }
-                else
-                {
-                    list[i].Count=list[i].Count + saylari;
-                    Console.WriteLine("movcud dermanin sayi artdi");
+ 
                 }
                 Console.WriteLine(list[i].Name+"dermanindan depoda "+list[i].Count );
             }
+            
         }
 
     }

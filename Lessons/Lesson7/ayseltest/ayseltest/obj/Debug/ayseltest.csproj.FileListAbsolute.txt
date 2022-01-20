@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\bin\Debug\ayseltest.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\bin\Debug\ayseltest.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\bin\Debug\ayseltest.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\obj\Debug\ayseltest.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\obj\Debug\ayseltest.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\obj\Debug\ayseltest.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\obj\Debug\ayseltest.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ayseltest\ayseltest\obj\Debug\ayseltest.pdb
