@@ -8,10 +8,10 @@ namespace ZeferanAptek
 {
     internal class Aptek
     {
-        public object Name;
-        public object Count;
+        public string Name;
+        public int Count;
 
-        public Aptek(object ad, object say)
+        public Aptek(string ad, int say)
         {
             Name = ad;
             Count = say;    
