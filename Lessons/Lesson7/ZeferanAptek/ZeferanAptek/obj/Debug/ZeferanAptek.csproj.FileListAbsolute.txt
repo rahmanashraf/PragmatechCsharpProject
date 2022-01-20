@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\bin\Debug\ZeferanAptek.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\bin\Debug\ZeferanAptek.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\bin\Debug\ZeferanAptek.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\obj\Debug\ZeferanAptek.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\obj\Debug\ZeferanAptek.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\obj\Debug\ZeferanAptek.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\obj\Debug\ZeferanAptek.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson7\ZeferanAptek\ZeferanAptek\obj\Debug\ZeferanAptek.pdb
