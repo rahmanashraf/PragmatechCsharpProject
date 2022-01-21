@@ -80,8 +80,6 @@ namespace AccountClass
                 {
                     for (int i = 0; i < pass.Length; i++)
                     {
-                        
-
                         currentchar2 = pass[i];
                         if (char.IsUpper(currentchar2) && (char.IsLetterOrDigit(currentchar2)))
                         {

@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\bin\Debug\BookTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\bin\Debug\BookTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\bin\Debug\BookTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\obj\Debug\BookTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\obj\Debug\BookTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\obj\Debug\BookTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\obj\Debug\BookTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8\BookTask\BookTask\obj\Debug\BookTask.pdb

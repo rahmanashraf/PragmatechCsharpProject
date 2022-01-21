@@ -4,6 +4,7 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
+
         Aptek[] array = new Aptek[3];
         for (int i = 0; i < 3; i++)
         {
