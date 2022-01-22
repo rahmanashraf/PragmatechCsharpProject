@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\bin\Debug\ArazMarket.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\bin\Debug\ArazMarket.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\bin\Debug\ArazMarket.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\obj\Debug\ArazMarket.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\obj\Debug\ArazMarket.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\obj\Debug\ArazMarket.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\obj\Debug\ArazMarket.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson8+BonusTask\ArazMarket\ArazMarket\obj\Debug\ArazMarket.pdb
