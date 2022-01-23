@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\bin\Debug\DictionaryTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\bin\Debug\DictionaryTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\bin\Debug\DictionaryTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\obj\Debug\DictionaryTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\obj\Debug\DictionaryTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\obj\Debug\DictionaryTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\obj\Debug\DictionaryTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\DictionaryTask\DictionaryTask\obj\Debug\DictionaryTask.pdb
