@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\bin\Debug\xisifirlamag.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\bin\Debug\xisifirlamag.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\bin\Debug\xisifirlamag.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\obj\Debug\xisifirlamag.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\obj\Debug\xisifirlamag.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\obj\Debug\xisifirlamag.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\obj\Debug\xisifirlamag.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\xisifirlamag\xisifirlamag\obj\Debug\xisifirlamag.pdb
