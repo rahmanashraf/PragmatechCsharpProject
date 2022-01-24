@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\bin\Debug\QueueList.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\bin\Debug\QueueList.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\bin\Debug\QueueList.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\obj\Debug\QueueList.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\obj\Debug\QueueList.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\obj\Debug\QueueList.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\obj\Debug\QueueList.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\QueueList\QueueList\obj\Debug\QueueList.pdb

@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\bin\Debug\Wordle.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\bin\Debug\Wordle.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\bin\Debug\Wordle.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\obj\Debug\Wordle.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\obj\Debug\Wordle.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\obj\Debug\Wordle.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\obj\Debug\Wordle.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson9\Wordle\Wordle\obj\Debug\Wordle.pdb

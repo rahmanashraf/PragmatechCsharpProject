@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a695aab9-68da-45d4-b467-0a7c3906aa6c": {
+      "ProjectGuid": "a695aab9-68da-45d4-b467-0a7c3906aa6c",
+      "DisplayName": "Wordle",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
