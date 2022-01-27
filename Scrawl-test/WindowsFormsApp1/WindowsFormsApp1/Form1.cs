@@ -79,5 +79,10 @@ namespace WindowsFormsApp1
             netice = reqem1 * reqem2;
             label4.Text = Convert.ToString(netice);
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("salam sebuw");
+        }
     }
 }

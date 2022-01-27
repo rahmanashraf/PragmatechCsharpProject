@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\bin\Debug\LiveTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\bin\Debug\LiveTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\bin\Debug\LiveTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\obj\Debug\LiveTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\obj\Debug\LiveTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\obj\Debug\LiveTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\obj\Debug\LiveTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\LiveTask\LiveTask\obj\Debug\LiveTask.pdb

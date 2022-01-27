@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\bin\Debug\Sorting_Algorithms.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\bin\Debug\Sorting_Algorithms.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\bin\Debug\Sorting_Algorithms.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\obj\Debug\Sorting_Algorithms.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\obj\Debug\Sorting_Algorithms.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\obj\Debug\Sorting_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\obj\Debug\Sorting_Algorithms.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sorting_Algorithms\Sorting_Algorithms\obj\Debug\Sorting_Algorithms.pdb

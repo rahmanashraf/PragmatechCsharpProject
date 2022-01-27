@@ -29,9 +29,10 @@ namespace QueueList
             queue.Enqueue("14");
             queue.Enqueue("11");
             queue.Enqueue("11");
-
+            Queue<string> queue2 = new Queue<string>();
             if (queue.Count>10)
               {
+               
                 int say = queue.Count - 9;
                 for (int i = 0; i < say; i++)
                 {
@@ -47,13 +48,6 @@ namespace QueueList
 
                 Console.WriteLine(item);
             }
-
-
-
-
-
-
-
 
         }
     }
