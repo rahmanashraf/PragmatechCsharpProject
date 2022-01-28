@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\bin\Debug\Sequential_Search.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\bin\Debug\Sequential_Search.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\bin\Debug\Sequential_Search.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\obj\Debug\Sequential_Search.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\obj\Debug\Sequential_Search.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\obj\Debug\Sequential_Search.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\obj\Debug\Sequential_Search.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Sequential_Search\Sequential_Search\obj\Debug\Sequential_Search.pdb
