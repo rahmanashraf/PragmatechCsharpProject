@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\bin\Debug\recursive.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\bin\Debug\recursive.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\bin\Debug\recursive.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\obj\Debug\recursive.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\obj\Debug\recursive.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\obj\Debug\recursive.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\obj\Debug\recursive.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\recursive\recursive\obj\Debug\recursive.pdb
