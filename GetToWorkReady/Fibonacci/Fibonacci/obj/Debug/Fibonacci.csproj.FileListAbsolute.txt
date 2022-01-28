@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\bin\Debug\Fibonacci.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\bin\Debug\Fibonacci.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\obj\Debug\Fibonacci.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Fibonacci\Fibonacci\obj\Debug\Fibonacci.pdb
