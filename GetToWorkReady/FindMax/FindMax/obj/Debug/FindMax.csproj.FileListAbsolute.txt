@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\bin\Debug\FindMax.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\bin\Debug\FindMax.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\bin\Debug\FindMax.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\obj\Debug\FindMax.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\obj\Debug\FindMax.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\obj\Debug\FindMax.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\obj\Debug\FindMax.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindMax\FindMax\obj\Debug\FindMax.pdb
