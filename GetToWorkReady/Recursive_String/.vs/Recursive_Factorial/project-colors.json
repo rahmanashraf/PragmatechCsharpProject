@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e7945140-ec48-4481-b162-230998f57b22": {
+      "ProjectGuid": "e7945140-ec48-4481-b162-230998f57b22",
+      "DisplayName": "Recursive_Factorial",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

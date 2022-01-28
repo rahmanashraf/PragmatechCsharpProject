@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\bin\Debug\Recursive_String.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\bin\Debug\Recursive_String.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\bin\Debug\Recursive_String.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\obj\Debug\Recursive_Factorial.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\obj\Debug\Recursive_Factorial.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\obj\Debug\Recursive_String.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\obj\Debug\Recursive_String.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\Recursive_String\Recursive_String\obj\Debug\Recursive_Factorial.csproj.AssemblyReference.cache
