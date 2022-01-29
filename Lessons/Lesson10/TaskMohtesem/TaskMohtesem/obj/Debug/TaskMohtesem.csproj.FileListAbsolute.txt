@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\bin\Debug\TaskMohtesem.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\bin\Debug\TaskMohtesem.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\bin\Debug\TaskMohtesem.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\obj\Debug\TaskMohtesem.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\obj\Debug\TaskMohtesem.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\obj\Debug\TaskMohtesem.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\obj\Debug\TaskMohtesem.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson10\TaskMohtesem\TaskMohtesem\obj\Debug\TaskMohtesem.pdb
