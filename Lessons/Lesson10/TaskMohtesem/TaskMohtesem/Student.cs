@@ -9,15 +9,16 @@ namespace TaskMohtesem
     internal class Student
     {
         public int No;
-        public int Plusser = 1;
+        public static int Plusser = -1;
         public string Name;
         public string Surname;
 
         public Student(string name,string surname)
         {
             Name = name;
-            Surname = surname;          
-            No = Plusser++;
+            Surname = surname;
+            Plusser++;
+            No = Plusser;
         }
     }
 }
