@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\bin\Debug\OOP_Account.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\bin\Debug\OOP_Account.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\bin\Debug\OOP_Account.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\obj\Debug\OOP_Account.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\obj\Debug\OOP_Account.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\obj\Debug\OOP_Account.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\obj\Debug\OOP_Account.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson11\OOP_Account\OOP_Account\obj\Debug\OOP_Account.pdb
