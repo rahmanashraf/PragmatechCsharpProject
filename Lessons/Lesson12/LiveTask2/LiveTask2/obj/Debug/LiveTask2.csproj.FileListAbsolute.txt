@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\bin\Debug\LiveTask2.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\bin\Debug\LiveTask2.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\bin\Debug\LiveTask2.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\obj\Debug\LiveTask2.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\obj\Debug\LiveTask2.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\obj\Debug\LiveTask2.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\obj\Debug\LiveTask2.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\LiveTask2\LiveTask2\obj\Debug\LiveTask2.pdb
