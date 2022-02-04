@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\bin\Debug\DataStructureTypes.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\bin\Debug\DataStructureTypes.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\bin\Debug\DataStructureTypes.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\obj\Debug\DataStructureTypes.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\obj\Debug\DataStructureTypes.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\obj\Debug\DataStructureTypes.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\obj\Debug\DataStructureTypes.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\DataStructure\DataStructureTypes\DataStructureTypes\obj\Debug\DataStructureTypes.pdb
