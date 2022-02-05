@@ -1,1 +1,1 @@
-![banner](banner.jpg)
+![banner](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/banner.png)
