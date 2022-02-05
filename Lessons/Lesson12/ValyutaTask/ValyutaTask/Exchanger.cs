@@ -8,7 +8,7 @@ namespace ValyutaTask
 {
     enum CurrenctType
     {
-        AZNtoUSD , AZNtoEURO = 2, AZNtoTL = 3,USDtoAZN= 4,EUROtoAZN=5,TLtoAZN= 6
+        AZNtoUSD=1, AZNtoEURO = 2, AZNtoTL = 3,USDtoAZN= 4,EUROtoAZN=5,TLtoAZN= 6
     }
     static class Exchanger
     {

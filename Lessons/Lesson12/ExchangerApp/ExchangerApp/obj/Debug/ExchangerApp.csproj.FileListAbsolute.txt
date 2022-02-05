@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\bin\Debug\ExchangerApp.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\bin\Debug\ExchangerApp.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\bin\Debug\ExchangerApp.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.Form1.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.Properties.Resources.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ExchangerApp\ExchangerApp\obj\Debug\ExchangerApp.pdb
