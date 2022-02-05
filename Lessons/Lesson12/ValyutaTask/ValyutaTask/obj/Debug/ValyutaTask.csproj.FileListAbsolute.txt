@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\bin\Debug\ValyutaTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\bin\Debug\ValyutaTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\bin\Debug\ValyutaTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\obj\Debug\ValyutaTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\obj\Debug\ValyutaTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\obj\Debug\ValyutaTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\obj\Debug\ValyutaTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson12\ValyutaTask\ValyutaTask\obj\Debug\ValyutaTask.pdb
