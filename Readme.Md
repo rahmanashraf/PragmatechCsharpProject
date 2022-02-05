@@ -1,1 +1,1 @@
-<img src="banner.jpg" alt=”my banner”>
+![banner](banner.jpg)
