@@ -15,35 +15,34 @@
 <p align = "center">💡 Various templates & tips on writing high-quality documentation that people want to read.</p>
 
 
-<!-- ## Table of Contents
+## Table of Contents
 
-- [Why must you document your project](#why_document)
-- [Best Practices](#best_practices)
+- [ConsoleApps](#console)
+- [FormApplication](#best_practices)
 - [Templates](#templates)
-- [The Art of Technical Writing](#art)
-  - [Novice Technical Writers](https://www.writethedocs.org/guide/#new-to-caring-about-documentation)
+- [Blogs](#art)
+<!--   - [Novice Technical Writers](https://www.writethedocs.org/guide/#new-to-caring-about-documentation)
   - [Experienced Technical Writers](https://www.writethedocs.org/guide/#experienced-documentarian)
   - [API Documentation](https://www.writethedocs.org/guide/#api-documentation)
   - [Adding badges](https://github.com/badges/shields/blob/master/README.md#examples)
   - [Tools](https://www.writethedocs.org/guide/#tools-of-the-trade)
 - [Technical Writer Programs](#programs)
-- [Awesome Technical Writing Sources](#sources)
+- [Awesome Technical Writing Sources](#sources) -->
 - [Get Feedback](#feedback)
 - [Acknowledgements](#acknowledgements)
 
 
-## Why must you document your project? <a name = "why_document"></a>
+  ## MyConsoleApps <a name = "console"></a> 
 
-- It doesn’t matter how good your software is, because if the documentation is not good enough, people will not use it.
-Even if for some reason they have to use it, without good documentation, they won’t use it effectively or the way you’d like them to
-- THE MAJORITY OF PEOPLE GLANCE AND LEAVE. Make it pretty so that it's easier for them to star before they leave. The more stars you have, the likelier it is that serious developers will use your repo
-- You will be using your code in 6 months. Code that you wrote 6 months ago is often indistinguishable from code that someone else has written
-- You want people to use your code because you think that others might find it useful. However, people need to understand why your code might be useful for them, before they decide to use it
-- You want people to help out. If you don’t have documentation, you will miss out on a whole class of contributors
-- You want to be a better writer
+- [MarketSystem](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson8%2BBonusTask/ArazMarket)
+- [Wordle Game](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson9/Wordle)
+- [LibraryAdd](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson8/BookTask)
+- [UserName-PasswordValidation](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson6/AccountClass)
+- [InheritanceAccount](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson11/OOP_Account)
+- [AddStudentToGroup](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson10/TaskMohtesem)
 
 
-## Best Practices<a name = "best_practices"></a>
+<!--## Best Practices<a name = "best_practices"></a>
 
 **Things to remember:**
 
@@ -121,7 +120,7 @@ Further reading on technical writing topics from [www.writethedocs.org](https://
 
 1. [Documenting your projects on GitHub](https://guides.github.com/features/wikis/) - GitHub Guides
 2. [documentation-handbook](https://github.com/jamiebuilds/documentation-handbook) - jamiebuilds
-3. [Documentation Guide](https://www.writethedocs.org/guide/) - Write the Docs
+3. [Documentation Guide](https://www.writethedocs.org/guide/) - Write the Docs 
 
  -->
 ## P.S. <a name = "ps"></a>
