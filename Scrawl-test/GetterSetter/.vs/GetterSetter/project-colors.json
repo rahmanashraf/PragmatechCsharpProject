@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc961d8b-1f58-4e39-9be0-3b570e5eb05a": {
+      "ProjectGuid": "fc961d8b-1f58-4e39-9be0-3b570e5eb05a",
+      "DisplayName": "GetterSetter",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\bin\Debug\GetterSetter.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\bin\Debug\GetterSetter.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\bin\Debug\GetterSetter.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\obj\Debug\GetterSetter.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\obj\Debug\GetterSetter.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\obj\Debug\GetterSetter.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\obj\Debug\GetterSetter.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\GetterSetter\GetterSetter\obj\Debug\GetterSetter.pdb
