@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\bin\Debug\BlogSS.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\bin\Debug\BlogSS.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\bin\Debug\BlogSS.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\obj\Debug\BlogSS.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\obj\Debug\BlogSS.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\obj\Debug\BlogSS.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\obj\Debug\BlogSS.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\BlogSS\BlogSS\obj\Debug\BlogSS.pdb
