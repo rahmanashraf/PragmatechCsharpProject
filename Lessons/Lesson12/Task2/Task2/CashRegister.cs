@@ -20,10 +20,12 @@ namespace Task2
         public Currency currency;
 
 
+
         public CashRegister(double am)
         {
             TotalAmount = am;
             currency = Currency.AZN;
+            
             
 
         }
@@ -69,6 +71,7 @@ namespace Task2
                 }
 
             }
+            TotalSalesCount++;
             
 
         }
@@ -114,7 +117,8 @@ namespace Task2
                 }
 
             }
-
+            TotalSalesCount--;
+            //Enum.Parse(tyoeof(Currency),)
 
         }
     }

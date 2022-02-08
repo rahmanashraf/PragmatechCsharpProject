@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\bin\Debug\hozu.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\bin\Debug\hozu.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\bin\Debug\hozu.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\obj\Debug\hozu.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\obj\Debug\hozu.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\obj\Debug\hozu.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\obj\Debug\hozu.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\hozu\hozu\obj\Debug\hozu.pdb

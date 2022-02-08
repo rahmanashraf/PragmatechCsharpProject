@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\bin\Debug\NofelTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\bin\Debug\NofelTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\bin\Debug\NofelTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\obj\Debug\NofelTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\obj\Debug\NofelTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\obj\Debug\NofelTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\obj\Debug\NofelTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\NofelTask\NofelTask\obj\Debug\NofelTask.pdb
