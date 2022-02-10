@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\bin\Debug\Soz_oyunu.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\bin\Debug\Soz_oyunu.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\bin\Debug\Soz_oyunu.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\obj\Debug\Soz_oyunu.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\obj\Debug\Soz_oyunu.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\obj\Debug\Soz_oyunu.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\obj\Debug\Soz_oyunu.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\Soz_oyunu\Soz_oyunu\obj\Debug\Soz_oyunu.pdb
