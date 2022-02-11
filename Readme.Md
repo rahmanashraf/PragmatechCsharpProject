@@ -38,6 +38,7 @@
 
 - [ExchangerApp](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson12/ExchangerApp)
 - [CalculatorAppp](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Scrawl-test/WindowsFormsApp1)
+- [Soz oyunu](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/GetToWorkReady/SpecialCsharpTasks/TaskOne/Soz_oyunu)
 
 
 ## P.S. <a name = "WriteIssue"></a>
