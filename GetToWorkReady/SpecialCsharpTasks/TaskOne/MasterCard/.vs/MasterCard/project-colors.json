@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "466de4e9-54b4-4528-9de2-a9aaf4709487": {
+      "ProjectGuid": "466de4e9-54b4-4528-9de2-a9aaf4709487",
+      "DisplayName": "MasterCard",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
