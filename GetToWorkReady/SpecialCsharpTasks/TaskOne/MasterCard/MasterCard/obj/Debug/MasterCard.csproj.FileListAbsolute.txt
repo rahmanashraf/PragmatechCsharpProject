@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\bin\Debug\MasterCard.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\bin\Debug\MasterCard.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\bin\Debug\MasterCard.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\obj\Debug\MasterCard.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\obj\Debug\MasterCard.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\obj\Debug\MasterCard.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\obj\Debug\MasterCard.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\SpecialCsharpTasks\TaskOne\MasterCard\MasterCard\obj\Debug\MasterCard.pdb
