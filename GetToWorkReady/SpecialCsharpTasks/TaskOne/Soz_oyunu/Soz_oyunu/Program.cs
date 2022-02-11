@@ -22,27 +22,31 @@ namespace Soz_oyunu
                StringSplitOptions.RemoveEmptyEntries);
 
             begin:
-
-            Console.WriteLine("Yeni oyuna baslamag ucun 1 duymesini bas:");
-            string cavab = Console.ReadLine();
             Console.WriteLine("Adinizi qeyd edin bro: ");
             Gaming.Name = Console.ReadLine();
-            if (cavab == "1")
+            while (Gaming.Qerar==0)
             {
-                int num = 0;
-                TimerCallback tm = new TimerCallback(Gaming.Count);
-                Timer timer = new Timer(tm, num, 10000, 0);
-                Gaming.Go(words);
+                Console.WriteLine("Yeni oyuna baslamag ucun 1 duymesini bas:");
+                string cavab = Console.ReadLine();
 
+                if (cavab == "1")
+                {
+                    int num = 0;
+                    TimerCallback tm = new TimerCallback(Gaming.Count);
+                    Timer timer = new Timer(tm, num, 30000, 0);
+                    Gaming.Go(words);
+
+                }
+                else
+                {
+                    goto begin;
+                }
+                
             }
-            else
-            {
-                goto begin;
-            }
 
-
-
+            
         }
+       
 
     }
 }

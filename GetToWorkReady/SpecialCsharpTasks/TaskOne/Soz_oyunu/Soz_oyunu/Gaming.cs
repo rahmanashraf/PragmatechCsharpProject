@@ -13,6 +13,16 @@ namespace Soz_oyunu
         private static int Score = 0;
         static Dictionary<string, int> ScoreMap { get; set; }
         private static int qerar;
+        public static int Qerar {
+            get
+            {
+                return qerar;
+            }
+            set
+            {
+                qerar= value;   
+            }
+        } 
         private static string name;
         public  static string Name {
             get
@@ -103,6 +113,7 @@ namespace Soz_oyunu
                 
                 Total++;
                 
+
             }
 
 
@@ -121,8 +132,7 @@ namespace Soz_oyunu
             Console.WriteLine("Verdiyin duzgun cavabsayi: " + Gaming.Correct);
             int wrong = Gaming.Total - Gaming.Correct;
             Console.WriteLine("Elediyin mallig sayi: " + wrong);
-            qerar = 2;
-            
+                        
         }
         
     }
