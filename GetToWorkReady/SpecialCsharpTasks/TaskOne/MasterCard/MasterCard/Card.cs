@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace MasterCard
 {
-    internal class Card
+    class Card
     {
-        private long cardno;
-        public long CardNo
+        List <Card>cartlist=new List <Card> (); 
+        private static string cardno;
+        public static string CardNo
         {
             get
             {
@@ -22,15 +23,15 @@ namespace MasterCard
 
                 for (int i = 0; i < 16; i++)
                 {
-                    cardNumber += rnd.Next((int)value, 9).ToString();
+                    cardNumber += rnd.Next(0, 10).ToString();
                 }
-                value = long.Parse(cardNumber);
+                value = cardNumber;
                 cardno = value;
             }
 
         }
-        private  int money;
-        public  int Money
+        private static int money;
+        public static int Money
         {
             get
             {
@@ -42,29 +43,68 @@ namespace MasterCard
             }
 
         }
+        public static DateTime date=DateTime.Now;
 
-        public DateTime data = DateTime.Now;
-        public List<int> list=new List<int>();    
-
-        public Card(long reqem,int mebleg,int days)
+        string virtualkartkodu;
+        int virtualkartpulu;
+        DateTime virtualbitmetarixi=DateTime.Now;
+        
+        public Card(int moneyi,double gun)
         {
-            cardno = reqem;
-            money = mebleg;
-            data=DateTime.Now.AddDays(days);
-            Console.WriteLine("Bu menim konstruktordan gelen ilk kartimdi"+ "\n16 reqemli sifre "+cardno+" "+"\nBalans"+money+"azn "+"\nBitme tarixi"+" "+data);
+            CardNo = " ";
+            Money = moneyi;
+            date=date.AddDays(gun);
         }
-
-        public void AddVirtualCard()
+        public void AddVirtualCard(int mebleg,double gun)
         {
-           
-            Random rndm = new Random();
-            for (int i = 0; i < 5; i++)
+            if (mebleg<money-4)
             {
-                CardNo = i;
-                Money = rndm.Next(i, 200);
-                Console.WriteLine(CardNo+" "+ Money);
+                if (date>=virtualbitmetarixi.AddDays(gun))
+                {
+                    virtualbitmetarixi = virtualbitmetarixi.AddDays(gun);
+                    Money=money - mebleg;
+                    virtualkartpulu = mebleg;
+                    Random rndm = new Random();
+                    for (int i = 0; i < 16; i++)
+                    {
+                        virtualkartkodu += rndm.Next(10);
+                    }
+                    
+                }
+                else
+                {
+                    Console.WriteLine("bitme tarixi main carddan gec ola bilmez");
+                }
             }
+            else
+            {
+                Console.WriteLine("Virtual kartin pulu esas meblegi kecmemelidi");
+            }
+            
         }
+        public void AddList(Card cart)
+        {
+            cartlist.Add(cart);
+        }
+        public void ShowCardList()
+        {
+            for (int i = 0; i < cartlist.Count; i++)
+            {
+                
+            }
+
+        }
+        public void RemoveList(Card cart)
+        {
+            cartlist.Remove(cart);
+        }
+
+        public void ShowMainMoney()
+        {
+            Console.WriteLine(money);
+        }
+
+       
 
 
     }
