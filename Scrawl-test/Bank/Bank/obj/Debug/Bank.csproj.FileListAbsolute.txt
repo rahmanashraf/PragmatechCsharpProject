@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Bank\Bank\obj\Debug\Bank.pdb
