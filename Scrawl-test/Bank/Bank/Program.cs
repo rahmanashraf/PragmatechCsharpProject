@@ -29,13 +29,8 @@ namespace Bank
                     double vrtmebleg = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("VirtualCardinin nece gun muddeti olsn");
                     int gunvirtual = Convert.ToInt32(Console.ReadLine());
-                    vcard.AddVirtualCard(vrtmebleg, gunvirtual);
-                    Console.WriteLine("liste elave etmek istiyirsiz?");
-                    string cindir = Console.ReadLine();
-                    if (cindir=="1")
-                    {
-                        vcard.Addlist(vcard);
-                    }
+                    vcard.AddVirtualCard(vrtmebleg, gunvirtual,vcard);
+
                 }
                 else if (cavab == 2)
                 {

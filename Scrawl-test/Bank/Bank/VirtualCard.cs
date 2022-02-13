@@ -12,7 +12,7 @@ namespace Bank
         string Cardno;
         DateTime Date;
         double Balans;
-        public void AddVirtualCard(double mebleg,int gun)
+        public void AddVirtualCard(double mebleg,int gun,VirtualCard card)
         {
             Random random = new Random();
             for (int i = 0; i < 16; i++)
@@ -28,6 +28,16 @@ namespace Bank
                     MainCard.Balansim = MainCard.Balansim - mebleg;
                     Balans = mebleg;
                     Date = DateTime.Now.AddDays(gun);
+                    if (cardlist.Count <= 5)
+                    {
+                        cardlist.Add(card);
+                        Cardno = "";
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Kart limitiniz dolmusdur bundan artiq kart yarada bilmersiniz");
+                    }
                 }
                 else
                 {
@@ -40,19 +50,7 @@ namespace Bank
             }
 
         }
-        public void Addlist(VirtualCard card)
-        {
-            if (cardlist.Count<=5)
-            {
-                cardlist.Add(card);
-                Cardno = "";
-                
-            }
-            else
-            {
-                Console.WriteLine("Kart limitiniz dolmusdur bundan artiq kart yarada bilmersiniz");
-            }
-        }
+
         public void RemoveList()
         {
             if (cardlist.Count==0)

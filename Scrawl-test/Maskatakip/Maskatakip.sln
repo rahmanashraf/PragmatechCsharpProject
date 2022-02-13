@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkSpace", "WorkSpace\WorkSpace.csproj", "{BE718EBC-F48D-4397-BE65-4E646F9FFF57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{5AB9B89C-94E4-4966-A831-85ABCB2640AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{96528636-F523-4788-8FEB-4BC7BBB11ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE718EBC-F48D-4397-BE65-4E646F9FFF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE718EBC-F48D-4397-BE65-4E646F9FFF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE718EBC-F48D-4397-BE65-4E646F9FFF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE718EBC-F48D-4397-BE65-4E646F9FFF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB9B89C-94E4-4966-A831-85ABCB2640AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB9B89C-94E4-4966-A831-85ABCB2640AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB9B89C-94E4-4966-A831-85ABCB2640AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB9B89C-94E4-4966-A831-85ABCB2640AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96528636-F523-4788-8FEB-4BC7BBB11ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96528636-F523-4788-8FEB-4BC7BBB11ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96528636-F523-4788-8FEB-4BC7BBB11ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96528636-F523-4788-8FEB-4BC7BBB11ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F16EB064-3AFD-49CA-A059-822AC8E96CD1}
+	EndGlobalSection
+EndGlobal

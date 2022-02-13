@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\WorkSpace.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\WorkSpace.deps.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\WorkSpace.runtimeconfig.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\WorkSpace.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\ref\WorkSpace.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\bin\Debug\net6.0\WorkSpace.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.AssemblyInfo.cs
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\ref\WorkSpace.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Maskatakip\WorkSpace\obj\Debug\net6.0\WorkSpace.genruntimeconfig.cache
