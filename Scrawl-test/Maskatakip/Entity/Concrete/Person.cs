@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Concrete
 {
-    internal class Person
+    public class Person
     {
 
         public string FirstName { get; set; }

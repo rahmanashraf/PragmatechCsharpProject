@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be718ebc-f48d-4397-be65-4e646f9fff57": {
+      "ProjectGuid": "be718ebc-f48d-4397-be65-4e646f9fff57",
+      "DisplayName": "WorkSpace",
+      "ColorIndex": 0
+    },
+    "5ab9b89c-94e4-4966-a831-85abcb2640ad": {
+      "ProjectGuid": "5ab9b89c-94e4-4966-a831-85abcb2640ad",
+      "DisplayName": "Entity",
+      "ColorIndex": 1
+    },
+    "96528636-f523-4788-8feb-4bc7bbb11abc": {
+      "ProjectGuid": "96528636-f523-4788-8feb-4bc7bbb11abc",
+      "DisplayName": "Business",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
