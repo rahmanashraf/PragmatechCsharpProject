@@ -8,12 +8,13 @@ namespace Bank
 {
     class VirtualCard
     {
-        List <VirtualCard> cardlist = new List<VirtualCard>();
         string Cardno;
         DateTime Date;
         double Balans;
-        public void AddVirtualCard(double mebleg,int gun,VirtualCard card)
+        HashSet<VirtualCard> cardlist=new HashSet<VirtualCard>();
+        public void AddVirtualCard(double mebleg,int gun)
         {
+            Cardno = "";
             Random random = new Random();
             for (int i = 0; i < 16; i++)
             {
@@ -28,16 +29,8 @@ namespace Bank
                     MainCard.Balansim = MainCard.Balansim - mebleg;
                     Balans = mebleg;
                     Date = DateTime.Now.AddDays(gun);
-                    if (cardlist.Count <= 5)
-                    {
-                        cardlist.Add(card);
-                        Cardno = "";
+                    
 
-                    }
-                    else
-                    {
-                        Console.WriteLine("Kart limitiniz dolmusdur bundan artiq kart yarada bilmersiniz");
-                    }
                 }
                 else
                 {
@@ -49,6 +42,19 @@ namespace Bank
                 Console.WriteLine("Virtualin Balansi Main balansdan cox ol abilmez(");
             }
 
+        }
+
+        public void AddList(VirtualCard card)
+        {
+            if (cardlist.Count <= 5)
+            {
+                cardlist.Add(card);
+                
+            }
+            else
+            {
+                Console.WriteLine("Kart limitiniz dolmusdur bundan artiq kart yarada bilmersiniz");
+            }
         }
 
         public void RemoveList()

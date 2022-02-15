@@ -29,8 +29,8 @@ namespace Bank
                     double vrtmebleg = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("VirtualCardinin nece gun muddeti olsn");
                     int gunvirtual = Convert.ToInt32(Console.ReadLine());
-                    vcard.AddVirtualCard(vrtmebleg, gunvirtual,vcard);
-
+                    vcard.AddVirtualCard(vrtmebleg, gunvirtual);
+                    vcard.AddList(vcard);
                 }
                 else if (cavab == 2)
                 {
@@ -45,6 +45,7 @@ namespace Bank
                 {
                     vcard.ShowList();
                 }
+               
 
                 Console.WriteLine("Hansi emeliyati elemey istierdiniz:\n1.Yeni virtualkartin elave olunmasi.\n2.VirtualKart silmek.\n3.Esas kartinin balansini oyren.\n4.Butun kartlari goster.\n5.Proqramdan cix");
                 cavab = Convert.ToInt32(Console.ReadLine());
