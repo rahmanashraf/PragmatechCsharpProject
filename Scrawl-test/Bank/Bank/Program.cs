@@ -11,7 +11,7 @@ namespace Bank
         static void Main(string[] args)
         {
             MainCard mcard = new MainCard();
-            VirtualCard vcard = new VirtualCard();
+            
             Console.WriteLine("Esas kartinda neqeder mebleg olsun");
             double esasmebleg = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Neche gun vaxti olsun kartinin");
@@ -29,12 +29,13 @@ namespace Bank
                     double vrtmebleg = Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("VirtualCardinin nece gun muddeti olsn");
                     int gunvirtual = Convert.ToInt32(Console.ReadLine());
-                    vcard.AddVirtualCard(vrtmebleg, gunvirtual);
-                    vcard.AddList(vcard);
+                    VirtualCard vcard = new VirtualCard(vrtmebleg,gunvirtual);
+                    VirtualCard.AddList(vcard);
                 }
                 else if (cavab == 2)
                 {
-                    vcard.RemoveList();
+                    
+                    VirtualCard.RemoveList();
                 }
                 else if (cavab == 3)
                 {
@@ -43,7 +44,7 @@ namespace Bank
 
                 else if (cavab == 4)
                 {
-                    vcard.ShowList();
+                    VirtualCard.ShowList();
                 }
                
 

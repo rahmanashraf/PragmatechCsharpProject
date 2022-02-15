@@ -8,28 +8,27 @@ namespace Bank
 {
     class VirtualCard
     {
+        static List <VirtualCard> cardlist = new List<VirtualCard>();
         string Cardno;
         DateTime Date;
         double Balans;
-        HashSet<VirtualCard> cardlist=new HashSet<VirtualCard>();
-        public void AddVirtualCard(double mebleg,int gun)
+        public VirtualCard(double mebleg, int gun)
         {
-            Cardno = "";
             Random random = new Random();
             for (int i = 0; i < 16; i++)
             {
                 Cardno += random.Next(0, 10).ToString();
             }
-            Console.WriteLine("kart hazirdi nomresi"+" "+Cardno);
+            Console.WriteLine("kart hazirdi nomresi" + " " + Cardno);
 
-            if (mebleg<MainCard.Balansim)
+            if (mebleg < MainCard.Balansim)
             {
-                if (MainCard.Datem>Date)
+                if (MainCard.Datem > Date)
                 {
                     MainCard.Balansim = MainCard.Balansim - mebleg;
                     Balans = mebleg;
                     Date = DateTime.Now.AddDays(gun);
-                    
+
 
                 }
                 else
@@ -41,10 +40,40 @@ namespace Bank
             {
                 Console.WriteLine("Virtualin Balansi Main balansdan cox ol abilmez(");
             }
-
         }
+        //public void AddVirtualCard()
+        //{
+        //    Cardno = "";
+        //    Random random = new Random();
+        //    for (int i = 0; i < 16; i++)
+        //    {
+        //        Cardno += random.Next(0, 10).ToString();
+        //    }
+        //    Console.WriteLine("kart hazirdi nomresi"+" "+Cardno);
 
-        public void AddList(VirtualCard card)
+        //    if (mebleg<MainCard.Balansim)
+        //    {
+        //        if (MainCard.Datem>Date)
+        //        {
+        //            MainCard.Balansim = MainCard.Balansim - mebleg;
+        //            Balans = mebleg;
+        //            Date = DateTime.Now.AddDays(gun);
+                    
+
+        //        }
+        //        else
+        //        {
+        //            Console.WriteLine("Virtualin tarixi esasdan uzun ola bilmez");
+        //        }
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("Virtualin Balansi Main balansdan cox ol abilmez(");
+        //    }
+
+        //}
+
+        public static void AddList(VirtualCard card)
         {
             if (cardlist.Count <= 5)
             {
@@ -57,7 +86,7 @@ namespace Bank
             }
         }
 
-        public void RemoveList()
+        public static void RemoveList()
         {
             if (cardlist.Count==0)
             {
@@ -79,7 +108,7 @@ namespace Bank
             }
             
         }
-        public void ShowList()
+        public static void ShowList()
         {
             if (cardlist.Count == 0)
             {
