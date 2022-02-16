@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\bin\Debug\FindSameNumber.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\bin\Debug\FindSameNumber.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\bin\Debug\FindSameNumber.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\obj\Debug\FindSameNumber.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\obj\Debug\FindSameNumber.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\obj\Debug\FindSameNumber.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\obj\Debug\FindSameNumber.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\GetToWorkReady\FindSameNumber\FindSameNumber\obj\Debug\FindSameNumber.pdb
