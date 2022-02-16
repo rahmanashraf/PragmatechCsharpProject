@@ -32,6 +32,7 @@
 - [UserName-PasswordValidation](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson6/AccountClass)
 - [InheritanceAccount](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson11/OOP_Account)
 - [AddStudentToGroup](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson10/TaskMohtesem)
+- [TYPE OF ALGORITHMS](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/GetToWorkReady/Type_of_Algo)
 
 
 ## Best Practices<a name = "formapp"></a>
