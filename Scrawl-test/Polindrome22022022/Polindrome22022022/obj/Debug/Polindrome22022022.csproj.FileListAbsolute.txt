@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\bin\Debug\Polindrome22022022.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\bin\Debug\Polindrome22022022.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\bin\Debug\Polindrome22022022.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\obj\Debug\Polindrome22022022.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\obj\Debug\Polindrome22022022.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\obj\Debug\Polindrome22022022.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\obj\Debug\Polindrome22022022.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Polindrome22022022\Polindrome22022022\obj\Debug\Polindrome22022022.pdb
