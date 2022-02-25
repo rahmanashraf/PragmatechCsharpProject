@@ -24,7 +24,7 @@ namespace Polindrome22022022
             for (int o = 1; o < 100; o++)
             {
 
-                string items = DateTime.Today.AddYears(o).ToString("dd''MM''yyyy");
+                string items = DateTime.Today.AddDays(o).ToString("dd''MM''yyyy");
                 if (Polindrome(items))
                 {
                     Console.WriteLine(items);

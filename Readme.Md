@@ -1,6 +1,6 @@
 ![banner](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/banner.png)
 <p align="center">
- <img src="https://i.imgur.com/rSyq3MW.png" alt="The Documentation Compendium"></a>
+ <img src="https://i.imgur.com/rSyq3MW.png" alt="The Documentation"></a>
 </p>
 
 <h3 align="center">The Documentation Compendium</h3>
