@@ -9,7 +9,7 @@ namespace StringMethods
         {
             int a = 5;
             int b = 5;  
-            Console.WriteLine(topla(ref a, ref b));
+            Console.WriteLine(Topla(ref a, ref b));
             Console.WriteLine(Chix(ref a, ref b));
             Console.WriteLine(Vur(ref a, ref b));
             Console.WriteLine(bol(ref a, ref b));
@@ -17,7 +17,7 @@ namespace StringMethods
 
 
         }
-        public static int topla(ref int input, ref int input2) {
+        public static int Topla(ref int input, ref int input2) {
             int sum=input+input2;
             return sum;   
             
