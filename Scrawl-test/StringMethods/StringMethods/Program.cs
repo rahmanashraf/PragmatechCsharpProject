@@ -10,7 +10,7 @@ namespace StringMethods
             int a = 5;
             int b = 5;  
             Console.WriteLine(topla(ref a, ref b));
-            Console.WriteLine(cix(ref a, ref b));
+            Console.WriteLine(Chix(ref a, ref b));
             Console.WriteLine(vur(ref a, ref b));
             Console.WriteLine(bol(ref a, ref b));
 
@@ -22,7 +22,7 @@ namespace StringMethods
             return sum;   
             
         }
-        public static int cix(ref int input, ref int input2)
+        public static int Chix(ref int input, ref int input2)
         {
             int ferq = input - input2;
             return ferq;
