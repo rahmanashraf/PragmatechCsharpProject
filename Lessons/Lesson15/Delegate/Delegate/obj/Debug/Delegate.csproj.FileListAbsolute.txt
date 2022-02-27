@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\bin\Debug\Delegate.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\bin\Debug\Delegate.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\bin\Debug\Delegate.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\obj\Debug\Delegate.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\obj\Debug\Delegate.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\obj\Debug\Delegate.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Lessons\Lesson15\Delegate\Delegate\obj\Debug\Delegate.pdb

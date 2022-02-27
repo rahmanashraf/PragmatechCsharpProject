@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "edab6486-2a89-4632-9993-dba9b549ae22": {
+      "ProjectGuid": "edab6486-2a89-4632-9993-dba9b549ae22",
+      "DisplayName": "Cheese",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\bin\Debug\Cheese.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\bin\Debug\Cheese.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\bin\Debug\Cheese.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.Properties.Resources.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\Cheese\Cheese\obj\Debug\Cheese.Shahmat.resources
