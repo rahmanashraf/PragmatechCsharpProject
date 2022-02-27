@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\bin\Debug\HebibTask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\bin\Debug\HebibTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\bin\Debug\HebibTask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\obj\Debug\HebibTask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\obj\Debug\HebibTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\obj\Debug\HebibTask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\obj\Debug\HebibTask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\HebibTask\HebibTask\obj\Debug\HebibTask.pdb
