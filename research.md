@@ -6,3 +6,5 @@
 .qebul elediyin weyin metodlari iwdiyir..ToUpper ve sair....bow buraxmag olar...dynamic soz;
 ---------------------------------------------
 1.3.-Object error varsa compiler timeda verir..casting shertdir....bow buraxmag olar...object soz;
+---------------------------------------------
+
