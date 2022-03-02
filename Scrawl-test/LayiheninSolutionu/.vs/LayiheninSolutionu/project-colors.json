@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f09403a8-d449-40d9-8871-9ff4fde41773": {
+      "ProjectGuid": "f09403a8-d449-40d9-8871-9ff4fde41773",
+      "DisplayName": "BirinciNamespace",
+      "ColorIndex": 0
+    },
+    "6d777bb8-b4ff-4bef-a510-d7e3d247ca69": {
+      "ProjectGuid": "6d777bb8-b4ff-4bef-a510-d7e3d247ca69",
+      "DisplayName": "SonrakiNamespace",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

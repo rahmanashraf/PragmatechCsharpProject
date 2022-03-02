@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "78294259-7474-480b-8427-9bc10e1678c6": {
+      "ProjectGuid": "78294259-7474-480b-8427-9bc10e1678c6",
+      "DisplayName": "NameSpace1_Test",
+      "ColorIndex": 0
+    },
+    "8d26687b-07ef-4a2a-94d3-c6b3c54ee1f7": {
+      "ProjectGuid": "8d26687b-07ef-4a2a-94d3-c6b3c54ee1f7",
+      "DisplayName": "NameSpace2_Test",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

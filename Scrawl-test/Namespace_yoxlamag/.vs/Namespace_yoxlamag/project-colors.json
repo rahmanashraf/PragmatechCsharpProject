@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3994d414-b677-4878-af51-a6717b390b1e": {
+      "ProjectGuid": "3994d414-b677-4878-af51-a6717b390b1e",
+      "DisplayName": "Namespace_yoxlamag",
+      "ColorIndex": 0
+    },
+    "b1cceddc-cf6b-4d34-a594-88ee5000e044": {
+      "ProjectGuid": "b1cceddc-cf6b-4d34-a594-88ee5000e044",
+      "DisplayName": "Human",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
