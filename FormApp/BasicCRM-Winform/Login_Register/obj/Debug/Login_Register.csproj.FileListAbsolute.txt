@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\bin\Debug\Login_Register.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\bin\Debug\Login_Register.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\bin\Debug\Login_Register.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.LoginPage.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.Properties.Resources.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.Register.resources
