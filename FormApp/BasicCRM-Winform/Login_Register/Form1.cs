@@ -61,5 +61,13 @@ namespace Login_Register
                 
             }
         }
+
+        private void RegisterButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Register registr = new Register();
+            registr.Show();
+
+        }
     }
 }

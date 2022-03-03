@@ -16,21 +16,5 @@ namespace Login_Register
         {
             InitializeComponent();
         }
-
-        private void Register_EmailBox_Enter(object sender, EventArgs e)
-        {
-            if (Register_EmailBox.Text=="E-mail")
-            {
-                Register_EmailBox.Text = "";
-            }
-        }
-
-        private void Register_EmailBox_Leave(object sender, EventArgs e)
-        {
-            if (Register_EmailBox.Text=="")
-            {
-                Register_EmailBox.Text = "E-mail";
-            }
-        }
     }
 }
