@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cf023556-c94e-4cee-a575-1a076097b12a": {
+      "ProjectGuid": "cf023556-c94e-4cee-a575-1a076097b12a",
+      "DisplayName": "Login_Register",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -89,5 +89,26 @@ namespace Login_Register.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_x_mark_check_mark_clip_art_wrong_sign_5b12e9983fd272_4809619715279661042614 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-x-mark-check-mark-clip-art-wrong-sign-5b12e9983fd272.48096197152796610426" +
+                        "14", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_symbolize_x_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-symbolize-x-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

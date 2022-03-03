@@ -98,5 +98,11 @@
   <ItemGroup>
     <None Include="Resources\aa8d58b4-9389-4288-845a-7423129915b3.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-x-mark-check-mark-clip-art-wrong-sign-5b12e9983fd272.4809619715279661042614.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-symbolize-x-thumbnail.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
