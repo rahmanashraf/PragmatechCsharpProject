@@ -1,5 +1,6 @@
 ﻿using Login_Register.Client;
 using Login_Register.Database;
+using Login_Register;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,18 +13,16 @@ using System.Windows.Forms;
 
 namespace Login_Register
 {
+
     public partial class Register : Form
     {
-        public string RegisterName;
-        public string RegisterSurname;
-        public string RegisterEmail;
+        Lists list = new Lists();
 
+        
         public Register()
         {
             InitializeComponent();
-            RegisterName = Registr_Name.Text;
-            RegisterSurname = Registr_Surname.Text;
-            RegisterEmail = Registr_Email.Text;
+
         }
 
         private void Registr_Exit_Click(object sender, EventArgs e)
@@ -36,15 +35,16 @@ namespace Login_Register
             if (Registr_Name.Text == "Name")
             {
                 Registr_Name.Text = "";
+
             }
         }
 
         private void Registr_Name_Leave(object sender, EventArgs e)
         {
-            if (Registr_Name.Text=="")
+            if (Registr_Name.Text == "")
             {
                 Registr_Name.Text = "Name";
-                Registr_Name.ForeColor=Color.DarkRed;
+                Registr_Name.ForeColor = Color.DarkRed;
             }
         }
         private void Registr_Surname_Enter(object sender, EventArgs e)
@@ -84,9 +84,30 @@ namespace Login_Register
         private void Registr_Signup_Click(object sender, EventArgs e)
         {
             Users userler = new Users();
-            //Lists lists = new Lists();
+            userler.Name = Registr_Name.Text;
+            userler.Surname = Registr_Surname.Text;
+            userler.Email = Registr_Email.Text;
+            Random random = new Random();
+            userler.Id = random.Next(1, 1000);
+            Random Rnd = new Random();
+            StringBuilder StrBuild = new StringBuilder();
+            for (int i = 0; i < 8; i++)
+            {
+                int ASCII = Rnd.Next(32, 127);
+                char Karakter = Convert.ToChar(ASCII);
+                StrBuild.Append(Karakter);
+            }
+            userler.Password = StrBuild.ToString();
+            userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
-                    
+            MessageBox.Show(Lists.Userlist.Count.ToString());         
+        }
+
+        private void Registr_Clear_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginPage lpg = new LoginPage();
+            lpg.Show();
         }
     }
 }

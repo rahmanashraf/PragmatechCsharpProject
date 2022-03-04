@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Login_Register.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,26 +16,28 @@ namespace Login_Register.Client
         public string Email { get; set; }
         public DateTime date { get; set; }
 
-        public Users()
-        {
-            Register registr = new Register();
-            Random random = new Random();
-            this.Id=random.Next(1,1000);
-            this.Name = registr.RegisterName;
-            this.Surname = registr.RegisterSurname;
-            this.Email = registr.RegisterEmail;
+        //public Users()
+        //{
+        //    Register registr = new Register();
+        //    Random random = new Random();
+        //    this.Id=random.Next(1,1000);
+        //    this.Name = registr.RegisterName;
+        //    this.Surname = registr.RegisterSurname;
+        //    this.Email = registr.RegisterEmail;
 
-            Random Rnd = new Random();
-            StringBuilder StrBuild = new StringBuilder();
-            for (int i = 0; i < 8; i++)
-            {
-                int ASCII = Rnd.Next(32, 127);
-                char Karakter = Convert.ToChar(ASCII);
-                StrBuild.Append(Karakter);
-            }
-            this.Password = StrBuild.ToString();
-            this.date = DateTime.Now;
-        }
-        
+        //    Random Rnd = new Random();
+        //    StringBuilder StrBuild = new StringBuilder();
+        //    for (int i = 0; i < 8; i++)
+        //    {
+        //        int ASCII = Rnd.Next(32, 127);
+        //        char Karakter = Convert.ToChar(ASCII);
+        //        StrBuild.Append(Karakter);
+        //    }
+        //    this.Password = StrBuild.ToString();
+        //    this.date = DateTime.Now;
+
+           
+        //}
+
     }
 }

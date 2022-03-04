@@ -49,16 +49,17 @@
             // 
             // Registr_Clear
             // 
-            this.Registr_Clear.Location = new System.Drawing.Point(375, 245);
+            this.Registr_Clear.Location = new System.Drawing.Point(283, 246);
             this.Registr_Clear.Name = "Registr_Clear";
             this.Registr_Clear.Size = new System.Drawing.Size(87, 39);
             this.Registr_Clear.TabIndex = 1;
-            this.Registr_Clear.Text = "Clear";
+            this.Registr_Clear.Text = "Back";
             this.Registr_Clear.UseVisualStyleBackColor = true;
+            this.Registr_Clear.Click += new System.EventHandler(this.Registr_Clear_Click);
             // 
             // Registr_Signup
             // 
-            this.Registr_Signup.Location = new System.Drawing.Point(283, 245);
+            this.Registr_Signup.Location = new System.Drawing.Point(376, 246);
             this.Registr_Signup.Name = "Registr_Signup";
             this.Registr_Signup.Size = new System.Drawing.Size(86, 39);
             this.Registr_Signup.TabIndex = 2;
