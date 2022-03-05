@@ -11,3 +11,4 @@ C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.csproj.AssemblyReference.cache
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.Register.resources
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.ProfileWindow.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.EnteringUser.resources

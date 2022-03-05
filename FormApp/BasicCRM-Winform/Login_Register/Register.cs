@@ -93,14 +93,19 @@ namespace Login_Register
             StringBuilder StrBuild = new StringBuilder();
             for (int i = 0; i < 8; i++)
             {
-                int ASCII = Rnd.Next(32, 127);
+                int ASCII = Rnd.Next(33, 36);  //127
                 char Karakter = Convert.ToChar(ASCII);
                 StrBuild.Append(Karakter);
             }
             userler.Password = StrBuild.ToString();
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
-            MessageBox.Show(userler.Password);         
+            Lists.Userlist.Add(userler);
+            MessageBox.Show(userler.Password);
+            //Label label1 = new Label();
+            //label1.Width = 50;
+            //label1.Text = userler.Password;
+            //this.Controls.Add(label1);
         }
 
         private void Registr_Clear_Click(object sender, EventArgs e)

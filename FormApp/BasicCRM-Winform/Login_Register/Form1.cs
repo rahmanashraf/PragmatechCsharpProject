@@ -14,6 +14,7 @@ namespace Login_Register
 {
     public partial class LoginPage : Form
     {
+        
         public LoginPage()
         {
             InitializeComponent();
@@ -74,13 +75,15 @@ namespace Login_Register
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            
             foreach (Users item in Lists.Userlist)
             {
-                if (UserBox.Text == item.Email && PasswordBox.Text==item.Password)
+                if (UserBox.Text == item.Email && PasswordBox.Text=="5")
                 {
                     this.Hide();
-                    ProfileWindow profil = new ProfileWindow();
-                    profil.Show();
+                    EnteringUser enter = new EnteringUser();
+                    enter.Show();
+                    
                 }
                 else if (UserBox.Text==Admin.Email && PasswordBox.Text==Admin.Password)
                 {
@@ -96,5 +99,8 @@ namespace Login_Register
 
            
         }
+
+      
+        
     }
 }
