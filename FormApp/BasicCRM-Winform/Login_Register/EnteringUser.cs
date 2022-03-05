@@ -28,20 +28,18 @@ namespace Login_Register
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (Users items in Lists.Musterilist)
+            for (int i = 0; i < Lists.Musterilist.Count; i++)
             {
-
-                foreach (Users item in Lists.Userlist)
+                for (int j = 0; j < Lists.Userlist.Count; j++)
                 {
-
-                    if (item.Email == items.Email)
+                    if (Lists.Userlist[j]==Lists.Musterilist[i])
                     {
-                        MessageBox.Show(item.Name);
-
+                        MessageBox.Show(Lists.Userlist[i].Name);
                     }
                 }
-
             }
+
+            
         }
     }
 }
