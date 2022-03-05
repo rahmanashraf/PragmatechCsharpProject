@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Login_Register.Client;
+using Login_Register.Database;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -72,9 +74,27 @@ namespace Login_Register
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ProfileWindow profil = new ProfileWindow();
-            profil.Show();
+            foreach (Users item in Lists.Userlist)
+            {
+                if (UserBox.Text == item.Email && PasswordBox.Text==item.Password)
+                {
+                    this.Hide();
+                    ProfileWindow profil = new ProfileWindow();
+                    profil.Show();
+                }
+                else if (UserBox.Text==Admin.Email && PasswordBox.Text==Admin.Password)
+                {
+                    this.Hide();
+                    ProfileWindow profil = new ProfileWindow();
+                    profil.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Duzgun daxil etmemisiniz");
+                }
+            }
+
+           
         }
     }
 }

@@ -22,8 +22,32 @@ namespace Login_Register
                 for (int j = 0; j < Lists.Userlist.Count; j++)
                 {
                     Label label = new Label();
-                    label.Text = Lists.Userlist[j].Name;    
-                    Tablom.Controls.Add(label, i + 1, j);
+                    if (i==-1)
+                    {
+                        label.Text = Lists.Userlist[j].Id.ToString();
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }
+                    else if (i==0)
+                    {
+                        label.Text = Lists.Userlist[j].Name;
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }else if (i==1)
+                    {
+                        label.Text = Lists.Userlist[j].Surname;
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }else if (i==2)
+                    {
+                        label.Text = Lists.Userlist[j].Email;
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }else if (i==3)
+                    {
+                        label.Text = Lists.Userlist[j].Password;
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }else if (i==4)
+                    {
+                        label.Text = Lists.Userlist[j].date.ToString();
+                        Tablom.Controls.Add(label, i + 1, j);
+                    }
                    
                 }
                               

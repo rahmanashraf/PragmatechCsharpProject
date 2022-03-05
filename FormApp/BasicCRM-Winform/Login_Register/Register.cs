@@ -100,7 +100,7 @@ namespace Login_Register
             userler.Password = StrBuild.ToString();
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
-            MessageBox.Show(Lists.Userlist.Count.ToString());         
+            MessageBox.Show(userler.Password);         
         }
 
         private void Registr_Clear_Click(object sender, EventArgs e)
