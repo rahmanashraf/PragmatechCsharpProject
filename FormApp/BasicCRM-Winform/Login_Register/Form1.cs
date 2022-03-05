@@ -69,5 +69,12 @@ namespace Login_Register
             registr.Show();
 
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ProfileWindow profil = new ProfileWindow();
+            profil.Show();
+        }
     }
 }
