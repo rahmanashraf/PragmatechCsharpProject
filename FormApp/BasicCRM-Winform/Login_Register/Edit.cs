@@ -22,6 +22,10 @@ namespace Login_Register
         private void Edit_Exit_Click(object sender, EventArgs e)
         {
             this.Hide();
+            EnteringUser enter = new EnteringUser();
+            LoginPage login=new LoginPage();
+            enter.Hide();
+            login.Show();
 
         }
 
@@ -29,10 +33,12 @@ namespace Login_Register
         {
             foreach (Users item in Lists.Userlist)
             {
-                if (item.Name=="Serxan")
+                if (EnteringUser.EditingName==item.Email)
                 {
-                    item.Name = Edit_Mail.Text;
+                    item.Email = Edit_Mail.Text;
+                    item.Password = Edit_Pass.Text;
                 }
+                              
             }
         }
     }

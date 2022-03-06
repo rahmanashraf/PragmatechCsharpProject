@@ -91,15 +91,18 @@ namespace Login_Register
             userler.Id = random.Next(1, 1000);
             Random Rnd = new Random();
             StringBuilder StrBuild = new StringBuilder();
-            for (int i = 0; i < 8; i++)
+            int forum = Rnd.Next(8, 16);
+            for (int i = 0; i < forum; i++)
             {
-                int ASCII = Rnd.Next(33, 36);  //127
+                int ASCII = Rnd.Next(33, 127);  //127
                 char Karakter = Convert.ToChar(ASCII);
                 StrBuild.Append(Karakter);
             }
             userler.Password = StrBuild.ToString();
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
+            MessageBox.Show(userler.Password);
+
             
             
             //MessageBox.Show(userler.Password);

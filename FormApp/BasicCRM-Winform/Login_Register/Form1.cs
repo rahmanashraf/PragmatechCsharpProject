@@ -78,7 +78,7 @@ namespace Login_Register
        
             foreach (Users item in Lists.Userlist)
             {
-                if (UserBox.Text == item.Email && PasswordBox.Text=="5")
+                if (UserBox.Text == item.Email && PasswordBox.Text==item.Password)
                 {
                     this.Hide();
                     EnteringUser enter = new EnteringUser();
