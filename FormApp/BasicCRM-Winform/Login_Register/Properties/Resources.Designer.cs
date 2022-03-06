@@ -63,6 +63,16 @@ namespace Login_Register.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _362_3620680_delete_icon_png_download_ {
+            get {
+                object obj = ResourceManager.GetObject("362-3620680_delete-icon-png-download-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8 {
             get {
                 object obj = ResourceManager.GetObject("8", resourceCulture);
