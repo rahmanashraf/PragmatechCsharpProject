@@ -75,7 +75,7 @@ namespace Login_Register
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            
+       
             foreach (Users item in Lists.Userlist)
             {
                 if (UserBox.Text == item.Email && PasswordBox.Text=="5")
@@ -83,6 +83,7 @@ namespace Login_Register
                     this.Hide();
                     EnteringUser enter = new EnteringUser();
                     enter.Show();
+                    Lists.Musterilist.Add(UserBox.Text);
                     
                 }
                 else if (UserBox.Text==Admin.Email && PasswordBox.Text==Admin.Password)

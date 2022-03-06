@@ -11,7 +11,7 @@ namespace Login_Register.Database
     internal class Lists
     {
         public static List<Users> Userlist = new List<Users>();
-        public static List <Users> Musterilist= new List<Users> ();
+        public static List <string> Musterilist= new List<string> ();
 
       
     }
