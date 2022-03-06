@@ -22,15 +22,17 @@ namespace Login_Register
         private void Edit_Exit_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EnteringUser entered = new EnteringUser();
-            entered.Show();
+
         }
 
         private void Edit_Save_Click(object sender, EventArgs e)
         {
             foreach (Users item in Lists.Userlist)
             {
-                
+                if (item.Name=="Serxan")
+                {
+                    item.Name = Edit_Mail.Text;
+                }
             }
         }
     }

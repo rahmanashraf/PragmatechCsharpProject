@@ -101,6 +101,7 @@ namespace Login_Register
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
             
+            
             //MessageBox.Show(userler.Password);
             //Label label1 = new Label();
             //label1.Width = 50;

@@ -28,77 +28,56 @@ namespace Login_Register
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string name = "";
-            string id = "";
-            string surname = "";
-            string date = "";
-            string pass = "";
-            string email = "";
-            for (int i = 0; i < Lists.Musterilist.Count; i++)
-            {           
+           
             for (int j = 0; j < Lists.Userlist.Count; j++)
             {
-                if (Lists.Userlist[j].Email == Lists.Musterilist[i])
+                if (Lists.Userlist[j].Email == Lists.Musterilist[0])
                 {
-                        name += Lists.Userlist[j].Name;
-                        id+=Lists.Userlist[j].Id;
-                        surname+=Lists.Userlist[j].Surname;
-                        date += Lists.Userlist[j].date;
-                        pass += Lists.Userlist[j].Password;
-                        email += Lists.Userlist[j].Email;
-                }
+                    for (int a = -1; a < 5; a++)
+                    {
 
-            }
-                for (int a = -1; a < 5; a++)
-                {
-                    
                         Label label = new Label();
                         if (a == -1)
                         {
-                            label.Text = id;
+                            label.Text = Lists.Userlist[j].Id.ToString();
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
                         else if (a == 0)
                         {
-                            label.Text = name;
+                            label.Text = Lists.Userlist[j].Name;
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
-                        else if (a== 1)
+                        else if (a == 1)
                         {
-                            label.Text = surname;
+                            label.Text = Lists.Userlist[j].Surname;
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
                         else if (a == 2)
                         {
-                            label.Text = email;
+                            label.Text = Lists.Userlist[j].Email;
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
-                        else if (a== 3)
+                        else if (a == 3)
                         {
-                            label.Text = pass;
+                            label.Text = Lists.Userlist[j].Password;
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
                         else if (a == 4)
                         {
-                            label.Text = date;
+                            label.Text = Lists.Userlist[j].date.ToString();
                             Tablom.Controls.Add(label, a + 1, 0);
                         }
 
-                    
-
-
+                    }
                 }
-                name = "";
-                id = "";
-                surname = "";
-                date = "";
-                pass = "";
-                email = "";
+
+            }
+
                 Lists.Musterilist.Clear();
         }
 
             
-        }
+        
 
         private void Edit_Button_Click(object sender, EventArgs e)
         {
