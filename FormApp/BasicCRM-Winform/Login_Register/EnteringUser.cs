@@ -35,9 +35,7 @@ namespace Login_Register
             string pass = "";
             string email = "";
             for (int i = 0; i < Lists.Musterilist.Count; i++)
-            {
-
-            
+            {           
             for (int j = 0; j < Lists.Userlist.Count; j++)
             {
                 if (Lists.Userlist[j].Email == Lists.Musterilist[i])
@@ -100,6 +98,12 @@ namespace Login_Register
         }
 
             
+        }
+
+        private void Edit_Button_Click(object sender, EventArgs e)
+        {
+            Edit edit = new Edit();
+            edit.Show();
         }
     }
 }
