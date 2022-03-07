@@ -35,7 +35,7 @@ namespace Login_Register
             if (Registr_Name.Text == "Name")
             {
                 Registr_Name.Text = "";
-
+                Registr_Name.ForeColor = Color.Black;
             }
         }
 
@@ -44,42 +44,12 @@ namespace Login_Register
             if (Registr_Name.Text == "")
             {
                 Registr_Name.Text = "Name";
-                Registr_Name.ForeColor = Color.DarkRed;
-            }
-        }
-        private void Registr_Surname_Enter(object sender, EventArgs e)
-        {
-            if (Registr_Surname.Text == "Surname")
-            {
-                Registr_Surname.Text = "";
+                Registr_Name.ForeColor = Color.Silver;
             }
         }
 
-        private void Registr_Surname_Leave(object sender, EventArgs e)
-        {
-            if (Registr_Surname.Text == "")
-            {
-                Registr_Surname.Text = "Surname";
-                Registr_Surname.ForeColor = Color.Silver;
-            }
-        }
 
-        private void Registr_Email_Enter(object sender, EventArgs e)
-        {
-            if (Registr_Email.Text == "E-mail")
-            {
-                Registr_Email.Text = "";
-            }
-        }
-
-        private void Registr_Email_Leave(object sender, EventArgs e)
-        {
-            if (Registr_Email.Text == "")
-            {
-                Registr_Email.Text = "E-mail";
-                Registr_Email.ForeColor = Color.Silver;
-            }
-        }
+        
 
         private void Registr_Signup_Click(object sender, EventArgs e)
         {
@@ -101,7 +71,10 @@ namespace Login_Register
             userler.Password = StrBuild.ToString();
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
-            
+
+            MessageBox.Show(userler.Password);
+            Passwordunyazisi.Text = "";
+            Passwordunyazisi.Text = userler.Password;
 
             
          
@@ -112,6 +85,53 @@ namespace Login_Register
             this.Hide();
             LoginPage lpg = new LoginPage();
             lpg.Show();
+        }
+
+        private void Registr_Surname_Enter(object sender, EventArgs e)
+        {
+            if (Registr_Surname.Text == "Surname")
+            {
+                Registr_Surname.Text = "";
+                Registr_Name.ForeColor = Color.Black;
+            }           
+        }
+
+        private void Registr_Surname_Leave(object sender, EventArgs e)
+        {
+            if (Registr_Surname.Text == "")
+            {
+                Registr_Surname.Text = "Surname";
+                Registr_Surname.ForeColor = Color.Silver;
+            }
+
+
+           
+        }
+
+        private void Registr_Email_Enter(object sender, EventArgs e)
+        {
+            if (Registr_Email.Text == "E-mail")
+            {
+                Registr_Email.Text = "";
+                Registr_Name.ForeColor = Color.Black;
+            }
+            else
+            {
+                Registr_Name.ForeColor = Color.Black;
+            }
+
+
+
+        }
+
+        private void Registr_Email_Leave(object sender, EventArgs e)
+        {
+
+            if (Registr_Email.Text == "")
+            {
+                Registr_Email.Text = "E-mail";
+                Registr_Email.ForeColor = Color.Black;
+            }
         }
     }
 }

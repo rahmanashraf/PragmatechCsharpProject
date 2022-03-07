@@ -39,10 +39,9 @@
             // UserBox
             // 
             this.UserBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
-            this.UserBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.UserBox.Location = new System.Drawing.Point(505, 233);
             this.UserBox.Name = "UserBox";
-            this.UserBox.Size = new System.Drawing.Size(161, 19);
+            this.UserBox.Size = new System.Drawing.Size(161, 26);
             this.UserBox.TabIndex = 0;
             this.UserBox.Text = "Username";
             this.UserBox.Enter += new System.EventHandler(this.UserBox_Enter);
@@ -51,11 +50,10 @@
             // PasswordBox
             // 
             this.PasswordBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
-            this.PasswordBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.PasswordBox.ForeColor = System.Drawing.SystemColors.MenuText;
             this.PasswordBox.Location = new System.Drawing.Point(505, 279);
             this.PasswordBox.Name = "PasswordBox";
-            this.PasswordBox.Size = new System.Drawing.Size(161, 19);
+            this.PasswordBox.Size = new System.Drawing.Size(161, 26);
             this.PasswordBox.TabIndex = 1;
             this.PasswordBox.Text = "Password";
             this.PasswordBox.UseSystemPasswordChar = true;
@@ -111,6 +109,7 @@
             this.Controls.Add(this.UserBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginPage";
             this.ResumeLayout(false);
             this.PerformLayout();

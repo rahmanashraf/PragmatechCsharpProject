@@ -39,7 +39,7 @@
             // 
             this.button1.BackgroundImage = global::Login_Register.Properties.Resources.png_clipart_symbolize_x_thumbnail;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(764, 2);
+            this.button1.Location = new System.Drawing.Point(1142, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(34, 29);
             this.button1.TabIndex = 1;
@@ -48,52 +48,56 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(492, 122);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
+            this.button2.Location = new System.Drawing.Point(586, 124);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 46);
+            this.button2.Size = new System.Drawing.Size(168, 45);
             this.button2.TabIndex = 2;
             this.button2.Text = "Melumatlari Goster";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Tablom
             // 
+            this.Tablom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
             this.Tablom.ColumnCount = 6;
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.20513F));
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.79487F));
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 165F));
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 116F));
-            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.75921F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 86.24078F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 259F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 247F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 192F));
+            this.Tablom.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
             this.Tablom.Location = new System.Drawing.Point(0, 71);
             this.Tablom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Tablom.Name = "Tablom";
             this.Tablom.RowCount = 1;
             this.Tablom.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28F));
-            this.Tablom.Size = new System.Drawing.Size(798, 43);
+            this.Tablom.Size = new System.Drawing.Size(1183, 43);
             this.Tablom.TabIndex = 3;
             // 
             // Edit_Button
             // 
+            this.Edit_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
             this.Edit_Button.BackgroundImage = global::Login_Register.Properties.Resources.edit;
             this.Edit_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Edit_Button.Location = new System.Drawing.Point(684, 123);
+            this.Edit_Button.Location = new System.Drawing.Point(1039, 124);
             this.Edit_Button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Edit_Button.Name = "Edit_Button";
             this.Edit_Button.Size = new System.Drawing.Size(45, 45);
             this.Edit_Button.TabIndex = 4;
-            this.Edit_Button.UseVisualStyleBackColor = true;
+            this.Edit_Button.UseVisualStyleBackColor = false;
             this.Edit_Button.Click += new System.EventHandler(this.Edit_Button_Click);
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(125)))), ((int)(((byte)(1)))));
             this.button3.BackgroundImage = global::Login_Register.Properties.Resources._362_3620680_delete_icon_png_download_;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(736, 122);
+            this.button3.Location = new System.Drawing.Point(1102, 124);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(46, 45);
             this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // EnteringUser
@@ -102,7 +106,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Login_Register.Properties.Resources.aa8d58b4_9389_4288_845a_7423129915b3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 449);
+            this.ClientSize = new System.Drawing.Size(1188, 584);
             this.ControlBox = false;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.Edit_Button);
@@ -111,6 +115,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EnteringUser";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EnteringUser";
             this.ResumeLayout(false);
 

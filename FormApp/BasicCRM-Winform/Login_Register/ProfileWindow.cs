@@ -65,11 +65,23 @@ namespace Login_Register
                 {
                     Lists.Userlist.RemoveAt(i);
                     
-
                 }
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginPage lpg = new LoginPage();
+            lpg.Show();
+        }
 
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text=="ID")
+            {
+                textBox1.Text = "";
+            }
+        }
     }
 }
