@@ -15,7 +15,7 @@
 <p align = "center">💡 Various templates & tips on writing high-quality documentation that people want to read.</p>
 
 
-## Table of Contents
+# Table of Contents
 
 - [ConsoleApps](#console)
 - [FormApplication](#formapp)
