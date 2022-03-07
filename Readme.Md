@@ -36,6 +36,7 @@
 
 
 
+
 ## Best Practices<a name = "formapp"></a>
 
 - [ExchangerApp](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Lessons/Lesson12/ExchangerApp)
@@ -44,6 +45,11 @@
 - [Bank Card System](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/GetToWorkReady/SpecialCsharpTasks/TaskOne/Bank)
 - [Chess board](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/Cheese)
 - [Register_and_Login_App](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/BasicCRM-Winform)
+
+
+## Best Practices<a name = "templates"></a>
+
+- [Registration_App_Download.rar](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/FormApp/login.rar)
 
 
 ## P.S. <a name = "WriteIssue"></a>
