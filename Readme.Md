@@ -47,10 +47,15 @@
 - [Register_and_Login_App](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/BasicCRM-Winform)
 
 
+
 ## Templates<a name = "templates"></a>
 
 - [Registration_App_Download.rar](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/FormApp/login.rar)
 
+## Blogs<a name = "art"></a>
+
+- [Getter,Setter](https://medium.com/@RahmanAshraf/c-csharp-get-set-haqq%C4%B1nda-f7d52cc32bac)
+- [Who is an Algorithm](https://medium.com/@RahmanAshraf/alqoritm-kimdir-3cc069704b34)
 
 ## P.S. <a name = "WriteIssue"></a>
 
