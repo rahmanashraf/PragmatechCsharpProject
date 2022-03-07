@@ -13,3 +13,7 @@ C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.ProfileWindow.resources
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.EnteringUser.resources
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.Edit.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\bin\Debug\Login_Register.exe.manifest
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\bin\Debug\Login_Register.application
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.exe.manifest
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\FormApp\BasicCRM-Winform\Login_Register\obj\Debug\Login_Register.application
