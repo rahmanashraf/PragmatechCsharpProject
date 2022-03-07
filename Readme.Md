@@ -47,7 +47,7 @@
 - [Register_and_Login_App](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/BasicCRM-Winform)
 
 
-## Best Practices<a name = "templates"></a>
+## Templates<a name = "templates"></a>
 
 - [Registration_App_Download.rar](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/FormApp/login.rar)
 
