@@ -101,15 +101,10 @@ namespace Login_Register
             userler.Password = StrBuild.ToString();
             userler.date = DateTime.Now;           
             Lists.Userlist.Add(userler);
-            MessageBox.Show(userler.Password);
+            
 
             
-            
-            //MessageBox.Show(userler.Password);
-            //Label label1 = new Label();
-            //label1.Width = 50;
-            //label1.Text = userler.Password;
-            //this.Controls.Add(label1);
+         
         }
 
         private void Registr_Clear_Click(object sender, EventArgs e)

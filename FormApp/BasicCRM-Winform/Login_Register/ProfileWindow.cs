@@ -57,6 +57,19 @@ namespace Login_Register
             
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < Lists.Userlist.Count; i++)
+            {
+                if (textBox1.Text==Lists.Userlist[i].Id.ToString())
+                {
+                    Lists.Userlist.RemoveAt(i);
+                    
+
+                }
+            }
+        }
+
 
     }
 }

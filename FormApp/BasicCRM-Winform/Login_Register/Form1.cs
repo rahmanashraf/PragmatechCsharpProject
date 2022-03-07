@@ -75,7 +75,7 @@ namespace Login_Register
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-       
+            int netice = 0;
             foreach (Users item in Lists.Userlist)
             {
                 if (UserBox.Text == item.Email && PasswordBox.Text==item.Password)
@@ -84,21 +84,24 @@ namespace Login_Register
                     EnteringUser enter = new EnteringUser();
                     enter.Show();
                     Lists.Musterilist.Add(UserBox.Text);
+                    netice++;
                     
                 }
-                else if (UserBox.Text==Admin.Email && PasswordBox.Text==Admin.Password)
-                {
-                    this.Hide();
-                    ProfileWindow profil = new ProfileWindow();
-                    profil.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Duzgun daxil etmemisiniz");
-                }
+                
+            }
+            if (UserBox.Text == Admin.Email && PasswordBox.Text == Admin.Password)
+            {
+                this.Hide();
+                ProfileWindow profil = new ProfileWindow();
+                profil.Show();
+                netice++;
             }
 
-           
+            if (netice==0)
+            {
+                MessageBox.Show("Duzgun daxil etmemisiniz");
+            }
+
         }
 
       

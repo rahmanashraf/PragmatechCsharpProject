@@ -130,5 +130,19 @@ namespace Login_Register
             Edit edit = new Edit();
             edit.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            for (int j = 0; j < Lists.Userlist.Count; j++)
+            {
+                if (Lists.Musterilist.Contains(Lists.Userlist[j].Email))
+                {
+                    Lists.Userlist.RemoveAt(j); 
+                }
+            }
+            this.Hide();
+            LoginPage lpg=new LoginPage();
+            lpg.Show();
+        }
     }
 }
