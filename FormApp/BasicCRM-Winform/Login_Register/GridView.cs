@@ -45,5 +45,24 @@ namespace Login_Register
         {
             DataGetter();
         }
+        int selectedID;
+        private void DeleteButton_Click(object sender, EventArgs e)
+        {
+             
+
+            SqlCommand commandDelete = new SqlCommand("Delete from UserTable where UserID=@pID",SqlVariable.connection);
+            SqlVariable.CheckConnection(SqlVariable.connection);
+
+            commandDelete.Parameters.AddWithValue("pID", selectedID);
+
+            commandDelete.ExecuteNonQuery();
+            DataGetter();   
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            selectedID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["UserID"].Value);
+            lblselect.Text = selectedID.ToString();     
+        }
     }
 }
