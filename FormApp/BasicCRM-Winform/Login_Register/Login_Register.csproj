@@ -101,12 +101,6 @@
     <Compile Include="GridView.Designer.cs">
       <DependentUpon>GridView.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfileWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProfileWindow.Designer.cs">
-      <DependentUpon>ProfileWindow.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.cs">
@@ -127,9 +121,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GridView.resx">
       <DependentUpon>GridView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProfileWindow.resx">
-      <DependentUpon>ProfileWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

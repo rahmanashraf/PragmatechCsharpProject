@@ -92,8 +92,8 @@ namespace Login_Register
             if (UserBox.Text == Admin.Email && PasswordBox.Text == Admin.Password)
             {
                 this.Hide();
-                ProfileWindow profil = new ProfileWindow();
-                profil.Show();
+                GridView grd = new GridView();
+                grd.Show();
                 netice++;
             }
 
@@ -104,12 +104,6 @@ namespace Login_Register
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            GridView grd = new GridView();
-            grd.Show();
-            
-        }
+
     }
 }

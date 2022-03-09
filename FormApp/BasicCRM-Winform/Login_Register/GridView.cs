@@ -45,7 +45,7 @@ namespace Login_Register
         {
             DataGetter();
         }
-        int selectedID;
+        string selectedID;
         private void DeleteButton_Click(object sender, EventArgs e)
         {
              
@@ -53,7 +53,7 @@ namespace Login_Register
             SqlCommand commandDelete = new SqlCommand("Delete from UserTable where UserID=@pID",SqlVariable.connection);
             SqlVariable.CheckConnection(SqlVariable.connection);
 
-            commandDelete.Parameters.AddWithValue("pID", selectedID);
+            commandDelete.Parameters.AddWithValue("pID", Convert.ToInt32(selectedID));
 
             commandDelete.ExecuteNonQuery();
             DataGetter();   
@@ -61,16 +61,10 @@ namespace Login_Register
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-            try
-            {
-                selectedID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["UserID"].Value);
-                lblselect.Text = selectedID.ToString();
-            }
-            catch (Exception)
-            {
 
-               
-            }
+                selectedID = (dataGridView1.CurrentRow.Cells["UserID"].Value).ToString();
+                lblselect.Text = selectedID.ToString();
+
             
         }
     }

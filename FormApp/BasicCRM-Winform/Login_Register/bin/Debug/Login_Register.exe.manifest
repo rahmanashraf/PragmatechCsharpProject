@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Login_Register.exe" size="915920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Login_Register.exe" size="911824">
       <assemblyIdentity name="Login_Register" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>S+8ixNstQOrhhcL6Oq5AgOk6F01tZ/v1VMfwBMUn1FQ=</dsig:DigestValue>
+        <dsig:DigestValue>QZPFBSErlom3AIz0AIZUWih3PQZd0J7tZ8cCxHG9YBY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
