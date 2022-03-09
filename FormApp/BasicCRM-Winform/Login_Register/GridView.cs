@@ -19,23 +19,31 @@ namespace Login_Register
             InitializeComponent();
         }
 
-        private void GridView_Load(object sender, EventArgs e)
+
+        private void button2_Click(object sender, EventArgs e)
         {
-            
-            SqlCommand commandList= new SqlCommand("Select * from UserTable",SqlVariable.connection);
+            DataGetter();
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        public void DataGetter()
+        {
+            SqlCommand commandList = new SqlCommand("Select * from UserTable", SqlVariable.connection);
             SqlVariable.CheckConnection(SqlVariable.connection);
             SqlDataAdapter da = new SqlDataAdapter(commandList);
 
             DataTable dt = new DataTable();
             da.Fill(dt);
             dataGridView1.DataSource = dt;
-            
-
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void GridView_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+            DataGetter();
         }
     }
 }
