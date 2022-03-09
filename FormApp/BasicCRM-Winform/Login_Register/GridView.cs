@@ -61,8 +61,17 @@ namespace Login_Register
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-            selectedID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["UserID"].Value);
-            lblselect.Text = selectedID.ToString();     
+            try
+            {
+                selectedID = Convert.ToInt32(dataGridView1.CurrentRow.Cells["UserID"].Value);
+                lblselect.Text = selectedID.ToString();
+            }
+            catch (Exception)
+            {
+
+               
+            }
+            
         }
     }
 }

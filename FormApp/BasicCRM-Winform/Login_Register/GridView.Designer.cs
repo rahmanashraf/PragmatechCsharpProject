@@ -73,9 +73,8 @@
             this.lblselect.AutoSize = true;
             this.lblselect.Location = new System.Drawing.Point(84, 472);
             this.lblselect.Name = "lblselect";
-            this.lblselect.Size = new System.Drawing.Size(51, 20);
+            this.lblselect.Size = new System.Drawing.Size(0, 20);
             this.lblselect.TabIndex = 5;
-            this.lblselect.Text = "label1";
             // 
             // GridView
             // 
