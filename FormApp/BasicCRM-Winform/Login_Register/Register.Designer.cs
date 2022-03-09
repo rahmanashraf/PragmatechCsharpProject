@@ -110,6 +110,7 @@
             this.Passwordunyazisi.Name = "Passwordunyazisi";
             this.Passwordunyazisi.Size = new System.Drawing.Size(176, 26);
             this.Passwordunyazisi.TabIndex = 6;
+   
             // 
             // Register
             // 
