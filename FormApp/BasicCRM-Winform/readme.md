@@ -1,0 +1,32 @@
+- Iki tip istifadəçimiz var
+        - Müstəri 
+        - İdarəçi
+    - Müştəri üçün tələblər
+        - Qeydiyyatdan keçir
+            - ad
+            - soyad
+            - email
+            - id (random generate olunmalıdır)
+            - tarix (qeydiyyatdan keçdiyi gün-ay-il )
+        - Password aftamatik generate olunur və müştəriyə göstərilir
+            - Minimum 8 xarakter olmalıdır
+            - daxilində bir böyük hərf və bir rəqəm olma şərti var
+        - Müştəri login olur.
+            - email
+            - password
+        - Profil pəncərəsi açılır
+            - Müştəri profildə sadəcə email və passwordunu dəyişə bilər
+            - Müştəri öz hesabını silə bilər
+    - İdarəçi üçün tələblər
+        - Müştəri ilə eyni login ekranından daxil olur
+        - demo@example.com və demo login məlumatlarıdır
+        - Bütün müştəriləri görə bilir
+        - Müştəriləri silə bilir
+        - Müştəri məlumatlarını dəyişdirə bilməz
+        - delegate istifadə edərək müştəri bazası üzərində aşağıdakı sorğuları apara bilir
+
+            - müştəriləri ad,soyad və tarixə görə sıralaya bilir 
+            - ada görə axtarış edə bilir
+            - son ayda geydiyyatdan keçənləri görə bilir
+            - son həftədə geydiyyatdan keçənləri görə bilir
+            - iki tarix arasında qeydiyyatdan keçənləri görə bilir
