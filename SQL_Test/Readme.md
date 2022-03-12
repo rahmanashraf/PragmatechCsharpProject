@@ -1,5 +1,5 @@
 
-## Mövzular
+# Mövzular
 - SQL DDL and DML
     - [SQL Commands Cheat Sheet](https://github.com/enochtangg/quick-SQL-cheatsheet)
 - SQL relational database
