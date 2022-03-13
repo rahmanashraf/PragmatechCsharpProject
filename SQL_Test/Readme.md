@@ -19,3 +19,5 @@
     - Entity Framework introduction
     - LINQ 
     - ADO.NET vs Entity Framework
+
+![](https://github.com/rahmanashraf/PragmatechCsharpProject/blob/main/SQL_Test/image.png)
