@@ -11,7 +11,7 @@ namespace Human
     {
         static void Main(string[] args)
         {
-            Base
+            int[] array = { 1, 2, 3, };
         }
     }
 }
