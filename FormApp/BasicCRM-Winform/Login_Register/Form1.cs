@@ -9,12 +9,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using Login_Register.SqlVariables;
 
 namespace Login_Register
 {
     public partial class LoginPage : Form
     {
-        
+     
         public LoginPage()
         {
             InitializeComponent();
@@ -75,33 +77,40 @@ namespace Login_Register
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            int netice = 0;
-            foreach (Users item in Lists.Userlist)
+
+            string username = UserBox.Text;
+            string passs = PasswordBox.Text;
+            
+            SqlCommand commandselect = new SqlCommand("Select * from UserTable", SqlVariable.connection);
+            SqlVariable.CheckConnection(SqlVariable.connection);
+            SqlDataReader reader = commandselect.ExecuteReader();
+
+            while (reader.Read())
             {
-                if (UserBox.Text == item.Email && PasswordBox.Text==item.Password)
+                if (username == reader["UserEmail"].ToString().TrimEnd() && passs == reader["UserID"].ToString().TrimEnd())
                 {
                     this.Hide();
                     EnteringUser enter = new EnteringUser();
                     enter.Show();
-                    Lists.Musterilist.Add(UserBox.Text);
-                    netice++;
-                    
+
                 }
+                else if (username == Admin.Email && passs == Admin.Password)
+                {
+                    this.Hide();
+                    GridView grd = new GridView();
+                    grd.Show();
+                }
+
+                else
+                {
+                    MessageBox.Show("Duzgun daxil etmemisiniz");
+                }
+            }
                 
-            }
-            if (UserBox.Text == Admin.Email && PasswordBox.Text == Admin.Password)
-            {
-                this.Hide();
-                GridView grd = new GridView();
-                grd.Show();
-                netice++;
-            }
-
-            if (netice==0)
-            {
-                MessageBox.Show("Duzgun daxil etmemisiniz");
-            }
-
+            
+            
+            
+            
         }
 
 
