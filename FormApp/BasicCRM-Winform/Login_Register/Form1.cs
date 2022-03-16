@@ -1,22 +1,22 @@
 ﻿using Login_Register.Client;
 using Login_Register.Database;
+using Login_Register.SqlVariables;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
-using Login_Register.SqlVariables;
 
 namespace Login_Register
 {
     public partial class LoginPage : Form
     {
-     
+        
         public LoginPage()
         {
             InitializeComponent();
@@ -76,41 +76,34 @@ namespace Login_Register
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
-        {
-
-            string username = UserBox.Text;
-            string passs = PasswordBox.Text;
-            
-            SqlCommand commandselect = new SqlCommand("Select * from UserTable", SqlVariable.connection);
+        { 
+            SqlCommand commandList = new SqlCommand("Select * from UserTable where UserEmail=@pmail,UserPassword=@ppassword", SqlVariable.connection);
             SqlVariable.CheckConnection(SqlVariable.connection);
-            SqlDataReader reader = commandselect.ExecuteReader();
-
-            while (reader.Read())
+            commandList.Parameters.AddWithValue("pmail", UserBox.Text);
+            commandList.Parameters.AddWithValue("ppassword", PasswordBox.Text);
+            SqlDataAdapter dta = new SqlDataAdapter(commandList);
+            DataTable dtb = new DataTable();
+            dta.Fill(dtb);
+            if (dtb.Rows.Count>0)
             {
-                if (username == reader["UserEmail"].ToString().TrimEnd() && passs == reader["UserID"].ToString().TrimEnd())
-                {
-                    this.Hide();
-                    EnteringUser enter = new EnteringUser();
-                    enter.Show();
-
-                }
-                else if (username == Admin.Email && passs == Admin.Password)
-                {
-                    this.Hide();
-                    GridView grd = new GridView();
-                    grd.Show();
-                }
-
-                else
-                {
-                    MessageBox.Show("Duzgun daxil etmemisiniz");
-                }
+                this.Hide();
+                EnteringUser enter = new EnteringUser();
+                enter.Show();
             }
-                
-            
-            
-            
-            
+            else if (UserBox.Text == Admin.Email && PasswordBox.Text == Admin.Password)
+            {
+                this.Hide();
+                GridView grd = new GridView();
+                grd.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Duzgun daxil etmemisiniz");
+            }
+
+
+
         }
 
 
