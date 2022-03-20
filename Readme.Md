@@ -60,7 +60,7 @@
 ## P.S. <a name = "WriteIssue"></a>
 
 - This repo is under active development. If you have any improvements / suggestions please file an [issue](https://github.com/kylelobo/The-Documentation-Compendium/issues/new/choose)
-- The [issues](https://github.com/rahmanashraf/PragmatechCsharpProject/issues) page is a good place to visit if you want to pick up some task. It has a list of things that are to be implemented in the near future
+- The [issues](https://github.com/rahmanashraf/PragmatechCsharpProject/issues) page is a good place to visit if you want to pick up some task. It has a list of things that are to be implemented in the near future.
 
 
 <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
