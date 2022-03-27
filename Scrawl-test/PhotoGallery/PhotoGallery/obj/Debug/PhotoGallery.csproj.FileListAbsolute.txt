@@ -1,0 +1,11 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\bin\Debug\PhotoGallery.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\bin\Debug\PhotoGallery.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\bin\Debug\PhotoGallery.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.Form1.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.Properties.Resources.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGallery\PhotoGallery\obj\Debug\PhotoGallery.pdb
