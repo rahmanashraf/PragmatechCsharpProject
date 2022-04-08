@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GalleryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="categoryname" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="PhotoGallery">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="filename" Type="varchar" MaxLength="250" />
+    <Property Name="filesize" Type="varchar" MaxLength="250" />
+    <Property Name="fileExtension" Type="varchar" MaxLength="100" />
+    <Property Name="fileAdddate" Type="date" />
+    <Property Name="fileLocation" Type="varchar" MaxLength="250" />
+    <Property Name="Catid" Type="int" />
+  </EntityType>
+  <Association Name="FK_PhotoGallery_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="PhotoGallery" Type="Self.PhotoGallery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="PhotoGallery">
+        <PropertyRef Name="Catid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GalleryModelStoreContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhotoGallery" EntityType="Self.PhotoGallery" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PhotoGallery_Category" Association="Self.FK_PhotoGallery_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="PhotoGallery" EntitySet="PhotoGallery" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

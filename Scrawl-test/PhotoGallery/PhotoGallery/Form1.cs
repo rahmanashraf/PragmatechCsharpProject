@@ -20,10 +20,13 @@ namespace PhotoGallery
         private void button1_Click(object sender, EventArgs e)
         {
             openFileDialog1.ShowDialog();
+            var picture = new PictureBox();
+            picture.Controls.Add(picture);
             pictureBox1.Width = 200;
             pictureBox1.Height=200; 
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.ImageLocation = openFileDialog1.FileName;
+
             //foreach (var item in openFileDialog1.FileNames)
             //{
                 MessageBox.Show(openFileDialog1.FileName);

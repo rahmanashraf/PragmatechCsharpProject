@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="GalleryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="categoryname" Type="varchar" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="PhotoGallery">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="filename" Type="varchar" MaxLength="250" />
+          <Property Name="filesize" Type="varchar" MaxLength="250" />
+          <Property Name="fileExtension" Type="varchar" MaxLength="100" />
+          <Property Name="fileAdddate" Type="date" />
+          <Property Name="fileLocation" Type="varchar" MaxLength="250" />
+          <Property Name="Catid" Type="int" />
+        </EntityType>
+        <Association Name="FK_PhotoGallery_Category">
+          <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+          <End Role="PhotoGallery" Type="Self.PhotoGallery" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="PhotoGallery">
+              <PropertyRef Name="Catid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GalleryModelStoreContainer">
+          <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PhotoGallery" EntityType="Self.PhotoGallery" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PhotoGallery_Category" Association="Self.FK_PhotoGallery_Category">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="PhotoGallery" EntitySet="PhotoGallery" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GalleryModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="CategoryID" />
+          </Key>
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="categoryname" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PhotoGallery" Relationship="Self.FK_PhotoGallery_Category" FromRole="Category" ToRole="PhotoGallery" />
+        </EntityType>
+        <EntityType Name="PhotoGallery">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="filename" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="filesize" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="fileExtension" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="fileAdddate" Type="DateTime" Precision="0" />
+          <Property Name="fileLocation" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="Catid" Type="Int32" />
+          <NavigationProperty Name="Category" Relationship="Self.FK_PhotoGallery_Category" FromRole="PhotoGallery" ToRole="Category" />
+        </EntityType>
+        <Association Name="FK_PhotoGallery_Category">
+          <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+          <End Role="PhotoGallery" Type="Self.PhotoGallery" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="CategoryID" />
+            </Principal>
+            <Dependent Role="PhotoGallery">
+              <PropertyRef Name="Catid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GalleryEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Category" EntityType="Self.Category" />
+          <EntitySet Name="PhotoGallery" EntityType="Self.PhotoGallery" />
+          <AssociationSet Name="FK_PhotoGallery_Category" Association="Self.FK_PhotoGallery_Category">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="PhotoGallery" EntitySet="PhotoGallery" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GalleryModelStoreContainer" CdmEntityContainer="GalleryEntities">
+          <EntitySetMapping Name="Category">
+            <EntityTypeMapping TypeName="GalleryModel.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+                <ScalarProperty Name="categoryname" ColumnName="categoryname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PhotoGallery">
+            <EntityTypeMapping TypeName="GalleryModel.PhotoGallery">
+              <MappingFragment StoreEntitySet="PhotoGallery">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="filename" ColumnName="filename" />
+                <ScalarProperty Name="filesize" ColumnName="filesize" />
+                <ScalarProperty Name="fileExtension" ColumnName="fileExtension" />
+                <ScalarProperty Name="fileAdddate" ColumnName="fileAdddate" />
+                <ScalarProperty Name="fileLocation" ColumnName="fileLocation" />
+                <ScalarProperty Name="Catid" ColumnName="Catid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

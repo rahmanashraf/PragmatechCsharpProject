@@ -1,0 +1,16 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\PhotoGalleryApp.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\PhotoGalleryApp.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\PhotoGalleryApp.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.Form1.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.Properties.Resources.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.CopyComplete
