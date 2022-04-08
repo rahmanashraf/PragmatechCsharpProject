@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace PhotoGalleryApp
 {
@@ -33,6 +35,27 @@ namespace PhotoGalleryApp
                 this.Controls.Add(button);
 
             }
+            List<string> Photopath = new List<string>()
+            {
+                "Uploads/05.jpg",
+                "Uploads/05.jpg",
+                "Uploads/05.jpg",
+                "Uploads/04.jpg",
+                "Uploads/05.jpg"
+            };
+
+            foreach (var item in Photopath)
+            {
+                string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
+
+                PictureBox pct = new PictureBox();
+                pct.Image = Image.FromFile($"{path}/{item}");
+                //pct.Height = 200;
+                pct.Top = 100;
+                pct.Left += 150;
+                pct.SizeMode = PictureBoxSizeMode.Normal;
+                this.Controls.Add(pct);
+            }
 
         }
 
@@ -40,13 +63,29 @@ namespace PhotoGalleryApp
         {
             var odb = new OpenFileDialog();
             odb.ShowDialog();
+            
+            List<string> Photopath = new List<string>()
+            {
+                "Uploads/01.jpg",
+                "Uploads/02.jpg",
+                "Uploads/03.jpg",
+                "Uploads/04.jpg",
+                "Uploads/05.jpg"
+            };
 
-
-            var sourcephoto = odb.FileName;
-            PictureBox.ImageLocation = sourcephoto;
-            pct.Left += pct.Width;
-            pct.Top = 100;
-            this.Controls.Add(PictureBox);
+            //foreach (var item in Photopath)
+            //{
+            //    var sourcephoto = odb.FileName;
+            //    PictureBox pct = new PictureBox();
+            //    pct.Image = Image.FromFile($"{path}/{item}");
+            //    pct.Height = 200;
+            //    pct.Top = 100;
+            //    pct.Left += 150;
+            //    pct.SizeMode = PictureBoxSizeMode.StretchImage;
+            //    this.Controls.Add(pct);
+            //}
+            
+           
 
 
 
