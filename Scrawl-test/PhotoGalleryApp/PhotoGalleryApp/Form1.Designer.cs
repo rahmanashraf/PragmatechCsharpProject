@@ -33,6 +33,8 @@
             this.btnAddCategory = new System.Windows.Forms.Button();
             this.txtbxcateg = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.pctbox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAddPhoto
@@ -72,11 +74,20 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // pctbox
+            // 
+            this.pctbox.Location = new System.Drawing.Point(682, 128);
+            this.pctbox.Name = "pctbox";
+            this.pctbox.Size = new System.Drawing.Size(243, 240);
+            this.pctbox.TabIndex = 5;
+            this.pctbox.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1193, 450);
+            this.Controls.Add(this.pctbox);
             this.Controls.Add(this.txtbxcateg);
             this.Controls.Add(this.btnAddCategory);
             this.Controls.Add(this.txtbxPhoto);
@@ -84,6 +95,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form1";
             this.Text = "PhotoGallery";
+            ((System.ComponentModel.ISupportInitialize)(this.pctbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,6 +108,7 @@
         private System.Windows.Forms.Button btnAddCategory;
         private System.Windows.Forms.TextBox txtbxcateg;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.PictureBox pctbox;
     }
 }
 

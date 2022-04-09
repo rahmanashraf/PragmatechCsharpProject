@@ -14,6 +14,7 @@ namespace PhotoGalleryApp
 {
     public partial class Form1 : Form
     {
+        string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
         public Form1()
         {
             this.BackColor = Color.DarkBlue;
@@ -35,44 +36,40 @@ namespace PhotoGalleryApp
                 this.Controls.Add(button);
 
             }
-            List<string> Photopath = new List<string>()
-            {
-                "Uploads/05.jpg",
-                "Uploads/05.jpg",
-                "Uploads/05.jpg",
-                "Uploads/04.jpg",
-                "Uploads/05.jpg"
-            };
+            
 
-            foreach (var item in Photopath)
-            {
+          
                 string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
 
-                PictureBox pct = new PictureBox();
-                pct.Image = Image.FromFile($"{path}/{item}");
-                //pct.Height = 200;
-                pct.Top = 100;
-                pct.Left += 150;
-                pct.SizeMode = PictureBoxSizeMode.Normal;
-                this.Controls.Add(pct);
-            }
+                //PictureBox pct = new PictureBox();
+                //pct.Image = Image.FromFile($"{path}/{item}");
+                ////pct.Height = 200;
+                //pct.Top = 100;
+                //pct.Left += 150;
+                //pct.SizeMode = PictureBoxSizeMode.Normal;
+                //this.Controls.Add(pct);
+            
 
         }
 
         private void btnAddPhoto_Click(object sender, EventArgs e)
         {
-            var odb = new OpenFileDialog();
-            odb.ShowDialog();
-            
-            List<string> Photopath = new List<string>()
-            {
-                "Uploads/01.jpg",
-                "Uploads/02.jpg",
-                "Uploads/03.jpg",
-                "Uploads/04.jpg",
-                "Uploads/05.jpg"
-            };
+            var ofd = new OpenFileDialog();
+            ofd.ShowDialog();
 
+            var source = ofd.FileName;
+            var targetpath = $"{path}/Uploads";
+            var newName=$"{new Random().Next(0,1999)}{Path.GetExtension(source)}";
+            var fullfilesource = $"{targetpath}/{newName}";
+            File.Copy(source,fullfilesource);
+            int origHeight = Image.FromFile(fullfilesource).Height;
+            int origWidth = Image.FromFile(fullfilesource).Width;
+            pctbox.Height = origHeight/10;
+            pctbox.Width=origWidth/10;
+            pctbox.SizeMode = PictureBoxSizeMode.StretchImage;
+            pctbox.Image = Image.FromFile(fullfilesource);
+           
+            
             //foreach (var item in Photopath)
             //{
             //    var sourcephoto = odb.FileName;
@@ -84,8 +81,8 @@ namespace PhotoGalleryApp
             //    pct.SizeMode = PictureBoxSizeMode.StretchImage;
             //    this.Controls.Add(pct);
             //}
-            
-           
+
+
 
 
 
