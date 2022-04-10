@@ -14,42 +14,17 @@ namespace PhotoGalleryApp
 {
     public partial class Form1 : Form
     {
+        GalleryEntities db = new GalleryEntities();
+        List<string> categorydata = new List<string>();
         string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
+        int selectedID;
         public Form1()
         {
-            this.BackColor = Color.DarkBlue;
-            int defX = 70;
-            int defY = 50;
             InitializeComponent();
-            var db = new GalleryEntities();
-            foreach (var item in db.Category)
-            {
-                var button = new Button();
-                button.Text = item.categoryname;
-                button.Top = defX;
-                button.Left += defY;
-                defY += button.Width;
-
-
-                button.BackColor = Color.White;
-
-                this.Controls.Add(button);
-
-            }
             
-
-          
-                string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
-
-                //PictureBox pct = new PictureBox();
-                //pct.Image = Image.FromFile($"{path}/{item}");
-                ////pct.Height = 200;
-                //pct.Top = 100;
-                //pct.Left += 150;
-                //pct.SizeMode = PictureBoxSizeMode.Normal;
-                //this.Controls.Add(pct);
-            
-
+           
+           
+            RefreshPage();
         }
 
         private void btnAddPhoto_Click(object sender, EventArgs e)
@@ -60,6 +35,7 @@ namespace PhotoGalleryApp
             var source = ofd.FileName;
             var targetpath = $"{path}/Uploads";
             var newName=$"{new Random().Next(0,1999)}{Path.GetExtension(source)}";
+            var fileextension = Path.GetExtension(source);
             var fullfilesource = $"{targetpath}/{newName}";
             File.Copy(source,fullfilesource);
             int origHeight = Image.FromFile(fullfilesource).Height;
@@ -68,8 +44,32 @@ namespace PhotoGalleryApp
             pctbox.Width=origWidth/10;
             pctbox.SizeMode = PictureBoxSizeMode.StretchImage;
             pctbox.Image = Image.FromFile(fullfilesource);
-           
-            
+            DateTime date = DateTime.Now;
+            FileInfo fi = new FileInfo(source);
+            var size = new FileInfo(ofd.FileName).Length.ToString();
+            foreach (var item in db.Category)
+            {
+                if (item.categoryname== CatComboBox.SelectedItem.ToString())
+                {
+                    selectedID = item.CategoryID;
+                }
+            }
+
+
+
+            var Photo = new PhotoGallery
+            {
+                filename = source,
+                fileAdddate = date,
+                fileExtension = fileextension,
+                fileLocation = $"Uploads/{newName}",
+                filesize = size,
+                Catid = selectedID
+                
+            };
+            db.PhotoGallery.Add(Photo);
+            db.SaveChanges();
+
             //foreach (var item in Photopath)
             //{
             //    var sourcephoto = odb.FileName;
@@ -89,6 +89,100 @@ namespace PhotoGalleryApp
 
 
 
+        }
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+        {
+            string category = txtbxcateg.Text;
+            var CategoryList = new Category
+            {
+                categoryname = category,
+            };
+            db.Category.Add(CategoryList);
+            db.SaveChanges();
+            RefreshPage();
+            
+        }
+        private void RefreshPage()
+        {
+            int defX = 20;
+            int defY = 50;
+            foreach (var item in db.Category)
+            {
+                var button = new Button();
+                button.Text = item.categoryname;
+                button.Top = defX;
+                button.Left += defY;
+                defY += button.Width;
+
+
+                button.BackColor = Color.White;
+
+                this.Controls.Add(button);
+
+            }
+            foreach (var item in db.Category)
+            {               
+                
+                CatComboBox.DataSource = item.categoryname;
+            }
+            
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            
+        }
+
+        private void btnDeleteCat_Click(object sender, EventArgs e)
+        {
+            
+            var category = db.Category.FirstOrDefault(dr => dr.categoryname == CatComboBox.Text);
+            db.Category.Remove(category);
+            db.SaveChanges();
+            RefreshPage();                        
+        }
+        bool move;
+        int move_x;
+        int move_y;
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            move = true;
+            move_x = e.X;
+            move_y = e.Y;
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            move = false;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (move)
+            {
+                this.SetDesktopLocation(MousePosition.X - move_x, MousePosition.Y - move_y);
+            }
+            
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal)
+            {
+                this.WindowState = FormWindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+            
         }
     }
 }

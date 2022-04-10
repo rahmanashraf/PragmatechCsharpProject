@@ -14,3 +14,6 @@ C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryA
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.xml
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.csproj.CopyComplete
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\bin\Debug\tr-TR\PhotoGalleryApp.resources.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\PhotoGalleryApp.Form1.tr-TR.resources
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\PhotoGalleryApp\PhotoGalleryApp\obj\Debug\tr-TR\PhotoGalleryApp.resources.dll

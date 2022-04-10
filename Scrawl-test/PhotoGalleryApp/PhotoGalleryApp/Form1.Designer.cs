@@ -28,47 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnAddPhoto = new System.Windows.Forms.Button();
-            this.txtbxPhoto = new System.Windows.Forms.TextBox();
             this.btnAddCategory = new System.Windows.Forms.Button();
             this.txtbxcateg = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.pctbox = new System.Windows.Forms.PictureBox();
+            this.CatComboBox = new System.Windows.Forms.ComboBox();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnDeleteCat = new System.Windows.Forms.Button();
+            this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctbox)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAddPhoto
             // 
-            this.btnAddPhoto.Location = new System.Drawing.Point(713, 12);
+            resources.ApplyResources(this.btnAddPhoto, "btnAddPhoto");
             this.btnAddPhoto.Name = "btnAddPhoto";
-            this.btnAddPhoto.Size = new System.Drawing.Size(179, 33);
-            this.btnAddPhoto.TabIndex = 0;
-            this.btnAddPhoto.Text = "Add Photo";
             this.btnAddPhoto.UseVisualStyleBackColor = true;
             this.btnAddPhoto.Click += new System.EventHandler(this.btnAddPhoto_Click);
             // 
-            // txtbxPhoto
-            // 
-            this.txtbxPhoto.Location = new System.Drawing.Point(713, 62);
-            this.txtbxPhoto.Name = "txtbxPhoto";
-            this.txtbxPhoto.Size = new System.Drawing.Size(179, 26);
-            this.txtbxPhoto.TabIndex = 2;
-            // 
             // btnAddCategory
             // 
-            this.btnAddCategory.Location = new System.Drawing.Point(952, 12);
+            resources.ApplyResources(this.btnAddCategory, "btnAddCategory");
             this.btnAddCategory.Name = "btnAddCategory";
-            this.btnAddCategory.Size = new System.Drawing.Size(166, 33);
-            this.btnAddCategory.TabIndex = 3;
-            this.btnAddCategory.Text = "Add Category";
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // txtbxcateg
             // 
-            this.txtbxcateg.Location = new System.Drawing.Point(952, 62);
+            resources.ApplyResources(this.txtbxcateg, "txtbxcateg");
             this.txtbxcateg.Name = "txtbxcateg";
-            this.txtbxcateg.Size = new System.Drawing.Size(166, 26);
-            this.txtbxcateg.TabIndex = 4;
             // 
             // openFileDialog1
             // 
@@ -76,25 +68,74 @@
             // 
             // pctbox
             // 
-            this.pctbox.Location = new System.Drawing.Point(682, 128);
+            resources.ApplyResources(this.pctbox, "pctbox");
             this.pctbox.Name = "pctbox";
-            this.pctbox.Size = new System.Drawing.Size(243, 240);
-            this.pctbox.TabIndex = 5;
             this.pctbox.TabStop = false;
+            // 
+            // CatComboBox
+            // 
+            resources.ApplyResources(this.CatComboBox, "CatComboBox");
+            this.CatComboBox.BackColor = System.Drawing.Color.Black;
+            this.CatComboBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.CatComboBox.FormattingEnabled = true;
+            this.CatComboBox.Name = "CatComboBox";
+            // 
+            // btnExit
+            // 
+            resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.Name = "btnExit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnDeleteCat
+            // 
+            resources.ApplyResources(this.btnDeleteCat, "btnDeleteCat");
+            this.btnDeleteCat.Name = "btnDeleteCat";
+            this.btnDeleteCat.UseVisualStyleBackColor = true;
+            this.btnDeleteCat.Click += new System.EventHandler(this.btnDeleteCat_Click);
+            // 
+            // entityCommand1
+            // 
+            this.entityCommand1.CommandTimeout = 0;
+            this.entityCommand1.CommandTree = null;
+            this.entityCommand1.Connection = null;
+            this.entityCommand1.EnablePlanCaching = true;
+            this.entityCommand1.Transaction = null;
+            // 
+            // btnMinimize
+            // 
+            resources.ApplyResources(this.btnMinimize, "btnMinimize");
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnMaximize
+            // 
+            resources.ApplyResources(this.btnMaximize, "btnMaximize");
+            this.btnMaximize.Name = "btnMaximize";
+            this.btnMaximize.UseVisualStyleBackColor = true;
+            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1193, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.BackgroundImage = global::PhotoGalleryApp.Properties.Resources.Wekil;
+            this.Controls.Add(this.btnMaximize);
+            this.Controls.Add(this.btnMinimize);
+            this.Controls.Add(this.btnDeleteCat);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.CatComboBox);
             this.Controls.Add(this.pctbox);
             this.Controls.Add(this.txtbxcateg);
             this.Controls.Add(this.btnAddCategory);
-            this.Controls.Add(this.txtbxPhoto);
             this.Controls.Add(this.btnAddPhoto);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Text = "PhotoGallery";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.pctbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -104,11 +145,16 @@
         #endregion
 
         private System.Windows.Forms.Button btnAddPhoto;
-        private System.Windows.Forms.TextBox txtbxPhoto;
         private System.Windows.Forms.Button btnAddCategory;
         private System.Windows.Forms.TextBox txtbxcateg;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.PictureBox pctbox;
+        private System.Windows.Forms.ComboBox CatComboBox;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnDeleteCat;
+        private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
+        private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Button btnMaximize;
     }
 }
 
