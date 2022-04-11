@@ -33,14 +33,13 @@
             this.btnAddCategory = new System.Windows.Forms.Button();
             this.txtbxcateg = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.pctbox = new System.Windows.Forms.PictureBox();
             this.CatComboBox = new System.Windows.Forms.ComboBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnDeleteCat = new System.Windows.Forms.Button();
             this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pctbox)).BeginInit();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnAddPhoto
@@ -65,12 +64,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // pctbox
-            // 
-            resources.ApplyResources(this.pctbox, "pctbox");
-            this.pctbox.Name = "pctbox";
-            this.pctbox.TabStop = false;
             // 
             // CatComboBox
             // 
@@ -116,18 +109,23 @@
             this.btnMaximize.UseVisualStyleBackColor = true;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BackgroundImage = global::PhotoGalleryApp.Properties.Resources.Wekil;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnMaximize);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnDeleteCat);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.CatComboBox);
-            this.Controls.Add(this.pctbox);
             this.Controls.Add(this.txtbxcateg);
             this.Controls.Add(this.btnAddCategory);
             this.Controls.Add(this.btnAddPhoto);
@@ -136,7 +134,6 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
-            ((System.ComponentModel.ISupportInitialize)(this.pctbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,13 +145,13 @@
         private System.Windows.Forms.Button btnAddCategory;
         private System.Windows.Forms.TextBox txtbxcateg;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.PictureBox pctbox;
         private System.Windows.Forms.ComboBox CatComboBox;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnDeleteCat;
         private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
