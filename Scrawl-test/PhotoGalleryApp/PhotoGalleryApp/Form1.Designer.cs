@@ -39,7 +39,7 @@
             this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlphoto = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnAddPhoto
@@ -109,10 +109,10 @@
             this.btnMaximize.UseVisualStyleBackColor = true;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
-            // panel1
+            // pnlphoto
             // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            resources.ApplyResources(this.pnlphoto, "pnlphoto");
+            this.pnlphoto.Name = "pnlphoto";
             // 
             // Form1
             // 
@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BackgroundImage = global::PhotoGalleryApp.Properties.Resources.Wekil;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlphoto);
             this.Controls.Add(this.btnMaximize);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.btnDeleteCat);
@@ -151,7 +151,7 @@
         private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlphoto;
     }
 }
 

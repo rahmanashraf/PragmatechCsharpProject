@@ -18,12 +18,15 @@ namespace PhotoGalleryApp
         List<string> categorydata = new List<string>();
         string path = Directory.GetParent(Directory.GetParent(Directory.GetCurrentDirectory()).ToString()).ToString();
         int selectedID;
+        int defa = 30;
+        int defb = 30;
+        
         public Form1()
         {
             InitializeComponent();
-            
-           
-           
+
+
+
             RefreshPage();
         }
 
@@ -34,17 +37,17 @@ namespace PhotoGalleryApp
 
             var source = ofd.FileName;
             var targetpath = $"{path}/Uploads";
-            var newName=$"{new Random().Next(0,1999)}{Path.GetExtension(source)}";
+            var newName = $"{new Random().Next(0, 1999)}{Path.GetExtension(source)}";
             var fileextension = Path.GetExtension(source);
             var fullfilesource = $"{targetpath}/{newName}";
-            File.Copy(source,fullfilesource);
-            
+            File.Copy(source, fullfilesource);
+
             DateTime date = DateTime.Now;
             FileInfo fi = new FileInfo(source);
             var size = new FileInfo(ofd.FileName).Length.ToString();
             foreach (var item in db.Category)
             {
-                if (item.categoryname== CatComboBox.SelectedItem.ToString())
+                if (item.categoryname == CatComboBox.SelectedItem.ToString())
                 {
                     selectedID = item.CategoryID;
                 }
@@ -60,7 +63,7 @@ namespace PhotoGalleryApp
                 fileLocation = $"Uploads/{newName}",
                 filesize = size,
                 Catid = selectedID
-                
+
             };
             db.PhotoGallery.Add(Photo);
             db.SaveChanges();
@@ -89,7 +92,7 @@ namespace PhotoGalleryApp
             db.Category.Add(CategoryList);
             db.SaveChanges();
             RefreshPage();
-            
+
         }
         private void RefreshPage()
         {
@@ -109,10 +112,10 @@ namespace PhotoGalleryApp
             CatComboBox.Items.Clear();
             foreach (var item in db.Category)
             {
-                
+
                 CatComboBox.Items.Add(item.categoryname);
             }
-            
+
         }
 
         private void WhileButtonClick(object sender, EventArgs e)
@@ -120,7 +123,7 @@ namespace PhotoGalleryApp
             var buttn = sender as Button;
             foreach (var item in db.Category)
             {
-                if (buttn.Text==item.categoryname)
+                if (buttn.Text == item.categoryname)
                 {
                     selectedID = item.CategoryID;
                 }
@@ -129,25 +132,51 @@ namespace PhotoGalleryApp
             var photogallery = new List<PhotoGallery>();
             foreach (var item in db.PhotoGallery)
             {
-                if (item.id==selectedID)
+                if (item.Catid == selectedID)
                 {
                     photogallery.Add(item);
                 }
             }
+            defa = 30;
+            foreach (var item in photogallery)
+            {
+ 
+                var picBox = new PictureBox();
+                picBox.Name = item.id.ToString();
+                int origHeight = Image.FromFile($"{path}/{item.fileLocation}").Height;
+                int origWidth = Image.FromFile($"{path}/{item.fileLocation}").Width;
+                picBox.Height = origHeight / 10;
+                picBox.Width = origWidth / 10;
+                picBox.Image = Image.FromFile($"{path}/{item.fileLocation}");
+                picBox.Top = defb + 30;
+                picBox.Left += defa;
+                picBox.Click += getPicData;
+                defa += picBox.Width + 20;
+                picBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Controls.Add(picBox);
+                
+
+            }
+            MessageBox.Show(photogallery.Count.ToString());
+        }
+
+        private void getPicData(object sender, EventArgs e)
+        {
+            var photo = sender as PictureBox;
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-            
+
         }
 
         private void btnDeleteCat_Click(object sender, EventArgs e)
         {
-            
+
             foreach (var item in db.Category)
             {
-                if (item.categoryname==CatComboBox.SelectedItem.ToString())
+                if (item.categoryname == CatComboBox.SelectedItem.ToString())
                 {
                     db.Category.Remove(item);
                 }
@@ -177,7 +206,7 @@ namespace PhotoGalleryApp
             {
                 this.SetDesktopLocation(MousePosition.X - move_x, MousePosition.Y - move_y);
             }
-            
+
         }
 
         private void btnMaximize_Click(object sender, EventArgs e)
@@ -195,7 +224,7 @@ namespace PhotoGalleryApp
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
-            
+
         }
     }
 }
