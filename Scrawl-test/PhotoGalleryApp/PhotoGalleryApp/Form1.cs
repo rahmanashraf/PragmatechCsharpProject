@@ -105,7 +105,7 @@ namespace PhotoGalleryApp
                 button.Top = defX;
                 button.Left += defY;
                 defY += button.Width;
-                this.Controls.Add(button);
+                pnlphoto.Controls.Add(button);
                 button.Click += WhileButtonClick;
 
             }
@@ -137,7 +137,9 @@ namespace PhotoGalleryApp
                     photogallery.Add(item);
                 }
             }
-            defa = 30;
+            
+            pnlphoto.Controls.Clear();
+            RefreshPage();
             foreach (var item in photogallery)
             {
  
@@ -153,11 +155,18 @@ namespace PhotoGalleryApp
                 picBox.Click += getPicData;
                 defa += picBox.Width + 20;
                 picBox.SizeMode = PictureBoxSizeMode.StretchImage;
-                this.Controls.Add(picBox);
+                if (defa>700)
+                {
+                    defb = picBox.Top * 2+30;
+                    defa = 30;
+                }
+                pnlphoto.Controls.Add(picBox);
                 
 
             }
-            MessageBox.Show(photogallery.Count.ToString());
+            defa = 20;
+            defb = 20;
+            
         }
 
         private void getPicData(object sender, EventArgs e)
