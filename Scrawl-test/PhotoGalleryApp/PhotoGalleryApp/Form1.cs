@@ -19,7 +19,12 @@ namespace PhotoGalleryApp
         int selectedID;
         int defa = 30;
         int defb = 30;
-        string picsize = null;
+        int defX = 50;
+        int defY = 20;
+        int picsize;
+        bool move;
+        int move_x;
+        int move_y;
         public Form1()
         {
             InitializeComponent();
@@ -46,10 +51,10 @@ namespace PhotoGalleryApp
             }
             var Photo = new PhotoGallery
             {
-                filename = source,
+                filename = newName,
                 fileAdddate = date,
                 fileExtension = fileextension,
-                fileLocation = $"Uploads/{newName}",
+                fileLocation = $@"Uploads\{newName}",
                 filesize = size,
                 Catid = selectedID
             };
@@ -70,15 +75,16 @@ namespace PhotoGalleryApp
         private void RefreshPage()
         {
             pnlphoto.Controls.Clear();
-            int defX = 20;
-            int defY = 50;
+            //int defX = 20;
+            int defT = 50;
             foreach (var item in db.Category)
             {
                 var button = new Button();
                 button.Text = item.categoryname;
-                button.Top = defX;
-                button.Left += defY;
-                defY += button.Width;
+                button.Top = 10;
+                button.Left = defT;
+                defT += button.Width;
+                button.BackColor = Color.DarkOrange;
                 pnlphoto.Controls.Add(button);
                 button.Click += WhileButtonClick;
             }
@@ -87,9 +93,11 @@ namespace PhotoGalleryApp
             {
                 CatComboBox.Items.Add(item.categoryname);
             }
+            defY = 20;
+            defX = 50;
         }
         private void WhileButtonClick(object sender, EventArgs e)
-        {
+        {            
             var buttn = sender as Button;
             foreach (var item in db.Category)
             {
@@ -111,8 +119,6 @@ namespace PhotoGalleryApp
             {
                 AddPhotoToPanel(item);             
             }
-            defa = 20;
-            defb = 20;
         }
         private void AddPhotoToPanel(PhotoGallery item)
         {
@@ -123,70 +129,51 @@ namespace PhotoGalleryApp
             picBox.Height = origHeight / 10;
             picBox.Width = origWidth / 10;
             picBox.Image = Image.FromFile($"{path}/{item.fileLocation}");
-            picBox.Top = defb + 30;
-            picBox.Left += defa;
+            picBox.Top = defX;
+            picBox.Left = defY;
+            picBox.BorderStyle=BorderStyle.FixedSingle;
             picBox.Click += getPicData;
-            defa += picBox.Width + 20;
-            picBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            if (defa > 700)
+            defY += picBox.Width+20;
+            picsize = panel1.Width;
+            if (defY>600)
             {
-                defb = picBox.Top * 2 + 30;
-                defa = 20;
+                defY = 20;
+                defX += (picBox.Height*2)+defX;
             }
+            picBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            
             pnlphoto.Controls.Add(picBox);
-            picsize = picBox.Width.ToString();
+            
         }
         private void getPicData(object sender, EventArgs e)
         {
-            MessageBox.Show(picsize);
-            //var photo = sender as PictureBox;
-            //foreach (var item in db.PhotoGallery)
-            //{
-            //    if (item.id.ToString() == photo.Name && File.Exists($"{path}/{item.fileLocation}"))
-            //    {
-            //        try
-            //        {
-            //            File.Delete($"{path}/{item.fileLocation}");
-            //        }
-            //        catch (Exception)
-            //        {
-            //            MessageBox.Show($"Siz bu erroru aldiniz");
-            //        }
-            //        db.PhotoGallery.Remove(item);
-            //    }
-            //}
-            //db.SaveChanges();
+            
+            var photo = sender as PictureBox;
+            foreach (var item in db.PhotoGallery)
+            {
+                if (item.id.ToString() == photo.Name && File.Exists($@"{path}\{item.fileLocation}"))
+                { File.Delete($@"{path}\{item.fileLocation}");
+                }
+                { 
+                    db.PhotoGallery.Remove(item);
+                }
+            }
+            db.SaveChanges();
         }
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void btnDeleteCat_Click(object sender, EventArgs e)
         {
         foreach (var item in db.Category)
           {
             if (CatComboBox.SelectedItem.ToString() == item.categoryname)
               {
-                int choose = item.CategoryID;
-                var mehsul = db.Category.Find(choose);
-                db.Category.Remove(mehsul);
-                db.SaveChanges();
-               }
+                   
+              }
            }
-        }
-        
-        private void btnMaximize_Click(object sender, EventArgs e)
-        {
-            if (this.WindowState == FormWindowState.Normal)
-            {
-                this.WindowState = FormWindowState.Maximized;
-            }
-            else
-            {
-                this.WindowState = FormWindowState.Normal;
-            }
-        }
+        }      
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -251,7 +238,6 @@ namespace PhotoGalleryApp
             defa = 20;
             defb = 20;
         }
-
         private void menujpgcaller_Click(object sender, EventArgs e)
         {
             RefreshPage();
@@ -266,25 +252,9 @@ namespace PhotoGalleryApp
             defa = 20;
             defb = 20;
         }
-        bool move;
-        int move_x;
-        int move_y;
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
-            move = true;
-            move_x = e.X;
-            move_y = e.Y;
-        }
-        private void Form1_MouseUp(object sender, MouseEventArgs e)
-        {
-            move = false;
-        }
-        private void Form1_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (move)
-            {
-                this.SetDesktopLocation(MousePosition.X - move_x, MousePosition.Y - move_y);
-            }
+            
         }
     }
 }

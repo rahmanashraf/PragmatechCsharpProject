@@ -38,14 +38,15 @@
             this.btnDeleteCat = new System.Windows.Forms.Button();
             this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
             this.btnMinimize = new System.Windows.Forms.Button();
-            this.btnMaximize = new System.Windows.Forms.Button();
             this.pnlphoto = new System.Windows.Forms.Panel();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.x = new System.Windows.Forms.ToolStripMenuItem();
             this.lastfive = new System.Windows.Forms.ToolStripMenuItem();
             this.biggestfive = new System.Windows.Forms.ToolStripMenuItem();
             this.menujpgcaller = new System.Windows.Forms.ToolStripMenuItem();
+            this.pnlphoto.SuspendLayout();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +68,7 @@
             // txtbxcateg
             // 
             resources.ApplyResources(this.txtbxcateg, "txtbxcateg");
+            this.txtbxcateg.BackColor = System.Drawing.Color.DarkOrange;
             this.txtbxcateg.Name = "txtbxcateg";
             // 
             // openFileDialog1
@@ -76,16 +78,17 @@
             // CatComboBox
             // 
             resources.ApplyResources(this.CatComboBox, "CatComboBox");
-            this.CatComboBox.BackColor = System.Drawing.Color.Black;
-            this.CatComboBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.CatComboBox.BackColor = System.Drawing.Color.DarkOrange;
+            this.CatComboBox.ForeColor = System.Drawing.Color.Black;
             this.CatComboBox.FormattingEnabled = true;
             this.CatComboBox.Name = "CatComboBox";
             // 
             // btnExit
             // 
             resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.BackColor = System.Drawing.Color.Orange;
             this.btnExit.Name = "btnExit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnDeleteCat
@@ -106,25 +109,27 @@
             // btnMinimize
             // 
             resources.ApplyResources(this.btnMinimize, "btnMinimize");
+            this.btnMinimize.BackColor = System.Drawing.Color.Orange;
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.UseVisualStyleBackColor = false;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
-            // 
-            // btnMaximize
-            // 
-            resources.ApplyResources(this.btnMaximize, "btnMaximize");
-            this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.UseVisualStyleBackColor = true;
-            this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
             // pnlphoto
             // 
             resources.ApplyResources(this.pnlphoto, "pnlphoto");
             this.pnlphoto.BackColor = System.Drawing.Color.Transparent;
+            this.pnlphoto.Controls.Add(this.vScrollBar1);
             this.pnlphoto.Name = "pnlphoto";
+            // 
+            // vScrollBar1
+            // 
+            resources.ApplyResources(this.vScrollBar1, "vScrollBar1");
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.DarkOrange;
             this.panel1.Controls.Add(this.txtbxcateg);
             this.panel1.Controls.Add(this.btnAddCategory);
             this.panel1.Controls.Add(this.CatComboBox);
@@ -135,6 +140,8 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkOrange;
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(0);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.x});
@@ -152,18 +159,21 @@
             // 
             // lastfive
             // 
+            this.lastfive.BackColor = System.Drawing.Color.DarkOrange;
             this.lastfive.Name = "lastfive";
             resources.ApplyResources(this.lastfive, "lastfive");
             this.lastfive.Click += new System.EventHandler(this.lastfive_Click);
             // 
             // biggestfive
             // 
+            this.biggestfive.BackColor = System.Drawing.Color.DarkOrange;
             this.biggestfive.Name = "biggestfive";
             resources.ApplyResources(this.biggestfive, "biggestfive");
             this.biggestfive.Click += new System.EventHandler(this.biggestfive_Click);
             // 
             // menujpgcaller
             // 
+            this.menujpgcaller.BackColor = System.Drawing.Color.DarkOrange;
             this.menujpgcaller.Name = "menujpgcaller";
             resources.ApplyResources(this.menujpgcaller, "menujpgcaller");
             this.menujpgcaller.Click += new System.EventHandler(this.menujpgcaller_Click);
@@ -174,7 +184,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.BackgroundImage = global::PhotoGalleryApp.Properties.Resources.Wekil;
-            this.Controls.Add(this.btnMaximize);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnMinimize);
             this.Controls.Add(this.panel1);
@@ -183,9 +192,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
-            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            this.pnlphoto.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -206,7 +213,6 @@
         private System.Windows.Forms.Button btnDeleteCat;
         private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
         private System.Windows.Forms.Button btnMinimize;
-        private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Panel pnlphoto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -214,6 +220,7 @@
         private System.Windows.Forms.ToolStripMenuItem lastfive;
         private System.Windows.Forms.ToolStripMenuItem biggestfive;
         private System.Windows.Forms.ToolStripMenuItem menujpgcaller;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
 

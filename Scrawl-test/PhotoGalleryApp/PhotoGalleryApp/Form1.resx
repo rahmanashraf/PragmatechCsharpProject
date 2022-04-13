@@ -126,10 +126,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAddPhoto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 271</value>
+    <value>12, 176</value>
+  </data>
+  <data name="btnAddPhoto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="btnAddPhoto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 33</value>
+    <value>111, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAddPhoto.TabIndex" type="System.Int32, mscorlib">
@@ -157,10 +160,13 @@
     <value>Popup</value>
   </data>
   <data name="btnAddCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 124</value>
+    <value>12, 81</value>
+  </data>
+  <data name="btnAddCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="btnAddCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 33</value>
+    <value>111, 21</value>
   </data>
   <data name="btnAddCategory.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -184,10 +190,13 @@
     <value>Top, Right</value>
   </data>
   <data name="txtbxcateg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 80</value>
+    <value>12, 52</value>
+  </data>
+  <data name="txtbxcateg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="txtbxcateg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 26</value>
+    <value>112, 20</value>
   </data>
   <data name="txtbxcateg.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -217,19 +226,19 @@
     <value>False</value>
   </data>
   <data name="CatComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 176</value>
+    <value>12, 114</value>
   </data>
   <data name="CatComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="CatComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 28</value>
+    <value>112, 21</value>
   </data>
   <data name="CatComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="CatComboBox.Text" xml:space="preserve">
-    <value>Kateqoriyalar</value>
+    <value>Categories</value>
   </data>
   <data name="&gt;&gt;CatComboBox.Name" xml:space="preserve">
     <value>CatComboBox</value>
@@ -243,9 +252,6 @@
   <data name="&gt;&gt;CatComboBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="btnExit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btnExit.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -259,10 +265,13 @@
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1353, 0</value>
+    <value>879, 0</value>
+  </data>
+  <data name="btnExit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 32</value>
+    <value>26, 25</value>
   </data>
   <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -280,7 +289,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="btnDeleteCat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -289,10 +298,13 @@
     <value>Popup</value>
   </data>
   <data name="btnDeleteCat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 223</value>
+    <value>12, 145</value>
+  </data>
+  <data name="btnDeleteCat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="btnDeleteCat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 33</value>
+    <value>111, 21</value>
   </data>
   <data name="btnDeleteCat.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -315,9 +327,6 @@
   <metadata name="entityCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>211, 17</value>
   </metadata>
-  <metadata name="btnMinimize.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="btnMinimize.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -328,10 +337,13 @@
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1275, 0</value>
+    <value>837, 0</value>
+  </data>
+  <data name="btnMinimize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 32</value>
+    <value>29, 25</value>
   </data>
   <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -349,52 +361,43 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnMinimize.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="btnMaximize.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="btnMaximize.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnMaximize.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Popup</value>
-  </data>
-  <data name="btnMaximize.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
-  </data>
-  <data name="btnMaximize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnMaximize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1314, 0</value>
-  </data>
-  <data name="btnMaximize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 32</value>
-  </data>
-  <data name="btnMaximize.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Name" xml:space="preserve">
-    <value>btnMaximize</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnMaximize.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="pnlphoto.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="vScrollBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="vScrollBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>768, 0</value>
+  </data>
+  <data name="vScrollBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 362</value>
+  </data>
+  <data name="vScrollBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;vScrollBar1.Name" xml:space="preserve">
+    <value>vScrollBar1</value>
+  </data>
+  <data name="&gt;&gt;vScrollBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vScrollBar1.Parent" xml:space="preserve">
+    <value>pnlphoto</value>
+  </data>
+  <data name="&gt;&gt;vScrollBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="pnlphoto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 41</value>
+    <value>0, 27</value>
+  </data>
+  <data name="pnlphoto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="pnlphoto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>970, 423</value>
+    <value>784, 362</value>
   </data>
   <data name="pnlphoto.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -409,16 +412,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pnlphoto.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1201, 33</value>
+    <value>788, 24</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 431</value>
+    <value>133, 365</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -433,7 +439,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>406, 17</value>
@@ -441,35 +447,14 @@
   <metadata name="menuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="lastfive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>393, 34</value>
-  </data>
-  <data name="lastfive.Text" xml:space="preserve">
-    <value>son əlavə olunan 5 şəkili göstər</value>
-  </data>
-  <data name="biggestfive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>393, 34</value>
-  </data>
-  <data name="biggestfive.Text" xml:space="preserve">
-    <value>həcmi ən böyük olan 5 şəkili göstər</value>
-  </data>
-  <data name="menujpgcaller.Size" type="System.Drawing.Size, System.Drawing">
-    <value>393, 34</value>
-  </data>
-  <data name="menujpgcaller.Text" xml:space="preserve">
-    <value>.jpg şəkilləri göstər</value>
-  </data>
-  <data name="x.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 29</value>
-  </data>
-  <data name="x.Text" xml:space="preserve">
-    <value>Others</value>
-  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1401, 33</value>
+    <value>921, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -487,7 +472,31 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
+  </data>
+  <data name="x.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 24</value>
+  </data>
+  <data name="x.Text" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="lastfive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="lastfive.Text" xml:space="preserve">
+    <value>Get last 5 photo</value>
+  </data>
+  <data name="biggestfive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="biggestfive.Text" xml:space="preserve">
+    <value>5 Biggest size photo</value>
+  </data>
+  <data name="menujpgcaller.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="menujpgcaller.Text" xml:space="preserve">
+    <value>Extension .jpg</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -496,7 +505,7 @@
     <value>26</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -505,7 +514,10 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1401, 464</value>
+    <value>921, 389</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
