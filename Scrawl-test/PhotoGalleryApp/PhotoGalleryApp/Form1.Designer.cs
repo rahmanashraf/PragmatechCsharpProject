@@ -39,14 +39,12 @@
             this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.pnlphoto = new System.Windows.Forms.Panel();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.x = new System.Windows.Forms.ToolStripMenuItem();
             this.lastfive = new System.Windows.Forms.ToolStripMenuItem();
             this.biggestfive = new System.Windows.Forms.ToolStripMenuItem();
             this.menujpgcaller = new System.Windows.Forms.ToolStripMenuItem();
-            this.pnlphoto.SuspendLayout();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -117,15 +115,9 @@
             // pnlphoto
             // 
             resources.ApplyResources(this.pnlphoto, "pnlphoto");
-            this.pnlphoto.BackColor = System.Drawing.Color.Transparent;
-            this.pnlphoto.Controls.Add(this.vScrollBar1);
+            this.pnlphoto.BackColor = System.Drawing.Color.DarkOrange;
+            this.pnlphoto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlphoto.Name = "pnlphoto";
-            // 
-            // vScrollBar1
-            // 
-            resources.ApplyResources(this.vScrollBar1, "vScrollBar1");
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar1_Scroll);
             // 
             // panel1
             // 
@@ -192,7 +184,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.pnlphoto.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -220,7 +211,6 @@
         private System.Windows.Forms.ToolStripMenuItem lastfive;
         private System.Windows.Forms.ToolStripMenuItem biggestfive;
         private System.Windows.Forms.ToolStripMenuItem menujpgcaller;
-        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
 

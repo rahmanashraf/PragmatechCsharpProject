@@ -363,41 +363,20 @@
   <data name="&gt;&gt;btnMinimize.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pnlphoto.AutoSize" type="System.Boolean, mscorlib">
+  <data name="pnlphoto.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="vScrollBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="vScrollBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>768, 0</value>
-  </data>
-  <data name="vScrollBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 362</value>
-  </data>
-  <data name="vScrollBar1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;vScrollBar1.Name" xml:space="preserve">
-    <value>vScrollBar1</value>
-  </data>
-  <data name="&gt;&gt;vScrollBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;vScrollBar1.Parent" xml:space="preserve">
-    <value>pnlphoto</value>
-  </data>
-  <data name="&gt;&gt;vScrollBar1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="pnlphoto.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="pnlphoto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
+    <value>0, 24</value>
   </data>
   <data name="pnlphoto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="pnlphoto.Size" type="System.Drawing.Size, System.Drawing">
-    <value>784, 362</value>
+    <value>784, 365</value>
   </data>
   <data name="pnlphoto.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>

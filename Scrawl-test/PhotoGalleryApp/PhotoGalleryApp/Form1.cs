@@ -21,7 +21,7 @@ namespace PhotoGalleryApp
         int defb = 30;
         int defX = 50;
         int defY = 20;
-        int picsize;
+        int picsize=0;
         bool move;
         int move_x;
         int move_y;
@@ -29,6 +29,7 @@ namespace PhotoGalleryApp
         {
             InitializeComponent();
             RefreshPage();
+            
         }
         private void btnAddPhoto_Click(object sender, EventArgs e)
         {
@@ -134,16 +135,34 @@ namespace PhotoGalleryApp
             picBox.BorderStyle=BorderStyle.FixedSingle;
             picBox.Click += getPicData;
             defY += picBox.Width+20;
-            picsize = panel1.Width;
+            if (origHeight > 1200)
+            {
+                picsize = 50;
+            }
             if (defY>600)
             {
-                defY = 20;
-                defX += (picBox.Height*2)+defX;
+                if (picsize==50)
+                {
+                    defY = 20;
+                    defX += (picBox.Height * 2) - 20 + picsize;
+                }
+                else
+                {
+                    defY = 20;
+                    defX += (picBox.Height * 2) - 40 + picsize;
+                }
+                defX = 50;
+                picsize = 0;             
             }
+
             picBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            
+            pnlphoto.AutoScroll = true;
+            //MessageBox.Show("defx sonda" + defX.ToString());
+            //MessageBox.Show("origin sonda" + origHeight.ToString());
+            //MessageBox.Show("picbox sonda" + picBox.Height.ToString());
             pnlphoto.Controls.Add(picBox);
             
+
         }
         private void getPicData(object sender, EventArgs e)
         {
@@ -252,9 +271,6 @@ namespace PhotoGalleryApp
             defa = 20;
             defb = 20;
         }
-        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
-        {
-            
-        }
+        
     }
 }
