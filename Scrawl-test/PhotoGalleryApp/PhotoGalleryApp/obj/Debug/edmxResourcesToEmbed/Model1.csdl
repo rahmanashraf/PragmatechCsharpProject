@@ -16,7 +16,7 @@
     <Property Name="filename" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <Property Name="filesize" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <Property Name="fileExtension" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="fileAdddate" Type="DateTime" Precision="0" />
+    <Property Name="fileAdddate" Type="DateTime" Precision="3" />
     <Property Name="fileLocation" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <Property Name="Catid" Type="Int32" />
     <NavigationProperty Name="Category" Relationship="Self.FK_PhotoGallery_Category" FromRole="PhotoGallery" ToRole="Category" />
@@ -40,5 +40,16 @@
       <End Role="Category" EntitySet="Category" />
       <End Role="PhotoGallery" EntitySet="PhotoGallery" />
     </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="GalleryModel.sysdiagrams" />
   </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
 </Schema>

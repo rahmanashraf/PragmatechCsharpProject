@@ -259,7 +259,7 @@
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1105, 0</value>
+    <value>1353, 0</value>
   </data>
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 32</value>
@@ -328,10 +328,10 @@
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1027, 0</value>
+    <value>1275, 0</value>
   </data>
   <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 32</value>
+    <value>44, 32</value>
   </data>
   <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -367,10 +367,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnMaximize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1066, 0</value>
+    <value>1314, 0</value>
   </data>
   <data name="btnMaximize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 32</value>
+    <value>44, 32</value>
   </data>
   <data name="btnMaximize.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -415,7 +415,7 @@
     <value>Right</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>976, 33</value>
+    <value>1201, 33</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 431</value>
@@ -438,38 +438,38 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>406, 17</value>
   </metadata>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 34</value>
+  <metadata name="menuStrip1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lastfive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 34</value>
   </data>
-  <data name="toolStripMenuItem2.Text" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
+  <data name="lastfive.Text" xml:space="preserve">
+    <value>son əlavə olunan 5 şəkili göstər</value>
   </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 34</value>
+  <data name="biggestfive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 34</value>
   </data>
-  <data name="toolStripMenuItem3.Text" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
+  <data name="biggestfive.Text" xml:space="preserve">
+    <value>həcmi ən böyük olan 5 şəkili göstər</value>
   </data>
-  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 34</value>
+  <data name="menujpgcaller.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 34</value>
   </data>
-  <data name="toolStripMenuItem4.Text" xml:space="preserve">
-    <value>toolStripMenuItem4</value>
+  <data name="menujpgcaller.Text" xml:space="preserve">
+    <value>.jpg şəkilləri göstər</value>
   </data>
-  <data name="toolStripComboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 33</value>
+  <data name="x.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 29</value>
   </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 29</value>
-  </data>
-  <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
+  <data name="x.Text" xml:space="preserve">
+    <value>Others</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1176, 33</value>
+    <value>1401, 33</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -505,7 +505,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1176, 464</value>
+    <value>1401, 464</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -525,35 +525,29 @@
   <data name="&gt;&gt;entityCommand1.Type" xml:space="preserve">
     <value>System.Data.Entity.Core.EntityClient.EntityCommand, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
+  <data name="&gt;&gt;x.Name" xml:space="preserve">
+    <value>x</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;x.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
-    <value>toolStripMenuItem2</value>
+  <data name="&gt;&gt;lastfive.Name" xml:space="preserve">
+    <value>lastfive</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;lastfive.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
-    <value>toolStripMenuItem3</value>
+  <data name="&gt;&gt;biggestfive.Name" xml:space="preserve">
+    <value>biggestfive</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+  <data name="&gt;&gt;biggestfive.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
-    <value>toolStripMenuItem4</value>
+  <data name="&gt;&gt;menujpgcaller.Name" xml:space="preserve">
+    <value>menujpgcaller</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
+  <data name="&gt;&gt;menujpgcaller.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Name" xml:space="preserve">
-    <value>toolStripComboBox1</value>
-  </data>
-  <data name="&gt;&gt;toolStripComboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

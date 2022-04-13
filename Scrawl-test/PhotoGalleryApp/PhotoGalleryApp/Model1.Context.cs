@@ -27,5 +27,6 @@ namespace PhotoGalleryApp
     
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<PhotoGallery> PhotoGallery { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

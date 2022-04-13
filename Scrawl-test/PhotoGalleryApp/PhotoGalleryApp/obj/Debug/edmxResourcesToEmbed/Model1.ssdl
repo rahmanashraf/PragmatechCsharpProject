@@ -15,9 +15,19 @@
     <Property Name="filename" Type="varchar" MaxLength="250" />
     <Property Name="filesize" Type="varchar" MaxLength="250" />
     <Property Name="fileExtension" Type="varchar" MaxLength="100" />
-    <Property Name="fileAdddate" Type="date" />
+    <Property Name="fileAdddate" Type="datetime" />
     <Property Name="fileLocation" Type="varchar" MaxLength="250" />
     <Property Name="Catid" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
   <Association Name="FK_PhotoGallery_Category">
     <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
@@ -34,6 +44,7 @@
   <EntityContainer Name="GalleryModelStoreContainer">
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="PhotoGallery" EntityType="Self.PhotoGallery" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_PhotoGallery_Category" Association="Self.FK_PhotoGallery_Category">
       <End Role="Category" EntitySet="Category" />
       <End Role="PhotoGallery" EntitySet="PhotoGallery" />

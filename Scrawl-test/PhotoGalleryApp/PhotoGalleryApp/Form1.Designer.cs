@@ -42,11 +42,10 @@
             this.pnlphoto = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.x = new System.Windows.Forms.ToolStripMenuItem();
+            this.lastfive = new System.Windows.Forms.ToolStripMenuItem();
+            this.biggestfive = new System.Windows.Forms.ToolStripMenuItem();
+            this.menujpgcaller = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -121,6 +120,7 @@
             // pnlphoto
             // 
             resources.ApplyResources(this.pnlphoto, "pnlphoto");
+            this.pnlphoto.BackColor = System.Drawing.Color.Transparent;
             this.pnlphoto.Name = "pnlphoto";
             // 
             // panel1
@@ -137,39 +137,36 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.x});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
-            // toolStripMenuItem1
+            // x
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem4,
-            this.toolStripComboBox1});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.x.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lastfive,
+            this.biggestfive,
+            this.menujpgcaller});
+            this.x.Name = "x";
+            resources.ApplyResources(this.x, "x");
             // 
-            // toolStripMenuItem2
+            // lastfive
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.lastfive.Name = "lastfive";
+            resources.ApplyResources(this.lastfive, "lastfive");
+            this.lastfive.Click += new System.EventHandler(this.lastfive_Click);
             // 
-            // toolStripMenuItem3
+            // biggestfive
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.biggestfive.Name = "biggestfive";
+            resources.ApplyResources(this.biggestfive, "biggestfive");
+            this.biggestfive.Click += new System.EventHandler(this.biggestfive_Click);
             // 
-            // toolStripMenuItem4
+            // menujpgcaller
             // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
-            // 
-            // toolStripComboBox1
-            // 
-            this.toolStripComboBox1.Name = "toolStripComboBox1";
-            resources.ApplyResources(this.toolStripComboBox1, "toolStripComboBox1");
+            this.menujpgcaller.Name = "menujpgcaller";
+            resources.ApplyResources(this.menujpgcaller, "menujpgcaller");
+            this.menujpgcaller.Click += new System.EventHandler(this.menujpgcaller_Click);
             // 
             // Form1
             // 
@@ -213,11 +210,10 @@
         private System.Windows.Forms.Panel pnlphoto;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
+        private System.Windows.Forms.ToolStripMenuItem x;
+        private System.Windows.Forms.ToolStripMenuItem lastfive;
+        private System.Windows.Forms.ToolStripMenuItem biggestfive;
+        private System.Windows.Forms.ToolStripMenuItem menujpgcaller;
     }
 }
 

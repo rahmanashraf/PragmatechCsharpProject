@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="GalleryModel.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
         <EntityTypeShape EntityType="GalleryModel.PhotoGallery" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="GalleryModel.FK_PhotoGallery_Category" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GalleryModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
