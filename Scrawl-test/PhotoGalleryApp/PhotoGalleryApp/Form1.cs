@@ -53,7 +53,7 @@ namespace PhotoGalleryApp
                 filename = newName,
                 fileAdddate = date,
                 fileExtension = fileextension,
-                fileLocation = $@"Uploads\{newName}",
+                fileLocation = $@"Uploads/{newName}",
                 filesize = size,
                 Catid = selectedID
             };
@@ -159,21 +159,21 @@ namespace PhotoGalleryApp
         {
 
             var photo = sender as PictureBox;
-            foreach (var item in db.PhotoGallery)
-            {
-                if (item.id.ToString() == photo.Name)
-                {
-                    db.PhotoGallery.Remove(item);
-                    db.SaveChanges();
-                    if (item==null)
-                    {
-                        File.Delete($@"{path}\{item.fileLocation}");
-                    }
-                                 
-                }                   
-                
-           }
-            
+            // foreach (var item in db.PhotoGallery.ToList())
+            //{
+            //string way = $@"{path}/{item.fileLocation}";
+            string got = photo.ImageLocation.ToString();
+            MessageBox.Show(got);
+                //if (File.Exists(got))
+                //{
+                //    File.Delete(got);
+                //    MessageBox.Show("File deleted");
+                //}
+                //else
+                //{
+                //    MessageBox.Show("File is not exist");
+                //}                    
+        //   }           
         }
         private void btnExit_Click(object sender, EventArgs e)
         {
