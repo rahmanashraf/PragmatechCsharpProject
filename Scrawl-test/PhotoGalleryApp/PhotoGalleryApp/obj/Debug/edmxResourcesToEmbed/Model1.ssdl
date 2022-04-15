@@ -6,6 +6,7 @@
     </Key>
     <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="categoryname" Type="varchar" MaxLength="250" />
+    <Property Name="status" Type="bit" />
   </EntityType>
   <EntityType Name="PhotoGallery">
     <Key>
@@ -29,6 +30,20 @@
     <Property Name="version" Type="int" />
     <Property Name="definition" Type="varbinary(max)" />
   </EntityType>
+  <Association Name="fk_inv_product_id">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PhotoGallery" Type="Self.PhotoGallery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="PhotoGallery">
+        <PropertyRef Name="Catid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_PhotoGallery_Category">
     <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
     <End Role="PhotoGallery" Type="Self.PhotoGallery" Multiplicity="*" />
@@ -45,6 +60,10 @@
     <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="PhotoGallery" EntityType="Self.PhotoGallery" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_inv_product_id" Association="Self.fk_inv_product_id">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="PhotoGallery" EntitySet="PhotoGallery" />
+    </AssociationSet>
     <AssociationSet Name="FK_PhotoGallery_Category" Association="Self.FK_PhotoGallery_Category">
       <End Role="Category" EntitySet="Category" />
       <End Role="PhotoGallery" EntitySet="PhotoGallery" />

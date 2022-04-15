@@ -7,6 +7,7 @@
     <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="categoryname" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="PhotoGallery" Relationship="Self.FK_PhotoGallery_Category" FromRole="Category" ToRole="PhotoGallery" />
+    <Property Name="status" Type="Boolean" />
   </EntityType>
   <EntityType Name="PhotoGallery">
     <Key>

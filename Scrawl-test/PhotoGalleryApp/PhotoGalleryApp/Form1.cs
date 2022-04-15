@@ -21,15 +21,13 @@ namespace PhotoGalleryApp
         int defb = 30;
         int defX = 50;
         int defY = 20;
-        int picsize=0;
-        bool move;
-        int move_x;
-        int move_y;
+        int picsize = 0;
+        List<PhotoGallery> otherphoto = new List<PhotoGallery>();
         public Form1()
         {
             InitializeComponent();
             RefreshPage();
-            
+
         }
         private void btnAddPhoto_Click(object sender, EventArgs e)
         {
@@ -98,7 +96,7 @@ namespace PhotoGalleryApp
             defX = 50;
         }
         private void WhileButtonClick(object sender, EventArgs e)
-        {            
+        {
             var buttn = sender as Button;
             foreach (var item in db.Category)
             {
@@ -118,7 +116,7 @@ namespace PhotoGalleryApp
             RefreshPage();
             foreach (var item in photogallery)
             {
-                AddPhotoToPanel(item);             
+                AddPhotoToPanel(item);
             }
         }
         private void AddPhotoToPanel(PhotoGallery item)
@@ -132,16 +130,16 @@ namespace PhotoGalleryApp
             picBox.Image = Image.FromFile($"{path}/{item.fileLocation}");
             picBox.Top = defX;
             picBox.Left = defY;
-            picBox.BorderStyle=BorderStyle.FixedSingle;
+            picBox.BorderStyle = BorderStyle.FixedSingle;
             picBox.Click += getPicData;
-            defY += picBox.Width+20;
+            defY += picBox.Width + 20;
             if (origHeight > 1200)
             {
                 picsize = 50;
             }
-            if (defY>600)
+            if (defY > 600)
             {
-                if (picsize==50)
+                if (picsize == 50)
                 {
                     defY = 20;
                     defX += (picBox.Height * 2) - 20 + picsize;
@@ -151,48 +149,48 @@ namespace PhotoGalleryApp
                     defY = 20;
                     defX += (picBox.Height * 2) - 40 + picsize;
                 }
-                defX = 50;
-                picsize = 0;             
+                picsize = 0;
             }
-
             picBox.SizeMode = PictureBoxSizeMode.StretchImage;
             pnlphoto.AutoScroll = true;
-            //MessageBox.Show("defx sonda" + defX.ToString());
-            //MessageBox.Show("origin sonda" + origHeight.ToString());
-            //MessageBox.Show("picbox sonda" + picBox.Height.ToString());
             pnlphoto.Controls.Add(picBox);
-            
-
         }
         private void getPicData(object sender, EventArgs e)
         {
-            
+
             var photo = sender as PictureBox;
             foreach (var item in db.PhotoGallery)
             {
-                if (item.id.ToString() == photo.Name && File.Exists($@"{path}\{item.fileLocation}"))
-                { File.Delete($@"{path}\{item.fileLocation}");
-                }
-                { 
+                if (item.id.ToString() == photo.Name)
+                {
                     db.PhotoGallery.Remove(item);
-                }
-            }
-            db.SaveChanges();
+                    db.SaveChanges();
+                    if (item==null)
+                    {
+                        File.Delete($@"{path}\{item.fileLocation}");
+                    }
+                                 
+                }                   
+                
+           }
+            
         }
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
         private void btnDeleteCat_Click(object sender, EventArgs e)
-        {
-        foreach (var item in db.Category)
-          {
-            if (CatComboBox.SelectedItem.ToString() == item.categoryname)
-              {
-                   
-              }
-           }
-        }      
+        {          
+                foreach (var item in db.Category)
+                {
+                    if (CatComboBox.SelectedItem.ToString()==item.categoryname)
+                    {
+                        db.Category.Remove(item);                       
+                    }
+                }
+                db.SaveChanges();                 
+
+        }
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
@@ -202,7 +200,7 @@ namespace PhotoGalleryApp
             RefreshPage();
             List<string> date = new List<string>();
             List<DateTime> datetip = new List<DateTime>();
-            List<PhotoGallery>photogallery=new List<PhotoGallery>();
+            List<PhotoGallery> photogallery = new List<PhotoGallery>();
             foreach (var item in db.PhotoGallery)
             {
                 datetip.Add((DateTime)item.fileAdddate);
@@ -248,7 +246,7 @@ namespace PhotoGalleryApp
                         Fromdatabase.Add(photo);
                     }
                 }
-                
+
             }
             foreach (var photo in Fromdatabase)
             {
@@ -263,7 +261,7 @@ namespace PhotoGalleryApp
             string extension = ".JPG";
             foreach (var item in db.PhotoGallery)
             {
-                if (item.fileExtension==extension)
+                if (item.fileExtension == extension)
                 {
                     AddPhotoToPanel(item);
                 }
@@ -271,6 +269,6 @@ namespace PhotoGalleryApp
             defa = 20;
             defb = 20;
         }
-        
+
     }
 }

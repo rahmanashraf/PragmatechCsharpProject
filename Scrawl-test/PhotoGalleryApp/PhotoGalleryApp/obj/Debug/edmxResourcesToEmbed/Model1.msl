@@ -4,6 +4,7 @@
     <EntitySetMapping Name="Category">
       <EntityTypeMapping TypeName="GalleryModel.Category">
         <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="status" ColumnName="status" />
           <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
           <ScalarProperty Name="categoryname" ColumnName="categoryname" />
         </MappingFragment>
