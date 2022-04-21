@@ -1,0 +1,57 @@
+﻿@model IEnumerable<FirstWebApplicationTest.Models.Message>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.m_fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.m_email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.m_phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.m_detail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.m_date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_fullname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_detail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.m_date)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.m_id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.m_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.m_id })
+        </td>
+    </tr>
+}
+
+</table>

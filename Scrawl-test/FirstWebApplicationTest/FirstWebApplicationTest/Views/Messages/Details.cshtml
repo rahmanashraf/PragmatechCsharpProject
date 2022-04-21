@@ -1,0 +1,58 @@
+﻿@model FirstWebApplicationTest.Models.Message
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.m_fullname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.m_fullname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.m_email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.m_email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.m_phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.m_phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.m_detail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.m_detail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.m_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.m_date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.m_id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

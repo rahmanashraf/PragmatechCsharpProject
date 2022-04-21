@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MVCtestModelStoreContainer" CdmEntityContainer="MVCtestEntities">
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="MVCtestModel.Message">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="m_id" ColumnName="m_id" />
+          <ScalarProperty Name="m_fullname" ColumnName="m_fullname" />
+          <ScalarProperty Name="m_email" ColumnName="m_email" />
+          <ScalarProperty Name="m_phone" ColumnName="m_phone" />
+          <ScalarProperty Name="m_detail" ColumnName="m_detail" />
+          <ScalarProperty Name="m_date" ColumnName="m_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Works">
+      <EntityTypeMapping TypeName="MVCtestModel.Work">
+        <MappingFragment StoreEntitySet="Works">
+          <ScalarProperty Name="w_id" ColumnName="w_id" />
+          <ScalarProperty Name="w_name" ColumnName="w_name" />
+          <ScalarProperty Name="w_img" ColumnName="w_img" />
+          <ScalarProperty Name="w_detail" ColumnName="w_detail" />
+          <ScalarProperty Name="w_date" ColumnName="w_date" />
+          <ScalarProperty Name="w_isActive" ColumnName="w_isActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MVCtestModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Messages">
+          <Key>
+            <PropertyRef Name="m_id" />
+          </Key>
+          <Property Name="m_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="m_fullname" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="m_email" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="m_phone" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="m_detail" Type="text" Nullable="false" />
+          <Property Name="m_date" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Works">
+          <Key>
+            <PropertyRef Name="w_id" />
+          </Key>
+          <Property Name="w_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="w_name" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="w_img" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="w_detail" Type="text" Nullable="false" />
+          <Property Name="w_date" Type="datetime" Nullable="false" />
+          <Property Name="w_isActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="MVCtestModelStoreContainer">
+          <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Works" EntityType="Self.Works" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MVCtestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="m_id" />
+          </Key>
+          <Property Name="m_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="m_fullname" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="m_email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="m_phone" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="m_detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="m_date" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Work">
+          <Key>
+            <PropertyRef Name="w_id" />
+          </Key>
+          <Property Name="w_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="w_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="w_img" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="w_detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="w_date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="w_isActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="MVCtestEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Messages" EntityType="Self.Message" />
+          <EntitySet Name="Works" EntityType="Self.Work" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MVCtestModelStoreContainer" CdmEntityContainer="MVCtestEntities">
+          <EntitySetMapping Name="Messages">
+            <EntityTypeMapping TypeName="MVCtestModel.Message">
+              <MappingFragment StoreEntitySet="Messages">
+                <ScalarProperty Name="m_id" ColumnName="m_id" />
+                <ScalarProperty Name="m_fullname" ColumnName="m_fullname" />
+                <ScalarProperty Name="m_email" ColumnName="m_email" />
+                <ScalarProperty Name="m_phone" ColumnName="m_phone" />
+                <ScalarProperty Name="m_detail" ColumnName="m_detail" />
+                <ScalarProperty Name="m_date" ColumnName="m_date" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Works">
+            <EntityTypeMapping TypeName="MVCtestModel.Work">
+              <MappingFragment StoreEntitySet="Works">
+                <ScalarProperty Name="w_id" ColumnName="w_id" />
+                <ScalarProperty Name="w_name" ColumnName="w_name" />
+                <ScalarProperty Name="w_img" ColumnName="w_img" />
+                <ScalarProperty Name="w_detail" ColumnName="w_detail" />
+                <ScalarProperty Name="w_date" ColumnName="w_date" />
+                <ScalarProperty Name="w_isActive" ColumnName="w_isActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
