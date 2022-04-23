@@ -13,8 +13,7 @@ namespace Getposttest
         protected void Application_Start()
         {
       
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-           
+            RouteConfig.RegisterRoutes(RouteTable.Routes);           
         }
     }
 }

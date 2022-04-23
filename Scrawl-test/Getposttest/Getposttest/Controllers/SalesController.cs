@@ -6,18 +6,12 @@ using System.Web.Mvc;
 
 namespace Getposttest.Controllers
 {
-    public class HomeController : Controller
+    public class SalesController : Controller
     {
-        // GET: Home
+        // GET: Sales
         public ActionResult Index()
         {
             return View();
         }
-        public ActionResult Product(string ad)
-        {
-            ViewBag.data = ad;    
-            return View();
-        }
-
     }
 }
