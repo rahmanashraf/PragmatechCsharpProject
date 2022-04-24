@@ -35,7 +35,7 @@ namespace PhotoGalleryApp
             ofd.ShowDialog();
             var source = ofd.FileName;
             var targetpath = $"{path}/Uploads";
-            var newName = $"{new Random().Next(0, 1999)}{Path.GetExtension(source)}";
+            var newName = $"{DateTime.Now.Ticks}{Path.GetExtension(source)}";
             var fileextension = Path.GetExtension(source);
             var fullfilesource = $"{targetpath}/{newName}";
             File.Copy(source, fullfilesource);
@@ -155,25 +155,32 @@ namespace PhotoGalleryApp
             pnlphoto.AutoScroll = true;
             pnlphoto.Controls.Add(picBox);
         }
+
+
+        /// MUELLIM BURA BAXARSIZ METOD BUUDU LENETE GELMIW
         private void getPicData(object sender, EventArgs e)
         {
 
-            var photo = sender as PictureBox;
-            // foreach (var item in db.PhotoGallery.ToList())
-            //{
-            //string way = $@"{path}/{item.fileLocation}";
-            string got = photo.ImageLocation.ToString();
-            MessageBox.Show(got);
-                //if (File.Exists(got))
-                //{
-                //    File.Delete(got);
-                //    MessageBox.Show("File deleted");
-                //}
-                //else
-                //{
-                //    MessageBox.Show("File is not exist");
-                //}                    
-        //   }           
+           // var photo = sender as PictureBox;
+   
+           // foreach (var item in db.PhotoGallery.ToList())
+           // {
+           //     string way = $@"{path}/{item.fileLocation}";
+           //     if (File.Exists(way))
+           //     {
+           //         File.Delete(way);
+           //         MessageBox.Show("File deleted");
+           //     }
+           //     else
+           //     {
+           //         MessageBox.Show("File is not exist");
+           //     }
+           //     if (item.id.ToString() == photo.Name)
+           //     {
+           //         db.PhotoGallery.Remove(item);
+           //         db.SaveChanges();                            
+           //     }                                  
+           //}           
         }
         private void btnExit_Click(object sender, EventArgs e)
         {
@@ -188,7 +195,8 @@ namespace PhotoGalleryApp
                         db.Category.Remove(item);                       
                     }
                 }
-                db.SaveChanges();                 
+                db.SaveChanges();
+            RefreshPage();
 
         }
         private void btnMinimize_Click(object sender, EventArgs e)

@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\bin\Debug\testering.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\bin\Debug\testering.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\bin\Debug\testering.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\obj\Debug\testering.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\obj\Debug\testering.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\obj\Debug\testering.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\obj\Debug\testering.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\testering\testering\obj\Debug\testering.pdb
