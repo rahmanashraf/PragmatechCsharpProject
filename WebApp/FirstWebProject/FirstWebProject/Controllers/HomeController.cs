@@ -11,19 +11,38 @@ namespace FirstWebProject.Controllers
     {
         //GET: Home
         WebAppTestEntities wbtest = new WebAppTestEntities() ;
-       
+       [HttpGet]
         public ActionResult Index()
         {
-            var b=Request.QueryString["name"];
-            
-            var wbtestim=new WebTest() { content = b };
-            wbtest.WebTest.Add(wbtestim);
-            ViewBag.list = wbtest.WebTest.ToList();
-            wbtest.SaveChanges();
-            return View();
+            var listim = wbtest.WebTest.ToList();
+            return View(listim);
         }
-      
-        
+        [HttpPost]
+        public ActionResult Index(string name)
+        {
+
+            var wbtestim = new WebTest() { content = name };
+            wbtest.WebTest.Add(wbtestim);          
+            wbtest.SaveChanges();
+            return RedirectToAction("index");
+        }
+        public ActionResult Delete(int id)
+        {
+            var user = wbtest.WebTest.Find(id);
+            wbtest.WebTest.Remove(user);
+            wbtest.SaveChanges();
+            return RedirectToAction("index");
+
+        }
+
+
+        public ActionResult Update(int id)
+        {
+            var data = wbtest.WebTest.Find(id);
+            return View("Update", data);
+                
+        }
+
 
 
     }

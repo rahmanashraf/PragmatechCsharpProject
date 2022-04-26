@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using FirstWebProject.Models
+@model List<WebTest>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,7 +17,7 @@
 <body>
     <div class="main">
         <div class="container">
-            <form action="/home/index" @*method="POST"*@ enctype="multipart/form-data">
+            <form action="/Home/Index" method="Post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label class="text-dark" for="exampleInputEmail1">About me</label>
                     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Title..">
@@ -30,19 +32,21 @@
                             <th scope="col">Delete</th>
                             <th scope="col">Update</th>
                         </tr>
-                    </thead>        
-                   
+                    </thead>
 
 
+                    
                     <thead>
-                        @foreach (var item in @ViewBag.list)
+                        @foreach (var item in Model)
                         {
                             <tr>
                                 <td>@item.id</td>
                                 <td>@item.content</td>
-                                <td><button class="btn btn-primary mt-3" style="background-color: #252525;><a href="">Delete</a></button></td>
                                 <td>
-                                    <button class="btn btn-primary mt-3" style="background-color: #252525;><a href="">Update</a></button>
+                                     <a href="/Home/Delete/@item.id">Delete</a>
+                                </td>
+                                <td>
+                                     <a href="/Home/Update/@item.id">Update</a>
                                 </td>
                             </tr>
                         }
