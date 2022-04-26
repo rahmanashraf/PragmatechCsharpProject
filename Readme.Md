@@ -45,7 +45,7 @@
 - [Bank Card System](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/GetToWorkReady/SpecialCsharpTasks/TaskOne/Bank)
 - [Chess board](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/Cheese)
 - [Register_and_Login_App](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/FormApp/BasicCRM-Winform)
-- [PhotoGalleryApp](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Scrawl-test/PhotoGalleryApp)
+- [PhotoGalleryFormApp](https://github.com/rahmanashraf/PragmatechCsharpProject/tree/main/Scrawl-test/PhotoGalleryApp)
 
 
 
