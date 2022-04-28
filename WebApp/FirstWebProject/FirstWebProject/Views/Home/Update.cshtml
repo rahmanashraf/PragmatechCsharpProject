@@ -1,4 +1,4 @@
-﻿@*@model FirstWebProject.Models.WebAppTestEntities*@
+﻿@model FirstWebProject.Models.WebAppTestEntities*
 
 @{
     Layout = null;
@@ -12,7 +12,11 @@
     <title>Update</title>
 </head>
 <body>
-    <h1>    sikdir</h1>
+    @foreach (var item in Model)
+    {
+    <h1>@item. sikdir</h1>
+    }
+    
     @*@using (Html.BeginForm("Guncelle", "Home", FormMethod.Post))
     {
         <div>

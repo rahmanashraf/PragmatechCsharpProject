@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\bin\Debug\Hackerrank_Tasks.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\bin\Debug\Hackerrank_Tasks.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\bin\Debug\Hackerrank_Tasks.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\obj\Debug\Hackerrank_Tasks.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\obj\Debug\Hackerrank_Tasks.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\obj\Debug\Hackerrank_Tasks.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\obj\Debug\Hackerrank_Tasks.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\Hackerrank_Tasks\Hackerrank_Tasks\obj\Debug\Hackerrank_Tasks.pdb
