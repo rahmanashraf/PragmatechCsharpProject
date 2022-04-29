@@ -60,7 +60,7 @@
 
 ## P.S. <a name = "WriteIssue"></a>
 
-- This repo is under active development. If you have any improvements / suggestions please file an [issue](https://github.com/kylelobo/The-Documentation-Compendium/issues/new/choose)
+- This repo is under active development. If you have any improvements/suggestions please file an [issue](https://github.com/kylelobo/The-Documentation-Compendium/issues/new/choose)
 - The [issues](https://github.com/rahmanashraf/PragmatechCsharpProject/issues) page is a good place to visit if you want to pick up some task. It has a list of things that are to be implemented in the near future.
 
 
