@@ -1,31 +1,12 @@
-﻿@model FirstWebProject.Models.WebAppTestEntities*
+﻿@model FirstWebProject.Models.WebTest
 
 @{
-    Layout = null;
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Home/_Layoutum.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Update</title>
-</head>
-<body>
-    @foreach (var item in Model)
-    {
-    <h1>@item. sikdir</h1>
-    }
-    
-    @*@using (Html.BeginForm("Guncelle", "Home", FormMethod.Post))
-    {
-        <div>
-
-            <form action="/index" method="post">
-                @Html.LabelFor(m=>m)
-                <input type="submit" value="Gonder" />
-            </form>
-        </div>
-    }*@
-</body>
-</html>
+<form action="/home/update?id=@Model.id" method="post">
+    <input type="text" name="content" value="@Model.content" />
+    <input type="submit"  value="adamkisi olar" />
+</form>
+            }

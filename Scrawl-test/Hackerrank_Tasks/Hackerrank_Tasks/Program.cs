@@ -20,7 +20,7 @@ namespace Hackerrank_Tasks
         static void Main(string[] args)
         {
             //string alpha = "abcdefghijklmnopqrstuvwxyz";
-            string s = "Rahman";
+            string s = "Serhan";
             int x = 3;
             int upperstart = 65;
             int upperend = 90;

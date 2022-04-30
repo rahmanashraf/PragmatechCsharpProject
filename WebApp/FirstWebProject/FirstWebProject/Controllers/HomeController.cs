@@ -34,12 +34,20 @@ namespace FirstWebProject.Controllers
             return RedirectToAction("index");
 
         }
-
-
         public ActionResult Update(int id)
         {
-            var data = wbtest.WebTest.Find(id);
-            return View("Update", data);
+            var contentim=wbtest.WebTest.Find(id);  
+            return View(contentim);
+        }
+
+        
+        [HttpPost]
+        public ActionResult Update(int? id, string content)
+        {
+            var ktq = wbtest.WebTest.Find(id);
+            ktq.content = content;
+            wbtest.SaveChanges();
+            return RedirectToAction("index");
                 
         }
 
