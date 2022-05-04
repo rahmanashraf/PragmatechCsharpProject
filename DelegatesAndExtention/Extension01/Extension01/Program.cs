@@ -10,15 +10,15 @@ namespace Extension01
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>() { 1800, 13, 10, 41, 53, 616, 71, 86, 99, 1670 };
+            List<int> list = new List<int>() { 1800,125,100,15625,36, 13, 10, 41, 53, 616, 71,9,16,25, 86, 99, 1670 };
 
             //Console.WriteLine(list.ELementtopla());
 
-            //foreach (var item in list.Randomindex())
-            //{
-            //    Console.WriteLine(item);
-            //}
-            Console.WriteLine(list.EnboyuknenEnkicikferqi());
+            foreach (var item in list.Kokaltiverenreqem())
+            {
+                Console.WriteLine(item);
+            }
+            //Console.WriteLine(list.EnboyuknenEnkicikferqi());
 
         }
 
@@ -74,7 +74,19 @@ namespace Extension01
             }
             return biggest-lowest;
         }
-
+        public static List<int> Kokaltiverenreqem(this List<int> listim)
+        {
+            List<int> listipuw = new List<int>();
+            
+            for (int i = 0; i < listim.Count; i++)
+            {
+                if (Math.Sqrt(listim[i])%1==0)
+                {
+                    listipuw.Add(listim[i]);
+                }
+            }
+            return listipuw;
+        }
 
 
     }
