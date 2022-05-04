@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\bin\Debug\Extension01.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\bin\Debug\Extension01.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\bin\Debug\Extension01.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\obj\Debug\Extension01.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\obj\Debug\Extension01.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\obj\Debug\Extension01.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\obj\Debug\Extension01.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\Extension01\Extension01\obj\Debug\Extension01.pdb
