@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\bin\Debug\firsttask.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\bin\Debug\firsttask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\bin\Debug\firsttask.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\obj\Debug\firsttask.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\obj\Debug\firsttask.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\obj\Debug\firsttask.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\obj\Debug\firsttask.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\DelegatesAndExtention\DelegateTask\firsttask\obj\Debug\firsttask.pdb
