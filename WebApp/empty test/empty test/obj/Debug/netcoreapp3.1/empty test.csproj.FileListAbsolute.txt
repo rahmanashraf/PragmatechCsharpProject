@@ -1,0 +1,19 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.deps.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.runtimeconfig.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.runtimeconfig.dev.json
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\bin\Debug\netcoreapp3.1\empty test.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.AssemblyInfo.cs
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\staticwebassets\empty test.StaticWebAssets.Manifest.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.dll
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\WebApp\empty test\empty test\obj\Debug\netcoreapp3.1\empty test.genruntimeconfig.cache
