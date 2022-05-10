@@ -2,7 +2,7 @@
 
 namespace empty_test.Controller
 {
-    public class HomeController : Controller
+    public class HomeController : ControllerBase
     {
         public IActionResult Index()
         {
