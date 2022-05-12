@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\bin\Debug\calculate.exe.config
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\bin\Debug\calculate.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\bin\Debug\calculate.pdb
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\obj\Debug\calculate.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\obj\Debug\calculate.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\obj\Debug\calculate.exe
+C:\Users\HP\Desktop\New folder\PragmatechCsharpProject\Scrawl-test\calculate\calculate\obj\Debug\calculate.pdb

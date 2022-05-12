@@ -20,7 +20,6 @@ namespace FirstWebProject.Controllers
         [HttpPost]
         public ActionResult Index(string name)
         {
-
             var wbtestim = new WebTest() { content = name };
             wbtest.WebTest.Add(wbtestim);          
             wbtest.SaveChanges();
