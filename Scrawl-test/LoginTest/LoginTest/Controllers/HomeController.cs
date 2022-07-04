@@ -6,6 +6,7 @@ namespace LoginTest.Controllers
     {
         public IActionResult Index()
         {
+            var data=ViewBag.Data;
             return View();
         }
     }
