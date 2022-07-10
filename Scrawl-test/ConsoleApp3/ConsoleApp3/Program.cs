@@ -10,11 +10,13 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            int reh = 5;
-            int rss = 5;
-            int qow = 6;
-            int cavab = reh + rss + qow;
+          
+            int qadin = (102*15)+(77*15)+(67*15)+(48*15)+(33*15)+(20*15)+1080;
+            int kisiler = (500 / 30 * 76);
+            int cavab = qadin + kisiler;
+            
             Console.WriteLine(cavab);
+            Console.ReadLine();
 
         }
     }
